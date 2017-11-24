@@ -1,0 +1,144 @@
+@import "../../common/add-picture";
+@import "../../common/common-edit";
+@import "../../common/confirm-pop";
+@import "../../common/prompt-pop";
+@import "../../common/loading-pop";
+@import "../../common/list-edit";
+
+.category {
+  padding-top: 20px;
+}
+
+.product_attribute {
+  margin-top: 10px;
+}
+
+.product_attribute p {
+  float: left;
+  margin: 0 30px 0 0;
+}
+
+.summary {
+  height: 100px;
+}
+
+select[name='domestic_import'] {
+  background: #FFFFFF;
+}
+
+.error-tip-product_picture,
+.error-tip-logo {
+  color: #a94442;
+}
+
+.top-box {
+  position: relative;
+}
+
+.article-id {
+  width: 300px;
+}
+
+.choose-type-box {
+  position: absolute;
+  z-index: 1000;
+  top: 39px;
+  border: 1px solid #d9d9d9;
+  width: 550px;
+  height: 202px;
+  background: #fff;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.choose-type-box ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.choose-type-box .first-wrap {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  text-align: center;
+  width: 100px;
+  border-top: 1px solid #d9d9d9;
+  background-color: #fafafa;
+}
+
+.choose-type-box .first-wrap:first-child {
+  border-top: none;
+}
+
+.first-wrap ul {
+  position: absolute;
+  left: 100px;
+  width: 450px;
+  text-align: left;
+  top: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.first-wrap ul li {
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 1px solid #d9d9d9;
+  padding-left: 10px;
+}
+
+.tips-file {
+  color: #b3b3b3;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.parameter-name {
+  display: inline-block;
+  width: 40%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.parameter-value {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.add-parameter {
+  height: 40px;
+  background-color: #73cde8;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.add-parameter:focus,
+.add-parameter:hover {
+  color: #ffffff;
+}
+
+.move-parameter {
+  color: #0a0a0a;
+  height: 40px;
+  line-height: 40px;
+}
+
+.hot-type-box {
+  padding-top: 9px;
+}
+
+.product_attribute .form-error {
+  top: 20px;
+}
+
+.error-tip-brand_name {
+  color: #a94442;
+  position: absolute;
+  top: 39px;
+}
+
+.dynamic-parameter {
+  width: 40%;
+}

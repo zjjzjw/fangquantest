@@ -1,0 +1,105 @@
+.back-top {
+  width: 60px;
+  height: 120px;
+  background: #FFFFFF;
+  position: fixed;
+  right:30px;
+  bottom: 20px;
+  text-align: center;
+  border: 1px solid #eeeeee;
+  border-bottom: none;
+  z-index: 21;
+}
+
+.back-top li {
+  width: 60px;
+  height: 60px;
+  line-height:60px;
+  border-bottom: 1px solid #eeeeee;
+}
+.back-top .textarea span{
+  line-height: 25px;
+}
+
+.back-top li .iconfont {
+  font-size: 28px;
+  color: #999;
+}
+.feedback{
+  position: relative;
+}
+.feedback-box{
+  width: 360px;
+  height: 360px;
+  border: 1px solid #eeeeee;
+}
+.feedback-box{
+  position: absolute;
+  top:-270px;
+  right:80px;
+  background-color: #fff;
+  z-index: 9999;
+}
+.feedback-box p{
+  text-align: center;
+  font-size: 16px;
+  color: #ccc;
+  margin:20px 0 10px 0;
+}
+.feedback-box i{
+  position: absolute;
+  top:10px;
+  right: 15px;
+  font-size: 16px;
+  color: #ccc;
+}
+.feedback-content .textarea{
+  position: relative;
+}
+.textarea .text{
+  position: absolute;
+  top:115px;
+  right: 30px;
+  color: #ccc;
+}
+.feedback-content textarea{
+  width: 320px;
+  height: 160px;
+  font-size: 14px;
+  color: #666;
+  background-color: #f3fcfc;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #eeeeee;
+  line-height: 25px;
+}
+.feedback-content .mailbox{
+  display: block;
+  width: 320px;
+  height: 40px;
+  margin:30px 20px 20px 20px;
+  background-color: #f3fcfc;
+  padding-left: 20px;
+  border: 1px solid #eeeeee;
+}
+.feedback-content .btn{
+  display: block;
+  width: 320px;
+  height: 36px;
+  margin:10px 20px 20px 20px;
+  background-color: #1cc7ca;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 3px;
+}
+#login_form>.form-error {
+  position: absolute;
+  top:43px;
+  left: 150px;
+}
+.textarea>.form-error {
+  position: absolute;
+  top:160px;
+  left: 40px;
+}

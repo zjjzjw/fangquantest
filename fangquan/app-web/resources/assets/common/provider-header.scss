@@ -1,0 +1,96 @@
+@import "../common/no-data";
+
+.exhibition-header {
+  border-bottom: 1px solid #F2F2F2;
+  padding-bottom: 20px;
+}
+
+.info-box {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  height: auto;
+  font-family: "HiraginoSansGB W3";
+}
+
+.info-box .company-box {
+  margin: 0 20px;
+  border: 2px solid #1bc7c9;
+  padding: 38px 0 38px 30px;
+  font-weight: bold;
+}
+
+.info-box .company-box > img {
+  width: 138px;
+  height: 60px;
+  margin-top: 35px;
+}
+
+.company-box .company-info {
+  display: inline-block;
+  color: #757575;
+  padding-left: 55px;
+}
+
+.company-info .company-name {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.company-info .company-type {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.company-info .company-condition p {
+  display: inline-block;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.company-condition .adress {
+  padding-right: 60px;
+}
+
+.company-condition .adress img {
+  margin-right: 10px;
+}
+
+.company-product {
+  max-width: 650px;
+}
+
+.nav-box {
+  margin: 0 20px;
+  padding: 10px 0;
+}
+
+.nav-box ul li {
+  display: inline-block;
+  width: 278px;
+  height: 46px;
+  line-height: 43px;
+  text-align: center;
+  background-color: #1bc7c9;
+  border: 2px solid #1bc7c9;
+  margin-right: 10px;
+}
+
+.nav-box ul li:last-child {
+  margin-right: 0;
+}
+
+.nav-box ul li a {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-box ul .active {
+  background-color: #fff;
+}
+
+.nav-box ul .active a {
+  color: #1bc7c9;
+}

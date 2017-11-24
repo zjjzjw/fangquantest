@@ -1,0 +1,150 @@
+/*创建*/
+.creat-box {
+    margin: 0 auto;
+    width: 100%;
+    text-align: right;
+    background: #fff;
+}
+
+.creat-box p {
+    font-size: 1.6rem;
+    color: #363636;
+    height: 5rem;
+    line-height: 5rem;
+    padding: 0 10px;
+}
+
+.creat-box .city-items,
+.creat-box .province {
+    width: 30%;
+}
+
+.creat-box span {
+    max-width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.creat-box input {
+    width: 65%;
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    border-radius: 0;
+    margin-left: 1rem;
+    display: inline-block;
+    height: initial;
+}
+
+.creat-box .first-top {
+    padding-top: 1.5rem;
+}
+
+.save-box {
+    position: relative;
+}
+
+.error-tip {
+    position: relative;
+}
+
+.zvalid-resultformat {
+    position: absolute;
+    left: 36%;
+    font-size: 1.4rem;
+    color: #f30;
+    top: -10px;
+}
+
+.save-box .save-btn {
+    font-size: 1.8rem;
+    color: #fff;
+    background: #ff8a00;
+    padding: 1rem 0;
+    width: 95%;
+    margin: 3rem 10px;
+    text-align: center;
+    border-radius: .3rem;
+    letter-spacing: 2px;
+    height: auto;
+}
+
+.creat-box .result-choose input {
+    -webkit-appearance: radio;
+    height: 1.8rem;
+    vertical-align: middle;
+    text-align: center;
+    width: 10%;
+    border: 0;
+    border-radius: 50%;
+    margin-left: 1%;
+    background-color: #999;
+}
+
+.creat-box .result-choose {
+    margin-right: 16%;
+}
+
+.creat-box .character-box {
+    margin: 1rem 0 1.5rem 0;
+}
+
+.creat-box .character-box input {
+    -webkit-appearance: checkbox;
+    vertical-align: middle;
+    text-align: center;
+    padding-right: 1.5rem;
+    display: inline-block;
+
+}
+
+.creat-box .character-box .check-item {
+    display: inline-block;
+    width: 32%;
+}
+
+.creat-box .character-box span {
+    width: 20%;
+    vertical-align: top;
+    font-size: 1.6rem;
+}
+
+.creat-box .character-box .character-item {
+    display: inline-block;
+    text-align: left;
+    width: 75%;
+}
+
+.creat-box label {
+    font-size: 1.6rem;
+    display: inline-block;
+}
+
+#character-description {
+    padding-top: .5rem;
+}
+
+@media (min-device-width: 375px) {
+    .creat-box p {
+        height: 5rem;
+        line-height: 5rem;
+    }
+}
+
+@media (min-device-width: 414px) {
+    .creat-box p {
+        height: 5.5rem;
+        line-height: 5.5rem;
+    }
+
+    .save-box .save-btn {
+        padding: 1.5rem 0;
+    }
+
+    .zvalid-resultformat {
+        top: -12px;
+    }
+}

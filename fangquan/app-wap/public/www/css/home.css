@@ -1,0 +1,253 @@
+.top-title {
+    position: relative;
+    height: 5.5rem;
+    line-height: 5.5rem;
+    text-align: center;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.com-back {
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+
+.com-back i {
+    display: inline-block;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -moz-transform: rotate(180deg); /* Firefox */
+    -webkit-transform: rotate(180deg); /* Safari 和 Chrome */
+    -o-transform: rotate(180deg); /* Opera */
+}
+
+.company-name {
+    font-size: 2rem;
+    color: #2d2d2d;
+}
+
+.h-nav {
+    padding-top: 5rem;
+    background: #f5f5f5;
+    overflow: hidden;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.h-nav a {
+    float: left;
+    text-align: center;
+    width: 33%;
+    color: #363636;
+    font-size: 1.4rem;
+    padding-bottom: 5rem;
+}
+
+.h-nav a i {
+    display: block;
+    font-size: 2.6rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    color: #fff;
+    margin: 0 auto .7rem auto;
+    border-radius: .5rem;
+}
+
+.h-nav a .sale-leads {
+    background: #eb2d51;
+}
+
+.h-nav a .project-manage {
+    background: #ff8a00;
+}
+
+.h-nav a .customer-manage {
+    background: #7469ff;
+}
+
+.h-nav a .cont-manage {
+    background: #1aacf5;
+}
+
+.h-nav a .business-card {
+    background: #44cb5c;
+}
+
+.h-nav a .help-center {
+    background: #f4b327;
+}
+
+/*进度条*/
+.detailed-ist,
+.project-count,
+.progress-bar {
+    padding: 15px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.title {
+    padding-bottom: 2rem;
+    font-size: 1.8rem;
+    color: #3f3f3f;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.5rem;
+}
+
+.title a {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    color: #ff8a00;
+    padding: 0 .8rem;
+    border: 1px solid #dcdcdc;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+}
+
+.progress-bar .payment-money {
+    text-align: right;
+    color: #999999;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+    padding-top: 1rem;
+}
+
+.bar {
+    width: 100%;
+    background: #d9d9d9;
+    border-radius: 30px;
+    position: relative;
+}
+
+.bar div {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 30px;
+}
+
+.project-count .orang,
+.bar .orang {
+    background: #ff8a00; /* 进度条背景颜色 */
+}
+
+.bar .green {
+    background: #44cb5c;
+}
+
+.bar div h3 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.bar em {
+    position: absolute;
+    right: 34%;
+    top: 4px;
+    color: #fff;
+}
+
+.signed .bar em {
+    top: 0px;
+}
+
+.project-count div {
+    height: 12px;
+    border-radius: 30px;
+    line-height: 12px;
+    margin-left: 4.5rem;
+}
+
+.project-count li {
+    width: 15rem;
+    margin-bottom: 4rem;
+}
+
+.line span {
+    position: absolute;
+    color: #999999;
+    left: -4.5rem;
+}
+
+.line {
+    position: relative;
+    background: #ff8a00;
+}
+
+.line em {
+    position: absolute;
+    right: -5.5rem;
+}
+
+.line i {
+    position: absolute;
+    top: -14px;
+    right: 0px;
+    color: #999999;
+}
+
+.detailed-ist ul {
+    border: 1px solid #dedede;
+}
+
+.detailed-ist li {
+    display: table;
+    border-bottom: 1px solid #dedede;
+    width: 100%;
+    text-align: center;
+}
+
+.row {
+    display: block;
+    padding: 1rem 2.1rem 1rem 1rem;
+    color: #666666;
+    text-align: left;
+    border-bottom: 1px solid #dedede;
+    position: relative;
+}
+
+.row i {
+    position: absolute;
+    right: 8px;
+    top: 13px;
+    color: #44cb5c;;
+}
+
+.cell {
+    display: table-cell;
+    border-right: 1px solid #dedede;
+    width: 8rem;
+    vertical-align: middle;
+    padding: 1rem;
+    color: #3f3f3f;
+}
+
+.row:last-child {
+    border-bottom: none;
+}
+
+.detailed-ist li:first-of-type span {
+    float: left;
+}
+
+.detailed-ist li:first-of-type span:last-child {
+    border: none;
+}
+
+.detailed-ist li:last-child {
+    border: none;
+}
+
+.alert-box {
+    text-align: center;
+    line-height: 80vh;
+
+}
+
+@media (min-device-width: 768px) {
+    .bar em {
+        right: 44%;
+    }
+}

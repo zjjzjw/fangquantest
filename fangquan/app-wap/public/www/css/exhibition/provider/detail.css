@@ -1,0 +1,117 @@
+@import "../../ui/exhibition-h5/developer/developer-header.css";
+@import "../../ui/exhibition-h5/developer/developer-footer.css";
+
+.clear {
+    clear: both;
+}
+
+.provider-box {
+    padding: 3.7vw 4vw;
+    border-bottom: 1.1vw solid #EFEFEF;
+}
+
+.logo-box {
+    padding-bottom: 3.7vw;
+    width: 100%;
+}
+
+.logo-box .img-box {
+    width: 28vw;
+    float: left;
+    text-align: center;
+}
+
+.logo-box .img-box p {
+    font-size: 16px;
+    color: #757575;
+    padding-top: 5vw;
+}
+
+.logo-box .img-box img {
+    width: 28vw;
+    height: 12vw;
+}
+
+.logo-box .list-detail {
+    float: left;
+    margin-left: 5vw;
+    width: 58vw;
+    text-align: left;
+}
+
+.logo-box .list-detail p {
+    font-size: 16px;
+    color: #757575;
+}
+
+.logo-box .list-detail ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin: 0 5px 10px 0;
+    color: #fff;
+    background-color: #1bc7c9;
+}
+
+.logo-box .list-detail p:first-child {
+    margin-bottom: 10px;
+    color: #3f3f3f;
+    font-size: 17px;
+}
+
+.logo-box .list-detail .company-type {
+    padding-top: 10px;
+}
+
+.logo-box .address {
+    float: right;
+    margin-top: 8px;
+    color: #757575;
+}
+
+.logo-box .address img {
+    width: 7vw;
+    height: 6vw;
+    padding-right: 5px;
+}
+
+.company-detail {
+    padding: 3.7vw 0 5.7vw;
+    color: #757575;
+    font-size: 16px;
+}
+
+.company-detail ul li {
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px solid #efefef;
+    padding: 4vw 4vw;
+}
+
+.company-detail ul li:first-child {
+    font-size: 18px;
+}
+
+.company-detail ul .special-li {
+    height: auto;
+    padding: 5px 4vw;
+}
+
+.company-detail ul .special-li a {
+    color: #3f3f3f;
+}
+
+.company-detail ul li span {
+    display: inline-block;
+}
+
+.company-detail ul li span:first-child {
+    width: 25vw;
+    vertical-align: middle;
+}
+
+.company-detail ul li span:last-child {
+    width: 65vw;
+    vertical-align: middle;
+    float: right;
+}

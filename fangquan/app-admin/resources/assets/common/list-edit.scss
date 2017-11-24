@@ -1,0 +1,122 @@
+
+[type='text'] {
+  margin: 0;
+}
+
+.wrapper-box {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  min-height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-div {
+  width: 100%;
+  text-align: right;
+}
+
+.add-div .button {
+  margin: 0;
+  width: 100px;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #ff8a00;
+  outline: none;
+}
+
+.form-group {
+  padding-right: 20px;
+}
+
+.form-group .input-group {
+  margin-bottom: 0;
+}
+
+.form-group label.middle {
+  line-height: 40px;
+  padding: 0;
+}
+
+.date-line {
+  text-align: center;
+  line-height: 40px;
+}
+
+.search-btn {
+  background-color: #f4c044;
+}
+
+.reset-btn {
+  background-color: #959393;
+}
+
+.add-btn {
+  background-color: #73cde8;
+}
+
+.add {
+  margin-right: 15px;
+}
+
+.content-box {
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding-left: 12px;
+  padding-right: 12px;
+  position: relative;
+  top: -1px;
+  z-index: 998;
+  padding-bottom: 50px;
+}
+
+.button-box {
+  width: 100%;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.button-box .top-title {
+  text-align: left;
+}
+
+.search-box {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  min-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: #ddd solid 1px;
+  border-radius: 5px;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+aside {
+  text-align: left;
+}
+
+.small-14 {
+  position: relative;
+}
+
+.error-tip-imageId {
+  color: #a94442;
+}
+
+.wrapper-box input, .wrapper-box select {
+  max-width: 550px;
+}
+
+.wrapper-box .text-right {
+  line-height: 40px;
+}
+
+
+

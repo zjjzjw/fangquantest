@@ -1,0 +1,137 @@
+@import "../../ui/exhibition-h5/developer/developer-header.css";
+@import "../../ui/exhibition-h5/developer/developer-footer.css";
+.developer-box{
+    padding: 3.7vw 4vw;
+}
+.logo-box{
+    padding-bottom: 3.7vw;
+    border-bottom: 1px solid #efefef;
+    width: 100%;
+}
+.logo-box img{
+    width: 20vw;
+    height: 11vw;
+    margin-top: 15px;
+}
+.logo-box .list-detail{
+    display: inline-block;
+    margin-left: 5vw;
+    width: 65vw;
+    text-align: left;
+}
+.logo-box .list-detail p{
+    font-size: 16px;
+    color: #757575;
+}
+.logo-box .list-detail p:first-child{
+    margin-bottom: 10px;
+    color: #3f3f3f;
+    font-size: 17px;
+}
+.detail-box{
+    padding: 5.7vw 0;
+    border-bottom: 1px solid #efefef;
+}
+.detail-box h3{
+    color: #757575;
+    font-size: 16px;
+}
+.detail-box table,.contact-box table {
+    width: 100%;
+    border: 1px solid #bbbbba;
+    margin-top: 20px;
+}
+
+.detail-box table tr td {
+    font-size: 14px;
+    color: #919191;
+    border: 1px solid #bbbbba;
+    vertical-align: middle;
+}
+.detail-box table tr .cell-style{
+    line-height: 48px;
+    text-align: center;
+    width: 19%;
+}
+.detail-box table tr .cell-develop{
+    line-height: 24px;
+    padding: 0 10px 0 10px;
+    width: 31%;
+}
+.detail-box table tr .special-style{
+    line-height: 200px;
+}
+.special table tr .cell-style{
+    width: 19%;
+}
+.special table tr .cell-develop{
+    width: 89%;
+}
+.contact-box h3{
+    color: #757575;
+    font-size: 16px;
+}
+.contact-box{
+    padding: 5.7vw 0;
+}
+.contact-box table  tr td{
+    font-size: 14px;
+    color: #919191;
+    border: 1px solid #bbbbba;
+    line-height: 35px;
+    vertical-align: middle;
+    padding: 0 10px 0 10px;
+}
+.contact-box table  tr td:first-child{
+    padding-top: 10px;
+}
+.contact-box table  tr td:last-child{
+    padding-bottom: 10px;
+}
+
+@media (max-device-width: 320px) {
+    .logo-box .list-detail p{
+        font-size: 14px;
+    }
+    .logo-box .list-detail p:first-child{
+        font-size: 15px;
+    }
+    .detail-box table tr .cell-style{
+        line-height: 48px;
+        text-align: center;
+        width: 20%;
+    }
+    .detail-box table tr .cell-develop{
+        line-height: 24px;
+        padding: 0 10px 0 10px;
+        width: 30%;
+    }
+    .special table tr .cell-style{
+        width: 20%;
+    }
+    .special table tr .cell-develop{
+        width: 80%;
+    }
+    .detail-box table tr .special-style{
+        line-height: 200px;
+    }
+}
+@media (min-device-width: 321px) and (max-device-width: 375px) {
+    .logo-box .list-detail p{
+        font-size: 15px;
+    }
+    .logo-box .list-detail p:first-child{
+        font-size: 16px;
+    }
+    .detail-box h3{
+        font-size: 17px;
+    }
+}
+@media (min-device-width: 376px) and (max-device-width: 414px) {
+    .detail-box h3{
+        font-size: 18px;
+    }
+    .contact-box h3{
+        font-size: 18px;
+    }
+}

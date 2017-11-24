@@ -1,0 +1,94 @@
+@import "../../common/exhibition-header";
+@import "../../common/friendly-link";
+p {
+  font-family: hiraginosansgb;
+}
+
+footer {
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.exhibition-box {
+  width: 1200px;
+  margin: 0 auto;
+  border-top: 1px solid #d9d9d9;
+  padding: 20px;
+  background: #fff;
+  height: auto;
+  overflow: hidden;
+}
+
+.exhibition-box .nav {
+  width: 156px;
+  float: left;
+  height: 43px;
+  line-height: 43px;
+  text-align: center;
+  background: #1bc7c9;
+  margin-right: 35px;
+}
+
+.nav a {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.exhibition-content {
+  float: right;
+}
+
+.top-img img {
+  height: 300px;
+  width: 960px;
+  padding-bottom: 45px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.dynamic li {
+  border-bottom: 1px solid #f2f2f2;
+  width: 900px;
+  position: relative;
+}
+
+.dynamic .title {
+  height: 70px;
+  line-height: 70px;
+  color: #3f3f3f;
+  font-size: 20px;
+  width: 540px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dynamic .time {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  color: #BDBDBD;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.look-more {
+  width: 370px;
+  border: 1px solid;
+  border-image: -webkit-linear-gradient(to right, #ffffff, #18c7c9, #ffffff) 30 30;
+  border-image: -moz-linear-gradient(to right, #ffffff, #18c7c9, #ffffff) 30 30;
+  border-image: linear-gradient(to right, #ffffff, #18c7c9, #ffffff) 30 30;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #18c7c9;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.look-more a,
+.look-more a i {
+  color: #18c7c9;
+}

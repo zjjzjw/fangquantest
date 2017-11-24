@@ -1,0 +1,47 @@
+.detail-box {
+    overflow: hidden;
+}
+
+.detail-box dl,
+.detail-box ol {
+    list-style-type: decimal;
+    padding: 0 20px 0 40px;
+}
+
+.detail-box dt {
+    padding-bottom: 2.5rem;
+}
+
+.detail-box dd,
+.detail-box ol li {
+    padding-bottom: 2.5rem;
+}
+
+.detail-box .detail-title {
+    text-align: center;
+    font-size: 1.6rem;
+    height: 5rem;
+    line-height: 5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.detail-box .detail-info {
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+
+.detail-box .detail-img {
+    padding: 10px 0;
+}
+
+@media (min-device-width: 414px) {
+    .detail-box .detail-title {
+        font-size: 1.8rem;
+    }
+
+    .detail-box .detail-info {
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,208 @@
+@import "../../common/swiper.min.css";
+@import "../../common/exhibition-header";
+@import "../../common/friendly-link";
+@import "../../common/cooperation-unit";
+
+footer {
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+p {
+  font-family: hiraginosansgb;
+}
+
+/*轮播大图*/
+.swiper-container {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  float: left;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.swiper-slide a {
+  display: block;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.swiper-wrapper img {
+  text-align: center;
+}
+
+/*内容*/
+.main-info {
+  width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+}
+
+.main-info .broadcast-box {
+  margin: 0 auto;
+  width: 1166px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.main-info .broadcast-box img {
+  width: 1164px;
+  height: 250px;
+}
+
+.main-info .broadcast-box a {
+  float: left;
+  top: 200px;
+  position: absolute;
+  left: 1000px;
+  color: #e2e2e2;
+}
+
+.main-info .info-box ul {
+  padding: 20px 15px;
+}
+
+.main-info .info-box li {
+  display: inline-block;
+  width: 240px;
+  height: 210px;
+  margin-left: 65px;
+  vertical-align: top;
+}
+
+.main-info .info-box a {
+  display: block;
+}
+
+.main-info .info-box img {
+  width: 240px;
+  height: 210px;
+}
+
+.main-info .info-box li:first-child {
+  margin-left: 0;
+}
+
+.main-info .info-box .info-item {
+  position: relative;
+}
+
+.info-item .pic-info {
+  position: absolute;
+  top: 78px;
+  width: 100%;
+  height: 54px;
+  line-height: 54px;
+  background: #1bc7c9;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.detail-info {
+  border: 1.5px solid #1bc7c9;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.detail-info .title {
+  margin: 3px;
+  background: #1bc7c9;
+  height: 33px;
+  line-height: 33px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  padding-left: 3px;
+}
+
+.service-info p {
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 35px;
+  color: #696969;
+  font-weight: bold;
+}
+
+.contact-info p {
+  padding-left: 12px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #696969;
+  padding-bottom: 10px;
+}
+
+.contact-info p span {
+  font-size: 13px;
+}
+
+.contact-info .company-name {
+  padding-top: 8px;
+}
+
+.img-box .title {
+  margin: 0 50px;
+  height: 50px;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.img-box .title p {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+  color: #696969;
+  font-weight: bold;
+}
+
+.img-box .title a {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  color: #1bc7c9;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.img-box .special-title p a:first-child {
+  position: absolute;
+  right: 180px;
+  top: 0;
+}
+
+.img-box .special-title p a:nth-child(2) {
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+
+.img-box li {
+  display: inline-block;
+  padding: 15px 49px;
+}
+
+.img-box li a {
+  display: block;
+}
+
+.img-box li img {
+  width: 138px;
+  height: 60px;
+}

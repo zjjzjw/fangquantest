@@ -1,0 +1,39 @@
+.app-bg {
+    position: static;
+    background-color: #2A2A2A;
+    opacity: .8;
+    width: 100%;
+    height: 5rem;
+    z-index: 9;
+}
+.app-download {
+    position: static;
+    width: 100%;
+    line-height: normal;
+    z-index: 9;
+    display: -webkit-box;
+    padding: 1rem 0;
+}
+.app-download .app-close {
+    display: block;
+    width: 4rem;
+    line-height: 3.1rem;
+    text-align: center;
+}
+.app-download .app-close i {
+    font-size: 2rem;
+    color: #fff;
+}
+.app-download .app-close-bg {
+    height: 2rem;
+    width: 2rem;
+    margin: .5rem 1rem;
+    padding: 0;
+    border-radius: 3rem;
+}
+.app-download .app-close-bg i {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: .5rem;
+    color: #a7a7a7;
+}

@@ -1,0 +1,93 @@
+.content-wrapper {
+    padding-bottom:0;
+    width: 100%;
+    height:100vh;
+    background-image: url("/www/image/first-beijing.jpeg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.bottom-box{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: Source Serif Pro, PT Sans, Trebuchet MS, Helvetica, Arial;
+}
+.bottom-box .title{
+    width: 75%;
+    margin:0 auto;
+    font-size: 18px;
+    font-weight: bold;
+    padding:50px 0;
+}
+.bottom-box .adress{
+    font-size: 12px;
+    padding-bottom:30px;
+}
+.bottom-box .time{
+    font-size: 12px;
+}
+.bottom-box .button-box{
+    margin-top: 45%;
+}
+.bottom-box .button-box a{
+    display:block;
+    width: 33%;
+    height: 40px;
+    margin:0 auto 20px;
+    border-radius: 8px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #fff;
+    font-family: Source Serif Pro, PT Sans, Trebuchet MS, Helvetica, Arial;
+    background-color: #1bc7c9;
+
+}
+
+@media (max-device-width: 320px) {
+    .bottom-box .title{
+        width: 80%;
+    }
+    .bottom-box .button-box{
+        margin-top: 30%;
+    }
+}
+
+@media (min-device-width: 321px) and (max-device-width: 375px) {
+    .bottom-box .title{
+        padding:70px 0 50px;
+        font-size: 19px;
+    }
+    .bottom-box .button-box{
+        margin-top: 40%;
+    }
+    .bottom-box .adress{
+        font-size: 13px;
+    }
+    .bottom-box .time{
+        font-size: 13px;
+    }
+}
+
+@media (min-device-width: 376px) and (max-device-width: 414px) {
+    .bottom-box .title{
+        width: 65%;
+        padding:80px 0 50px;
+        font-size: 20px;
+    }
+    .bottom-box .adress{
+        font-size: 14px;
+    }
+    .bottom-box .time{
+        font-size: 14px;
+    }
+}
+
+@media (min-device-width: 415px) and (max-device-width: 768px) {
+
+}
+
+@media (min-device-width: 1024px) {
+
+}

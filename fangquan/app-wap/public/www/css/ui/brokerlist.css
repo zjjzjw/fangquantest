@@ -1,0 +1,66 @@
+.broker-list {
+    background-color: #FFF;
+    position: relative;
+}
+.broker-list li {
+    border-bottom: .1rem solid #d9d9d9;
+    padding: 1.5rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    position: relative;
+}
+.broker-list li .lazy {
+    width: 7rem;
+    height: 7rem;
+    background-color: #eee;
+    border-radius: .4rem;
+    margin-right: 1.5rem;
+    border: .1rem solid #d9d9d9;
+}
+.broker-list .chat-broker {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    left: 83px;
+    top: 83px;
+}
+.broker-list li > div {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+}
+.broker-list .broker-tag {
+    height: 1.8rem;
+    margin-top: .2rem;
+    font-size: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.broker-list .broker-tag span {
+    display: block;
+    float: left;
+    height: 1.6rem;
+    padding: 0 .3rem;
+    margin-right: .4rem;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    border-radius: .3rem;
+    border: .1rem solid #d9d9d9;
+}
+.list-item p span {
+    padding-right: 1rem;
+}
+.no-result {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    text-align: center;
+    margin-top: 20%;
+}
+.list-item .name {
+    font-size: 1.6rem;
+}

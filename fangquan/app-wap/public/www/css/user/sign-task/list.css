@@ -1,0 +1,29 @@
+.list-box li a {
+    display: block;
+    position: relative;
+    padding: 0 20px;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    border-bottom: 1px solid #c8c8c8;
+    font-size: 1.8rem;
+}
+
+.list-box li a span {
+    position: absolute;
+    right: 30px;
+    color: #999;
+}
+
+@media (min-device-width: 375px) {
+    .list-box li a {
+        height: 5rem;
+        line-height: 5rem;
+    }
+}
+
+@media (min-device-width: 414px) {
+    .list-box li a {
+        height: 5.5rem;
+        line-height: 5.5rem;
+    }
+}

@@ -1,0 +1,64 @@
+@import "../../../common/personal-left";
+@import "../../../common/collection-nav";
+@import "../../../common/back-top";
+@import "../../../common/no-data";
+
+.list-item {
+  margin-top: 40px;
+  height: auto;
+  overflow: hidden;
+  border-top: 1px solid #f6f6f6;
+}
+
+.list-item li {
+  width: 285px;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  float: left;
+  position: relative;
+}
+
+.img-box {
+  width: 247px;
+  height: 121px;
+  margin: 20px 20px 10px;
+}
+
+.list-item li .title {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.list-item .reference-price {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+}
+
+.list-item .price {
+  color: #ffac5c;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 50px;
+}
+
+.list-item .iconfont {
+  font-size: 18px;
+  color: #1cc7ca;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: none;
+}
+
+.list-item li:hover {
+  background: #f3fcfc;
+}
+
+.list-item li:hover .iconfont {
+  display: block;
+}

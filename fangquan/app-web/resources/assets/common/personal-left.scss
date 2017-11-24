@@ -1,0 +1,108 @@
+.main-content {
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.left-box {
+  width: 320px;
+  height: 320px;
+  background: #FFFFFF;
+  float: left;
+  overflow: hidden;
+}
+
+.left-box .logo {
+  width: 100%;
+  height: 190px;
+  text-align: center;
+  overflow: hidden;
+  padding: 40px 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.left-box img {
+  max-width: 200px;
+  max-height: 110px;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.info-nav {
+  height: 80px;
+  overflow: hidden;
+  border: 1px solid #f6f6f6;
+  box-sizing: border-box;
+}
+
+.info-nav li {
+  width: 106px;
+  height: 80px;
+  text-align: center;
+  float: left;
+
+  font-size: 14px;
+  color: #666;
+}
+
+.info-nav .iconfont {
+  font-size: 20px;
+  display: block;
+  padding: 10px 0 5px;
+}
+
+.info-nav li:nth-child(1) .iconfont {
+  color: #ff8c77;
+}
+
+.messages .iconfont {
+  color: #1cc7ca;
+}
+
+.info-nav li:nth-child(3) .iconfont {
+  color: #ffac5c;
+}
+
+.messages {
+  position: relative;
+}
+
+.messages span {
+  width: 10px;
+  height: 10px;
+  background: #f67524;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 18px;
+  left: 54px;
+  border-radius: 50%;
+}
+
+.right-box {
+  width: 860px;
+  min-height: 800px;
+  margin-bottom: 80px;
+  border: 1px solid #f6f6f6;
+  background: #FFFFFF;
+  margin-left: 20px;
+  float: left;
+}
+
+.company-name {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

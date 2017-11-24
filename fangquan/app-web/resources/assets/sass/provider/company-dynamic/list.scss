@@ -1,0 +1,39 @@
+@import "../company-desc-top";
+@import "../company-info-left";
+@import "../../../common/no-data";
+
+.main-content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.right-box {
+  display: block;
+  background: #fff;
+  width: 840px;
+  float: left;
+  margin-left: 20px;
+  box-sizing: border-box;
+  padding-bottom: 200px;
+}
+
+.right-box ul li {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: #fdfdfd;
+}
+
+.right-box>ul>li>a {
+  padding-left: 30px;
+  float: left;
+  font-size: 14px;
+  color: #666;
+}
+
+.right-box>ul>li>span {
+  padding-right: 30px;
+  float: right;
+  font-size: 14px;
+  color: #999;
+}

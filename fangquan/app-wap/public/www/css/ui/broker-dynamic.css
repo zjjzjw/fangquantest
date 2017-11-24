@@ -1,0 +1,75 @@
+.page {
+    background-color: #fff;
+}
+.app-header + .state-list {
+    margin-top: 5.7rem !important;
+}
+.state-list {
+    position: relative;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 0rem 1.5rem 1.5rem 1rem;
+}
+.state-list .state-item {
+    padding-bottom: .5rem;
+    margin-bottom: -.5rem;
+}
+.state-list .state-data {
+    display: inline-block;
+    margin-left: -1rem;
+    margin-bottom: 1.5rem;
+    padding: .2rem 1.2rem;
+    background-color: #eee;
+    color: #8D8C92;
+    border-radius: 1.2rem;
+}
+.state-list .last-data {
+    height: 2rem;
+    line-height: 1rem;
+    padding: .2rem 1.7rem;
+    margin-bottom: 0;
+}
+.state-list .state-item a {
+    display: block;
+    margin-left: 6.8rem;
+    padding: .8rem 0;
+}
+.state-list .state-item .state-time {
+    float: left;
+    line-height: 3.6rem;
+    padding: 0 1.3rem 0 1.5rem;
+    color: #8c8c92;
+}
+.state-list .state-item .inventory-list {
+    padding: 0;
+    background-color: #eee;
+    border-radius: .5rem;
+}
+.state-list .state-item .inventory-info {
+    padding: 1rem;
+}
+.state-list .inventory-info img {
+    float: left;
+    width: 3rem;
+    height: 3rem;
+    margin-right: .6rem;
+    border-radius: .3rem;
+}
+.state-list .inventory-info .inventory-name {
+    line-height: 1.7rem;
+}
+.state-list .inventory-info .inventory-detail {
+    line-height: 1.3rem;
+    color: #8d8c92;
+}
+.state-list .inventory-detail span {
+    margin-left: .8rem;
+}
+.vertically-line {
+    position: absolute;
+    top: 0rem;
+    left: 0;
+    width: 1rem;
+    bottom: 0;
+    border-right: 2px solid #eee;
+}

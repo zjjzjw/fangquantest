@@ -1,0 +1,77 @@
+@import "../../../common/personal-left";
+@import "../../../common/collection-nav";
+@import "../../../common/back-top";
+@import "../../../common/no-data";
+
+.project_list {
+  margin-top: 40px;
+  width: 870px;
+  height: auto;
+  overflow: hidden;
+}
+
+.project_list p {
+  height: 40px;
+  color: #666;
+  font-size: 14px;
+  border-top: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.project_list p span {
+  width: 265px;
+  float: left;
+  line-height: 40px;
+  text-align: left;
+  padding-left: 55px;
+}
+
+.list-ul li {
+  height: 56px;
+  line-height: 56px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.list-ul li:last-child {
+  border-bottom: none;
+}
+
+.list-ul li a {
+  width: 795px;
+  color: #666;
+  line-height: 56px;
+  font-size: 14px;
+  float: left;
+}
+
+.list-ul li a span {
+  width: 265px;
+  height: 56px;
+  line-height: 56px;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 55px;
+}
+
+.list-ul li .delete {
+  display: none;
+  color: #1cc7ca;
+  width: 75px;
+  height: 56px;
+  line-height: 56px;
+  float: left;
+  font-size: 22px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.list-ul li:hover {
+  background: rgba(243, 252, 252, 0.5);
+}
+
+.list-ul li:hover .delete {
+  display: block;
+}

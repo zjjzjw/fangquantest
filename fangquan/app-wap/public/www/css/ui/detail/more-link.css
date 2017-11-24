@@ -1,0 +1,63 @@
+.more-link {
+    position: fixed;
+    bottom: 15rem;
+    right: 5rem;
+}
+.close-link {
+    position: fixed;
+    bottom: 18rem;
+    right: 5rem;
+}
+.more-link img,
+.close-link img {
+    width: 5rem;
+}
+.bg {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px #c5c5c5; /*底边阴影*/
+}
+.bg a {
+    width: 4rem;
+    height: 3rem;
+    display: block;
+    padding-left: 1.2rem;
+    padding-top: .9rem;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+}
+.analyse-link a {
+    width: 4rem;
+    height: 3rem;
+    padding-left: .4rem;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+.detail-link {
+    top: -9.5rem;
+    right: -4rem;
+}
+.aim-link {
+    top: 9.5rem;
+    right: -4rem;
+}
+.file-link {
+    top: -8rem;
+    right: 2rem;
+}
+.analyse-link {
+    top: 8rem;
+    right: 2rem;
+}
+.structure-link {
+    top: -3rem;
+    right: 7.5rem;
+}
+.purchase-link {
+    top: 3rem;
+    right: 7.5rem;
+}

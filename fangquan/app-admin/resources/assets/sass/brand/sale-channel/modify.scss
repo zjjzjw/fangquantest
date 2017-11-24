@@ -1,0 +1,106 @@
+@import "../../../common/prompt-pop";
+@import "../../../common/loading-pop";
+@import "../../../common/brand-nav";
+@import "../../../common/list-edit";
+@import "../../../common/press";
+
+.button-box {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.text-right > p {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #0a0a0a;
+}
+
+.sales-type {
+  margin-left: 185px;
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 65px;
+}
+
+.sales-type li {
+  display: inline-block;
+  width: 170px;
+  text-align: center;
+  margin-right: 75px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sales-box {
+  width: 100%;
+  padding: 0 50px;
+}
+
+.sales-box dt {
+  width: 140px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.sales-box dd {
+  width: 170px;
+  display: inline-block;
+  margin-right: 75px;
+  line-height: 30px;
+  padding: 5px 5px;
+  position: relative;
+}
+
+.sales-box dd:nth-child(4n) {
+  margin-right: 0;
+}
+
+.sales-box input {
+  border: 2px solid #59c91c;
+}
+
+@media screen and (min-width: 960px) and (max-width: 1129px) {
+  .sales-type li {
+    width: 80px;
+    font-size: 12px;
+  }
+
+  .sales-box dd {
+    width: 80px;
+  }
+}
+
+@media screen and (min-width: 1130px) and (max-width: 1200px) {
+  .sales-type li {
+    width: 120px;
+    font-size: 12px;
+  }
+
+  .sales-box dd {
+    width: 120px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+  .sales-type li {
+    width: 170px;
+    font-size: 12px;
+  }
+
+  .sales-box dd {
+    width: 170px;
+  }
+}
+
+@media screen and (min-width: 1601px) {
+  .sales-type li {
+    width: 260px;
+  }
+
+  .sales-box dd {
+    width: 260px;
+  }
+}

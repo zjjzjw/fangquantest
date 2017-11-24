@@ -1,0 +1,134 @@
+.set-box a {
+    display: block;
+    position: relative;
+    padding: 0 20px;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    border-bottom: 1px solid #c8c8c8;
+    font-size: 1.8rem;
+}
+.set-box .loginout {
+    color: #fff;
+    background: #ff8a00;
+    margin: 3rem 10px;
+    text-align: center;
+    border-radius: .3rem;
+    letter-spacing: 2px;
+    height: auto;
+    border-bottom: none;
+}
+.set-box a span {
+    position: absolute;
+    right: 30px;
+    color: #999;
+}
+.about-box {
+    margin-top: 4rem;
+    text-align: center;
+}
+.about-box img{
+    width: 10rem;
+}
+.about-box p {
+    font-size: 1.6rem;
+    height: 5rem;
+    line-height: 5rem;
+}
+.suc-tip {
+    font-size: 1.8rem;
+    text-align: center;
+    height: 6rem;
+    line-height: 6rem;
+}
+.creat-box {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    text-align: right;
+    background: #fff;
+}
+.creat-box p {
+    font-size: 1.6rem;
+    color: #363636;
+    height: 5rem;
+    line-height: 5rem;
+    padding: 0 10px;
+}
+.creat-box span {
+    max-width: 30%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.creat-box input {
+    width: 65%;
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    border-radius: 0;
+    margin-left: 1rem;
+    display: inline-block;
+    height: initial;
+}
+.creat-box .first-top {
+    padding-top: 1.5rem;
+}
+.save-box {
+    position: relative;
+}
+.error-tip {
+    position: relative;
+}
+.zvalid-resultformat {
+    position: absolute;
+    left: 36%;
+    font-size: 1.4rem;
+    color: #f30;
+    top: -10px;
+}
+.save-box .save-btn {
+    font-size: 1.8rem;
+    color: #fff;
+    background: #ff8a00;
+    padding: 1rem 0;
+    width: 95%;
+    margin: 3rem 10px;
+    text-align: center;
+    border-radius: .3rem;
+    letter-spacing: 2px;
+    height: auto;
+}
+.hint-content {
+    position: absolute;
+    color: #f15f00;
+    left: 20%;
+    font-size: 1.6rem;
+}
+@media(min-device-width:375px){
+    .set-box a {
+        height: 5rem;
+        line-height: 5rem;
+    }
+    .creat-box p {
+        height: 5rem;
+        line-height: 5rem;
+    }
+}
+@media(min-device-width:414px){
+    .set-box a {
+        height: 5.5rem;
+        line-height: 5.5rem;
+    }
+    .creat-box p {
+        height: 5.5rem;
+        line-height: 5.5rem;
+    }
+    .save-box .save-btn {
+        padding: 1.5rem 0;
+    }
+    .zvalid-resultformat {
+        top: -12px;
+    }
+}

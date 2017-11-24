@@ -1,0 +1,10 @@
+@charset "UTF-8";
+@import "../nav";
+@import "../../../common/list-edit";
+@import "../../../common/add-picture";
+@import "../../../common/prompt-pop";
+@import "../../../common/loading-pop";
+
+.error-file {
+  color: #a94442;
+}

@@ -1,0 +1,47 @@
+.close {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    font-size: 1.6rem;
+    background: #f1f0f0;
+}
+
+.close i {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.delete-content {
+    padding-left: 15px;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+}
+
+.choose {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: #f1f0f0;
+    height: 45px;
+    line-height: 45px;
+}
+
+.choose a {
+    display: inline-block;
+    width: 70px;
+    background: #f47e19;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    border-radius: .3rem;
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+}
+
+.choose .btn-ok {
+    margin-left: 60px;
+    margin-right: 20px;
+}
+

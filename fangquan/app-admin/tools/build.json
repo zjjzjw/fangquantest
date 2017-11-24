@@ -1,0 +1,480 @@
+{
+    "modules": [
+        {
+            "src": "advertisement/edit",
+            "dest": "advertisement"
+        },
+        {
+            "src": "advertisement/index",
+            "dest": "advertisement"
+        },
+        {
+            "src": "attribute/edit",
+            "dest": "attribute"
+        },
+        {
+            "src": "attribute/index",
+            "dest": "attribute"
+        },
+        {
+            "src": "auth/login",
+            "dest": "auth"
+        },
+        {
+            "src": "brand/brand-certificate/edit",
+            "dest": "brand/brand-certificate"
+        },
+        {
+            "src": "brand/brand-certificate/index",
+            "dest": "brand/brand-certificate"
+        },
+        {
+            "src": "brand/brand-factory/edit",
+            "dest": "brand/brand-factory"
+        },
+        {
+            "src": "brand/brand-factory/index",
+            "dest": "brand/brand-factory"
+        },
+        {
+            "src": "brand/brand-sales/edit",
+            "dest": "brand/brand-sales"
+        },
+        {
+            "src": "brand/brand-sales/index",
+            "dest": "brand/brand-sales"
+        },
+        {
+            "src": "brand/brand-service/edit",
+            "dest": "brand/brand-service"
+        },
+        {
+            "src": "brand/brand-sign/edit",
+            "dest": "brand/brand-sign"
+        },
+        {
+            "src": "brand/brand-sign/index",
+            "dest": "brand/brand-sign"
+        },
+        {
+            "src": "brand/comments",
+            "dest": "brand"
+        },
+        {
+            "src": "brand/cooperation/edit",
+            "dest": "brand/cooperation"
+        },
+        {
+            "src": "brand/cooperation/index",
+            "dest": "brand/cooperation"
+        },
+        {
+            "src": "brand/custom-product/edit",
+            "dest": "brand/custom-product"
+        },
+        {
+            "src": "brand/custom-product/index",
+            "dest": "brand/custom-product"
+        },
+        {
+            "src": "brand/edit",
+            "dest": "brand"
+        },
+        {
+            "src": "brand/sale-channel/edit",
+            "dest": "brand/sale-channel"
+        },
+        {
+            "src": "brand/sale-channel/index",
+            "dest": "brand/sale-channel"
+        },
+        {
+            "src": "brand/sale-channel/modify",
+            "dest": "brand/sale-channel"
+        },
+        {
+            "src": "brand/sale-channel/report",
+            "dest": "brand/sale-channel"
+        },
+        {
+            "src": "brand/supplementary/edit",
+            "dest": "brand/supplementary"
+        },
+        {
+            "src": "brand/supplementary/index",
+            "dest": "brand/supplementary"
+        },
+        {
+            "src": "category/edit",
+            "dest": "category"
+        },
+        {
+            "src": "category/index",
+            "dest": "category"
+        },
+        {
+            "src": "content-publish/category/edit",
+            "dest": "content-publish/category"
+        },
+        {
+            "src": "content-publish/category/index",
+            "dest": "content-publish/category"
+        },
+        {
+            "src": "content-publish/content/edit",
+            "dest": "content-publish/content"
+        },
+        {
+            "src": "content-publish/content/index",
+            "dest": "content-publish/content"
+        },
+        {
+            "src": "developer/developer/edit",
+            "dest": "developer/developer"
+        },
+        {
+            "src": "developer/developer/index",
+            "dest": "developer/developer"
+        },
+        {
+            "src": "developer/developer-project/edit",
+            "dest": "developer/developer-project"
+        },
+        {
+            "src": "developer/developer-project/index",
+            "dest": "developer/developer-project"
+        },
+        {
+            "src": "developer/developer-project-contact/edit",
+            "dest": "developer/developer-project-contact"
+        },
+        {
+            "src": "developer/developer-project-contact/index",
+            "dest": "developer/developer-project-contact"
+        },
+        {
+            "src": "developer/developer-project-stage/edit",
+            "dest": "developer/developer-project-stage"
+        },
+        {
+            "src": "developer/developer-project-stage/index",
+            "dest": "developer/developer-project-stage"
+        },
+        {
+            "src": "developer/loupan/edit",
+            "dest": "developer/loupan"
+        },
+        {
+            "src": "developer/loupan/index",
+            "dest": "developer/loupan"
+        },
+        {
+            "src": "developer/project-category/edit",
+            "dest": "developer/project-category"
+        },
+        {
+            "src": "developer/project-category/index",
+            "dest": "developer/project-category"
+        },
+        {
+            "src": "error/index",
+            "dest": "error"
+        },
+        {
+            "src": "fq-user/fq-user/bind",
+            "dest": "fq-user/fq-user"
+        },
+        {
+            "src": "fq-user/fq-user/edit",
+            "dest": "fq-user/fq-user"
+        },
+        {
+            "src": "fq-user/fq-user/index",
+            "dest": "fq-user/fq-user"
+        },
+        {
+            "src": "fq-user/fq-user/set-password",
+            "dest": "fq-user/fq-user"
+        },
+        {
+            "src": "fq-user/fq-user-feedback/edit",
+            "dest": "fq-user/fq-user-feedback"
+        },
+        {
+            "src": "fq-user/fq-user-feedback/index",
+            "dest": "fq-user/fq-user-feedback"
+        },
+        {
+            "src": "home/index",
+            "dest": "home"
+        },
+        {
+            "src": "information/comments",
+            "dest": "information"
+        },
+        {
+            "src": "information/edit",
+            "dest": "information"
+        },
+        {
+            "src": "information/index",
+            "dest": "information"
+        },
+        {
+            "src": "media-management/edit",
+            "dest": "media-management"
+        },
+        {
+            "src": "media-management/index",
+            "dest": "media-management"
+        },
+        {
+            "src": "msg/broadcast-msg/index",
+            "dest": "msg/broadcast-msg"
+        },
+        {
+            "src": "msg/broadcast-msg/send",
+            "dest": "msg/broadcast-msg"
+        },
+        {
+            "src": "msg/user-msg/index",
+            "dest": "msg/user-msg"
+        },
+        {
+            "src": "msg/user-msg/send",
+            "dest": "msg/user-msg"
+        },
+        {
+            "src": "product/comments",
+            "dest": "product"
+        },
+        {
+            "src": "product/edit",
+            "dest": "product"
+        },
+        {
+            "src": "product/index",
+            "dest": "product"
+        },
+        {
+            "src": "product/product-category/edit",
+            "dest": "product/product-category"
+        },
+        {
+            "src": "product/product-category/index",
+            "dest": "product/product-category"
+        },
+        {
+            "src": "provider/provider/edit",
+            "dest": "provider/provider"
+        },
+        {
+            "src": "provider/provider/index",
+            "dest": "provider/provider"
+        },
+        {
+            "src": "provider/provider-aduitdetails/edit",
+            "dest": "provider/provider-aduitdetails"
+        },
+        {
+            "src": "provider/provider-aduitdetails/index",
+            "dest": "provider/provider-aduitdetails"
+        },
+        {
+            "src": "provider/provider-certificate/audit",
+            "dest": "provider/provider-certificate"
+        },
+        {
+            "src": "provider/provider-certificate/edit",
+            "dest": "provider/provider-certificate"
+        },
+        {
+            "src": "provider/provider-certificate/index",
+            "dest": "provider/provider-certificate"
+        },
+        {
+            "src": "provider/provider-certificate/list",
+            "dest": "provider/provider-certificate"
+        },
+        {
+            "src": "provider/provider-friend/audit",
+            "dest": "provider/provider-friend"
+        },
+        {
+            "src": "provider/provider-friend/edit",
+            "dest": "provider/provider-friend"
+        },
+        {
+            "src": "provider/provider-friend/index",
+            "dest": "provider/provider-friend"
+        },
+        {
+            "src": "provider/provider-friend/list",
+            "dest": "provider/provider-friend"
+        },
+        {
+            "src": "provider/provider-news/audit",
+            "dest": "provider/provider-news"
+        },
+        {
+            "src": "provider/provider-news/edit",
+            "dest": "provider/provider-news"
+        },
+        {
+            "src": "provider/provider-news/index",
+            "dest": "provider/provider-news"
+        },
+        {
+            "src": "provider/provider-news/list",
+            "dest": "provider/provider-news"
+        },
+        {
+            "src": "provider/provider-product/audit",
+            "dest": "provider/provider-product"
+        },
+        {
+            "src": "provider/provider-product/edit",
+            "dest": "provider/provider-product"
+        },
+        {
+            "src": "provider/provider-product/index",
+            "dest": "provider/provider-product"
+        },
+        {
+            "src": "provider/provider-product/list",
+            "dest": "provider/provider-product"
+        },
+        {
+            "src": "provider/provider-product-programme/audit",
+            "dest": "provider/provider-product-programme"
+        },
+        {
+            "src": "provider/provider-product-programme/edit",
+            "dest": "provider/provider-product-programme"
+        },
+        {
+            "src": "provider/provider-product-programme/index",
+            "dest": "provider/provider-product-programme"
+        },
+        {
+            "src": "provider/provider-product-programme/list",
+            "dest": "provider/provider-product-programme"
+        },
+        {
+            "src": "provider/provider-project/audit",
+            "dest": "provider/provider-project"
+        },
+        {
+            "src": "provider/provider-project/edit",
+            "dest": "provider/provider-project"
+        },
+        {
+            "src": "provider/provider-project/index",
+            "dest": "provider/provider-project"
+        },
+        {
+            "src": "provider/provider-project/list",
+            "dest": "provider/provider-project"
+        },
+        {
+            "src": "provider/provider-propaganda/audit",
+            "dest": "provider/provider-propaganda"
+        },
+        {
+            "src": "provider/provider-propaganda/edit",
+            "dest": "provider/provider-propaganda"
+        },
+        {
+            "src": "provider/provider-propaganda/index",
+            "dest": "provider/provider-propaganda"
+        },
+        {
+            "src": "provider/provider-propaganda/list",
+            "dest": "provider/provider-propaganda"
+        },
+        {
+            "src": "provider/provider-rank-category/edit",
+            "dest": "provider/provider-rank-category"
+        },
+        {
+            "src": "provider/provider-rank-category/index",
+            "dest": "provider/provider-rank-category"
+        },
+        {
+            "src": "provider/provider-service-network/audit",
+            "dest": "provider/provider-service-network"
+        },
+        {
+            "src": "provider/provider-service-network/edit",
+            "dest": "provider/provider-service-network"
+        },
+        {
+            "src": "provider/provider-service-network/index",
+            "dest": "provider/provider-service-network"
+        },
+        {
+            "src": "provider/provider-service-network/list",
+            "dest": "provider/provider-service-network"
+        },
+        {
+            "src": "regional/china-area/edit",
+            "dest": "regional/china-area"
+        },
+        {
+            "src": "regional/china-area/index",
+            "dest": "regional/china-area"
+        },
+        {
+            "src": "regional/city/edit",
+            "dest": "regional/city"
+        },
+        {
+            "src": "regional/city/index",
+            "dest": "regional/city"
+        },
+        {
+            "src": "regional/province/edit",
+            "dest": "regional/province"
+        },
+        {
+            "src": "regional/province/index",
+            "dest": "regional/province"
+        },
+        {
+            "src": "role/role/edit",
+            "dest": "role/role"
+        },
+        {
+            "src": "role/role/index",
+            "dest": "role/role"
+        },
+        {
+            "src": "role/user/edit",
+            "dest": "role/user"
+        },
+        {
+            "src": "role/user/index",
+            "dest": "role/user"
+        },
+        {
+            "src": "role/user/set-password",
+            "dest": "role/user"
+        },
+        {
+            "src": "tag/edit",
+            "dest": "tag"
+        },
+        {
+            "src": "tag/index",
+            "dest": "tag"
+        },
+        {
+            "src": "theme/edit",
+            "dest": "theme"
+        },
+        {
+            "src": "theme/index",
+            "dest": "theme"
+        }
+    ]
+}

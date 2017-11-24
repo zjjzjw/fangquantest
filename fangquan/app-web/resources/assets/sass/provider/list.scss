@@ -1,0 +1,199 @@
+@import "../../common/back-top";
+@import "../../common/no-data";
+
+.list-content {
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
+}
+
+.bannen {
+  width: 100%;
+  height: 326px;
+  background: url("/www/images/provider/bannen.png") no-repeat;
+  background-position: center center;
+}
+
+.bannen-box {
+  border-bottom: 2px solid #f2f2f2;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 50px;
+  box-shadow: 10px 4px 10px #f2f2f2;
+}
+
+.bannen-logo {
+  height: 132px
+}
+
+.bannen-logo:nth-child(1) {
+  background: #F2F2F2;
+}
+
+.bannen-logo:nth-child(2) {
+  background: #FFFFFF;
+}
+
+.bannen-logo .active {
+  background: #1bc7c9;
+}
+
+.bannen-logo .active p,
+.bannen-logo .active i.iconfont {
+  color: #fff;
+}
+
+.bannen-logo i.iconfont {
+  color: #999;
+}
+
+.bannen-logo li {
+  width: 92px;
+  height: 132px;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+}
+
+.bannen-logo li a {
+  height: 132px;
+  display: block;
+  color: #666;
+}
+
+.bannen-logo li i.iconfont {
+  line-height: 94px;
+  font-size: 40px;
+}
+
+.list-content .ranking-list {
+  clear: both;
+  text-align: center;
+}
+
+.ranking-list h3 {
+  font-size: 36px;
+  line-height: 60px;
+  color: #666;
+}
+
+.ranking-list ul {
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 85px;
+  border-top: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+
+.ranking-list h4 {
+  font-size: 36px;
+  color: #666;
+  font-weight: 400;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+
+.ranking-list li {
+  width: 239px;
+  height: 130px;
+  line-height: 130px;
+  position: relative;
+  text-align: center;
+  background: #FFFFFF;
+  float: left;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.ranking-list li .bg-top1 {
+  background: url("/www/images/provider/top1.png") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.ranking-list li .bg-top2 {
+  background: url("/www/images/provider/top2.png") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.ranking-list li .bg-top3 {
+  background: url("/www/images/provider/top3.png") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.ranking-list .bg-top {
+  width: 34px;
+  height: 34px;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("/www/images/provider/top.png") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.ranking-list li .top-bannen-logo {
+  max-width: 240px;
+  max-height: 130px;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.right-box {
+  width: 150px;
+  height: auto;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  background: #FFFFFF;
+  border: 1px solid #eeeeee;
+  z-index: 20;
+}
+
+.right-box img {
+  max-width: 150px;
+  max-height: 75px;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.right-box li {
+  position: relative;
+  height: 75px;
+  overflow: hidden;
+  text-align: center;
+  border-bottom: 1px solid #eeeeee;
+  vertical-align: middle;
+}
+
+.advertisement {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  background: #eeeeee;
+  width: 35px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #b6b6b6;
+  text-align: center;
+  border-radius: 6px;
+  z-index: 2;
+}

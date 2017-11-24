@@ -1,0 +1,22 @@
+.server-error{
+  margin:100px auto 200px;
+  text-align: center;
+}
+.server-error .content{
+  margin:10px 0 20px 0;
+}
+.server-error .content p{
+  font-size: 18px;
+  color: #999;
+}
+.server-error .content a{
+  display: inline-block;
+  width: 160px;
+  height: 36px;
+  margin-top: 20px;
+  border-radius: 36px;
+  background-color: #ffac5c;
+  line-height: 36px;
+  color: #fff;
+  font-size: 18px;
+}

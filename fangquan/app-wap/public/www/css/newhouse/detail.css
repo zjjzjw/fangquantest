@@ -1,0 +1,681 @@
+h4 {
+    font-size: 1.6rem;
+    color: #919192;
+    padding-top: .5rem;
+}
+h4:before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 1.5rem;
+    background: #f15f00;
+    vertical-align: middle;
+    margin: -3px 6px 0 0;
+}
+.house-map h4,
+.hot-sale h4 {
+    padding-left: 1rem;
+    background: #fff;
+}
+.house-common {
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem 1rem 1rem;
+}
+
+/*楼盘编号*/
+.loupan-num {
+    height: 4rem;
+    line-height: 3rem;
+    font-size: 1.4rem;
+    text-align: right;
+    padding-right: 1.7rem;
+    color: #919192;
+}
+.add-bottom {
+    height: 5rem;
+}
+/*热卖好盘*/
+.hot-sale h4 {
+    padding-top: .5rem;
+}
+.hot-sale ul li {
+    position: relative;
+    padding: 1.2rem 1rem;
+    background: #fff;
+    margin-bottom: .5rem;
+}
+.hot-sale ul li:last-child {
+    margin-bottom: 0;
+}
+.hot-sale img {
+    padding-bottom: .5rem;
+    width: 10rem;
+    height: 7.5rem;
+}
+.hot-sale .right-box {
+    display: inline-block;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    width: 60%;
+}
+.hot-sale li p {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: .2rem;
+}
+.hot-sale .title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    height: 1.9rem;
+}
+.hot-sale .title em {
+    font-size: 1.2rem;
+    color: #919192;
+}
+.hot-sale .tag-box {
+    margin-bottom: .3rem;
+}
+.hot-sale .tag-box span {
+    margin-right: .3rem;
+}
+.hot-sale .price {
+    position: absolute;
+    color: #f15f00;
+    font-size: 1.6rem;
+    font-weight: bold;
+    right: 1rem;
+    top: 3.2rem;
+}
+.hot-sale .privilege {
+    color: #FDA353;
+    margin-top: .3rem;
+}
+.hot-sale .privilege em {
+    background: #FDA353;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0 .1rem;
+}
+.hot-sale .underline,
+.hot-sale .tag-box span {
+    border: 1px solid #d9d9d9;
+    color: #919192;
+    padding: 0 .1rem;
+    border-radius: 1px;
+}
+.hot-sale .underline i {
+    color: #f15f00;
+    font-size: 1.2rem;
+}
+/*地图*/
+.house-map {
+    background: #fff;
+    margin-bottom: .5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.house-map a {
+    height: 200px;
+}
+.house-map img {
+    margin: 1rem 0;
+}
+.house-map p {
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 3rem;
+    line-height: 3rem;
+}
+.house-map .address {
+    height: 4rem;
+    line-height: 4rem;
+}
+.house-map .metro {
+    font-weight: bold;
+    border-top: 1px solid #d9d9d9;
+    padding-top: 1rem;
+}
+.house-map .metro i {
+    color: #f15f00;
+}
+/*新房咨询*/
+.consult {
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.consult a {
+    display: -webkit-box;
+    font-size: 1.2rem;
+    color: #919192;
+}
+.consult .tel-info {
+    -webkit-box-flex: 1;
+    color: #919192;
+}
+.consult .num {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #3e3e3e;
+    margin-bottom: .3rem;
+}
+.consult .phone {
+    width: 4.5rem;
+    height: 4.5rem;
+    border:1px solid #f15f00;
+    border-radius: 50%;
+}
+.consult .phone i {
+    color: #f15f00;
+    display: block;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+/*户型*/
+.house-type ul {
+    overflow-y: auto;
+    white-space: nowrap;
+    padding-top: .8rem;
+}
+.house-type li {
+    margin-bottom: 1.5rem;
+}
+.house-type .type-detail {
+    display: inline-block;
+    padding-left: 1rem;
+}
+.house-type p {
+    font-size: 1.5rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+.house-type .type {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.house-type img {
+    width: 9rem;
+    height: 9rem;
+}
+/*动态*/
+.dongtai .title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.dongtai .comm-desc {
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+.dongtai .comm-desc .open-all {
+    display: none;
+    color: #007fff;
+}
+.dongtai .time {
+    color: #919192;
+    font-size: 1.2rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+.dongtai .btn-box {
+    text-align: center;
+    padding: .5rem 0 1.5rem 0;
+}
+.dongtai .dongtai-btn {
+    color: #f15f00;
+    border: 1px solid #f15f00;
+    border-radius: 4px;
+    padding: .5rem 4rem;
+    text-align: center;
+}
+/*订阅*/
+.exclusive-privilege,
+.look-house {
+    position: relative;
+}
+.exclusive-privilege .tag-box {
+   position: absolute;
+   top: 3.5rem;
+}
+.exclusive-privilege .privilege-tag{
+    background: #FDA353;
+    color: #fff;
+    font-size: 1.4rem;
+    padding: .1rem .2rem;
+}
+.exclusive-privilege .describe {
+    margin-left: 2.3rem;
+    margin-top: 1rem;
+    width: 63%;
+}
+.exclusive-privilege .privilege-btn {
+    position: absolute;
+    right: 1rem;
+    padding: .5rem 1rem;
+    background: #f15f00;
+    top: 3rem;
+    color: #fff;
+    border-radius: 4px;
+}
+.look-house .describe {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    width: 63%;
+}
+.look-house .look-btn {
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+    padding: .5rem 1rem;
+    color: #f15f00;
+    border: 1px solid #f15f00;
+    border-radius: 4px;
+}
+.look-house .look-btn i {
+    color: #f15f00;
+}
+/*房源详情*/
+.house-detail .unit-price span {
+    color: #f15f00;
+    font-size: 1.6rem;
+}
+.house-detail .unit-price i {
+    color: #f15f00;
+    font-size: 1.8rem;
+}
+.house-detail .unit-price em {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.house-detail p {
+    font-size: 1.5rem;
+    color: #3e3e3e;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.house-detail sup {
+    font-size: 1.2rem;
+}
+.house-detail .detail-info p {
+    display: inline-block;
+}
+.house-detail .detail-info>p:nth-child(odd){
+    width: 58%;
+}
+.house-detail .more-info {
+    margin-top: 2rem;
+}
+.house-detail .look-more,
+.house-type .up-down {
+    text-align: center;
+    color: #919192;
+    height: 3rem;
+    line-height: 3rem;
+    padding: .7rem 0;
+}
+/*房源title*/
+.house-title {
+    position: relative;
+    background: #fff;
+}
+.house-item {
+    margin: 0 1rem;
+    padding: 1.5rem 0 1rem 0;
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 1.6rem;
+}
+.tags {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border-left: 1px solid #d9d9d9;
+    padding-left: 1rem;
+}
+.tags span {
+    display: inline-block;
+    color: #919192;
+}
+.tags i {
+    display: block;
+    text-align: center;
+    color: #919192;
+    font-size: 2.6rem;
+}
+.house-name {
+    display: -webkit-box;
+    -webkit-box-flex: 1;
+}
+.house-name h2 {
+    display: block;
+    -webkit-box-flex: 1;
+    font-size: 1.8rem;
+    font-weight: bold;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+.house-name em {
+    font-size: 1.2rem;
+    color: #919192;
+    padding: 0 2px;
+    line-height: 2.5rem;
+    border-radius: 2px;
+}
+.house-name i {
+    display: block;
+    -webkit-box-flex: 100;
+}
+.house-item p {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.house-item span {
+    color: #f15f00;
+}
+.house-item span em {
+    font-weight: bold;
+}
+.house-item .privilege {
+    color: #FDA353;
+}
+.house-item .privilege em {
+    background: #FDA353;
+    color: #fff;
+    font-size: 1.4rem;
+    padding: .1rem;
+}
+/* 轮播蒙板 */
+.canvas {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    z-index: 9999;
+}
+/* 轮播样式 */
+.swipe, .image-list, .image-list > div {
+    height: 250px;
+}
+.swipe {
+    margin: 0 auto;
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+}
+.image-list {
+    overflow: hidden;
+    position: relative;
+}
+.image-list > div {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.canvas, .canvas .image-list, .canvas .item {
+    height: 100%;
+}
+.canvas .item, .swipe .item {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+.image-type-index {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+.image-type-index > div {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #fff;
+    line-height: 2rem;
+    height: 2rem;
+    padding: 0 .7rem;
+    background-color: #3e3e3e;
+    opacity: 0.8;
+    border-radius: 3rem;
+}
+.image-type-index span {
+    display: inline-block;
+    padding: 0 5px;
+    line-height: 1;
+}
+.image-type-index-pop {
+    position: absolute;
+    bottom: 3rem;
+    text-align: center;
+    width: 100%;
+    color: #9A9A9A;
+}
+
+.image-type-wrap {
+    display: -webkit-box;
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+}
+.image-type-wrap > span {
+    -webkit-box-flex: 1;
+    display: block;
+    border-right: 2px solid #413D3D;
+    font-size: 1.6rem;
+    text-align: center;
+    cursor: pointer;
+    color: #8c8c92;
+}
+.image-type-wrap > span.actived {
+    color: #f15f00;
+}
+.image-type-wrap > span:last-child {
+    border-right: 0;
+}
+/*pop*/
+.pop-content {
+    border-radius: 2px;
+}
+.close-subscript,
+.close {
+    margin: 5px 0 0 245px;
+}
+.box-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+.box-tel {
+    font-size: 1.4rem;
+    text-align: center;
+    position: relative;
+}
+.box-tel input {
+    width: 220px;
+    height: 35px;
+    line-height: 35px;
+    margin: 10px 0 5px 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+    font-size: 1.4rem;
+}
+.box-tel .phone-num {
+    position: relative;
+}
+.box-tel .phone-num .send-code-num {
+    position: absolute;
+    border-left: 1px solid #d9d9d9;
+    color: #d9d9d9;
+    left: 160px;
+    top: 17px;
+    padding-left: 5px;
+}
+.box-tel .phone-num .menceng {
+    width: 75px;
+    height: 16px;
+    position: absolute;
+    top: 17px;
+    left: 160px;
+    color: #8c8c92;
+}
+.box-tel .box-btn {
+    display: block;
+    color: #fff;
+    background: #f15f00;
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 220px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 1px;
+}
+.txt-error {
+    padding-top: .2rem;
+    position: absolute;
+    left: 2.3rem;
+    bottom: 3.5rem;
+    font-size: 1.2rem;
+}
+.server li {
+    padding: 1.5rem 0;
+    border-bottom: 1px dashed #d9d9d9;
+}
+.server li:last-child {
+    border:none;
+}
+.server .title {
+    padding-left: .5rem;
+    font-size: 1.6rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+.green {
+    color: #38AE89;
+    border: 1px solid #38ae89;
+    border-radius: 50%;
+    padding: 5px 7px;
+}
+.orange {
+    color: #f97752;
+    border: 1px solid #f97752;
+    border-radius: 50%;
+    padding: 5px 7px;
+}
+.yellow {
+    color: #fd9b4c;
+    border: 1px solid #fd9b4c;
+    border-radius: 50%;
+    padding: 5px 7px;
+}
+.server .detail-title {
+    color: #999;
+    padding-left: 1rem;
+}
+.server .server-tags {
+    position: absolute;
+    right: 1rem;
+    color: #f15f00;
+    margin-left: 40px;
+    border: 1px solid #f15f00;
+    font-size: 1.4rem;
+    padding: 3px 10px;
+    border-radius: 4px;
+}
+.reg-title {
+    text-align: center;
+    font-size: 1.6rem;
+}
+.tips {
+    text-align: center;
+    font-size: 1.4rem;
+}
+.no-img {
+    width: 100%;
+}
+.box-tel .phone-num .add-color {
+    background: #fff;
+    color: #f15f00;
+}
+/* 成功提示框 */
+.success-box {
+    text-align: center;
+    margin-top: 5%;
+}
+.success-box .suc-icon {
+    color: #fff;
+    border-radius: 50%;
+    background: #52BC8A;
+    font-size: 30px;
+    padding: .8rem;
+    margin-bottom: 1.5rem;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin-left: 120px;
+}
+.success-box .suc-tip {
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+}
+.pop-content .suc-title {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 2.5rem;
+}
+.close-all .close-btn {
+    display: block;
+    font-size: 1.4rem;
+    color: #fff;
+    background: #f15f00;
+    width: 220px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 1px;
+    text-align: center;
+    margin-left: 25px;
+}
+@media only screen and (min-width: 375px){
+    .exclusive-privilege .describe,
+    .look-house .describe {
+        width: 65%;
+    }
+    .exclusive-privilege .tag-box {
+        top: 3.8rem;
+    }
+    .server .server-tags {
+        padding: 3px 20px;
+    }
+}
+@media(min-device-width:414px) {
+    .server .server-tags {
+        padding: 3px 30px;
+    }
+}

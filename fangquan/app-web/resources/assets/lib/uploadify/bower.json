@@ -1,0 +1,15 @@
+{
+  "name": "uploadify",
+  "version": "3.2.1",
+  "authors": [
+    "Quentin Yang <quentin.yang@angejia.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

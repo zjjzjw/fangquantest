@@ -1,0 +1,90 @@
+.page {
+    background-color: #fff;
+}
+.box-wrap {
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+}
+.box-flex {
+    display: block;
+    box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+}
+/* 推荐房源 */
+.recommend-box .recommend-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #d9d9d9;
+}
+.recommend-list {
+    margin: 0 1.5rem;
+}
+.recommend-list .item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+.recommend-list .item:last-child {
+    border-bottom: 0;
+}
+.recommend-list img {
+    width: 10rem;
+    height: 7.5rem;
+    border-radius: .3rem;
+    margin-right: 1rem;
+}
+.recommend-list .recommend-detail .rec-name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.recommend-list .recommend-detail .rooms {
+    display: inline-block;
+    margin-left: 1.8rem;
+    height: 2.1rem;
+    line-height: 2.1rem;
+    vertical-align: bottom;
+}
+.recommend-list .recommend-detail .price-tag {
+    padding: .2rem .4rem;
+    margin-left: .5rem;
+    font-style: normal;
+    border-radius: .3rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.recommend-list .recommend-detail .price-down {
+    background-color: #2cb200;
+}
+.recommend-list .recommend-detail .price-up {
+    background-color: #e54b00;
+}
+.recommend-list h3 > span:last-child {
+    display: block;
+    box-flex: 100;
+    -webkit-box-flex: 100;
+    -moz-box-flex: 100;
+}
+.recommend-detail>h4 {
+    height: 2rem;
+    line-height: 2rem;
+    color: #8d8c92;
+}
+.recommend-detail>h4 span {
+    margin-right: 1.1rem;
+}
+.recommend-detail .desc-money{
+    font-size: 1.4rem;
+}
+.recommend-detail .desc-money em {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.recommend-detail>p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #eb997f;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

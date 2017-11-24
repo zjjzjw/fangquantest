@@ -1,0 +1,115 @@
+@import "../../../common/exhibition-header";
+@import "../../../common/provider-header";
+@import "../../../common/provider-left";
+
+footer {
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.provider-box {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  height: auto;
+  font-family: "Hiragino Sans GB";
+  padding-bottom: 40px;
+}
+
+.provider-right {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+  color: #757575;
+  font-size: 18px;
+}
+
+.provider-right .img-box {
+  width: 866px;
+  height: 227px;
+  margin-bottom: 10px;
+}
+
+.provider-right .img-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.provider-right .content-box {
+  width: 866px;
+  height: auto;
+  border: 2px solid #1bc7c9;
+  padding: 30px 15px;
+}
+
+.content-box .base-info {
+  padding-top: 10px;
+  position: relative;
+}
+
+.content-box .base-info > img {
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.content-box .base-info .details {
+  width: 745px;
+  margin: 0 auto;
+}
+
+.content-box .base-info .details p {
+  padding-bottom: 20px;
+}
+
+.content-box .base-info .table {
+  width: 100%;
+  text-align: center;
+  border: 2px solid #1bc7c9;
+}
+
+.content-box .base-info .table tbody > tr > td {
+  font-weight: bold;
+  color: #757575;
+  font-size: 18px;
+}
+
+.content-box .base-info .table tbody > .thead td {
+  background-color: #ebffff;
+}
+
+.content-box .base-info .table tbody > tr > td:first-child,
+.content-box .base-info .table tbody > tr > td:nth-child(2),
+.content-box .base-info .table tbody > tr > td:nth-child(3) {
+  border-bottom: 2px solid #1bc7c9;
+  border-right: 2px solid #1bc7c9;
+}
+
+.content-box .base-info .table tbody > tr > td:last-child {
+  border-bottom: 2px solid #1bc7c9;
+}
+
+.content-box .base-info .details .img-detail ul li {
+  width: 200px;
+  height: 150px;
+  display: inline-block;
+}
+
+.content-box .base-info .details .img-detail ul li:nth-child(3n+2) {
+  margin: 0 66.5px;
+}
+
+.content-box .base-info .details .img-detail ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+.open-all {
+  display: none;
+  color: #1bc7c9;
+}
+
+.open-all i {
+  color: #1bc7c9;
+}

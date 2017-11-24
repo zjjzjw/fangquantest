@@ -1,0 +1,156 @@
+@import "../../../common/exhibition-header";
+
+.wrapper-box {
+  width: 1200px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  font-family: "HiraginoSansGB W3";
+}
+
+.tab-box {
+  padding-bottom: 35px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.left-box {
+  width: 857px;
+  height: auto;
+  overflow: hidden;
+  float: left;
+}
+
+.table-box {
+  border: 2px solid #1bc7c9;
+}
+
+.table-box h1 {
+  line-height: 69px;
+  color: #757575;
+  background: #e8ffff;
+  padding: 0 40px;
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 2px solid #1bc7c9;
+}
+
+.table-box h3 {
+  line-height: 80px;
+  padding: 0 40px;
+  font-size: 18px;
+}
+
+.table-purchasing_demand {
+  width: 776px;
+  height: auto;
+  overflow: hidden;
+  border: 4px solid #1bc7c9;
+  margin: 0 40px;
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.table-purchasing_demand .project-name {
+  text-align: left;
+  padding-left: 14px;
+}
+
+.table-purchasing_demand tr {
+  border-bottom: 2px solid #1bc7c9;
+}
+
+.table-purchasing_demand th {
+  line-height: 51px;
+  text-align: center;
+  border-right: 2px solid #1bc7c9;
+  color: #757575;
+  width: 145px;
+  font-weight: bold;
+}
+
+.table-purchasing_demand td {
+  width: 625px;
+  height: auto;
+  padding: 17px 10px;
+  display: -webkit-box;
+  padding-left: 14px;
+
+}
+
+.table-project_information {
+  width: 776px;
+  height: auto;
+  overflow: hidden;
+  border: 4px solid #1bc7c9;
+  margin: 0 40px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 119px;
+}
+
+.table-project_information tr {
+  line-height: 48px;
+  border-bottom: 2px solid #1bc7c9;
+
+}
+
+.table-project_information th {
+  text-align: center;
+  border-right: 2px solid #1bc7c9;
+  color: #1bc7c9;
+  width: 145px;
+  font-weight: bold;
+}
+
+.table-project_information td {
+  text-align: left;
+  border-right: 2px solid #1bc7c9;
+  color: #757575;
+  padding-left: 14px;
+}
+
+.right-box {
+  width: 290px;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  margin-left: 10px;
+}
+
+.right-box .logo-box {
+  width: 290px;
+  height: 207px;
+  border: 2px solid #1bc7c9;
+}
+
+.right-box .logo-box img {
+  max-width: 138px;
+  max-height: 70px;
+  margin: 35px 74px 42px;
+}
+
+.right-box .logo-box p {
+  text-align: center;
+  font-size: 16px;
+  color: #757575;
+  font-weight: 700;
+}
+
+.right-box .contact-information {
+  border: 2px solid #1bc7c9;
+  margin-top: 17px;
+}
+
+.right-box .contact-information h3 {
+  font-size: 18px;
+  background: #e8ffff;
+  line-height: 47px;
+  padding-left: 18px;
+  border-bottom: 2px solid #1bc7c9;
+}
+
+.right-box .contact-information ul {
+  padding: 18px 16px;
+  font-size: 18px;
+  color: #757575;
+}

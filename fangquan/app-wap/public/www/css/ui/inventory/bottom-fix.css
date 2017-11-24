@@ -1,0 +1,59 @@
+.separator-bottom {
+    height: 4.5rem;
+}
+.house-operate {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 9;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    width: 100%;
+    text-align: center;
+    background-color: #f15f00;
+    padding: 1rem;
+    opacity: 0.9;
+}
+.house-operate .wantbuy-icon,
+.house-operate .wantbuy-icon-leadapp {
+    display: block;
+    -webkit-box-flex: 1;
+    font-size: 1.8rem;
+    color: #fff;
+}
+.house-operate .wantbuy-icon {
+    height: 4.5rem;
+    line-height: 4.5rem;
+    background-color: #f15f00;
+}
+.house-operate .wantbuy-icon-leadapp {
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: .5rem;
+    margin-right: 2rem;
+}
+.house-operate i {
+    color: #fff;
+    font-size: 1.9rem;
+}
+.contact-landlord {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f15f00;
+}
+.contact-landlord i {
+    color: #fff;
+    font-size: 1.9rem;
+    margin-right: 1rem;
+}
+.text-normal{
+    font-size: 1.2rem;
+}

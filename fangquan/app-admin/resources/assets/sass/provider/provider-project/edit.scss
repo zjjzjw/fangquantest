@@ -1,0 +1,42 @@
+@import "../nav";
+@import "../../../common/confirm-pop";
+@import "../../../common/prompt-pop";
+@import "../../../common/list-edit";
+@import "../../../common/loading-pop";
+@import "../../../common/add-picture";
+
+.suppl-products input {
+  border: 1px solid #f1ebe7;
+  width: 358px;
+  height: 40px;
+}
+
+.suppl-products input {
+  width: 110px;
+  height: 40px;
+  margin-right: 10px;
+  float: left;
+}
+
+.products-name {
+  width: 155px;
+  height: 40px;
+  float: left;
+}
+
+.del-product {
+  font-size: 22px;
+  margin-left: 5px;
+  line-height: 40px;
+}
+
+.add-product {
+  font-size: 22px;
+  margin-left: 5px;
+  line-height: 40px;
+}
+
+.product-value {
+  margin-bottom: 20px;
+  position: relative;
+}

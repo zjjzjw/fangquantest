@@ -1,0 +1,359 @@
+@import "company-desc-top";
+@import "company-info-left";
+.main-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+.right-box {
+    display: block;
+    background: #fff;
+    width: 800px;
+    float: left;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+
+.right-box .title h3 {
+    width: 757px;
+    height: 41px;
+    font-size: 16px;
+    color: #453914;
+    box-sizing: border-box;
+    border-bottom: 2px solid #ececec;
+    line-height: 41px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.right-box .title h3:before {
+    content: '';
+    width: 4px;
+    height: 14px;
+    background: #f67624;
+    position: absolute;
+    left: 0px;
+    top: 13px;
+}
+
+/*基本信息*/
+.enterprise-info .list-content {
+    width: 800px;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #f2f2f2;
+}
+
+.enterprise-info .list-content .basic-info {
+    width: 757px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.enterprise-info .basic-info li {
+    display: inline-block;
+    width: 372px;
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.enterprise-info .basic-info span {
+    vertical-align: top;
+}
+
+.enterprise-info .basic-info .title {
+    width: 64px;
+    color: #584d2b;
+    padding-right: 10px;
+}
+
+.enterprise-info .basic-info .content {
+    display: inline-block;
+    width: 270px;
+    color: #8B572A;
+}
+
+.enterprise-info .basic-info .bussiness-produce {
+    display: block;
+    width: 730px;
+}
+
+.enterprise-info .bussiness-produce .details {
+    width: 650px;
+    color: #8B572A;
+    line-height: 22px;
+    display: inline-block;
+}
+
+.enterprise-info .bussiness-produce .title {
+    line-height: 22px;
+}
+
+.enterprise-info .bussiness-produce .open-all {
+    display: none;
+    color: #584d2b;
+}
+
+.enterprise-info .basic-info .info-pic {
+    display: block;
+    width: 730px;
+    color: #584d2b;
+}
+
+.enterprise-info .list-content .p_imgs {
+    display: inline-block;
+    width: 180px;
+    margin-right: 128px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.enterprise-info .p_imgs p {
+    text-align: center;
+    color: #9a6d45;
+    height: 30px;
+    line-height: 30px;
+}
+
+.list-content .basic-info li .content a {
+    color: #9a6d45;
+}
+
+.list-content .basic-info li:nth-child(1) {
+    margin-top: 22px;
+}
+
+.list-content .basic-info li:nth-child(2) {
+    margin-top: 22px;
+}
+
+/*战略合作开发商*/
+.enterprise-info .developer {
+    width: 757px;
+    height: 89px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.developer .btnL {
+    width: 32px;
+    height: 53px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 16px;
+    font-size: 20px;
+}
+
+.developer .btnR {
+    width: 33px;
+    height: 53px;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 16px;
+}
+
+.developer i {
+    font-size: 32px;
+    line-height: 53px;
+}
+
+.developer .btnR i {
+    display: block;
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.developer .box {
+    width: 692px;
+    height: 53px;
+    position: relative;
+    top: 16px;
+    left: 11px;
+    margin-left: 32px;
+    overflow: hidden;
+}
+
+.developer .box .lb_ul {
+    height: 53px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.developer .box .lb_ul li {
+    float: left;
+    width: 692px;
+    height: 53px;
+}
+
+.developer li img {
+    width: 97px;
+    height: 53px;
+    float: left;
+    margin-right: 15px;
+}
+
+.developer li img:last-child {
+    margin-right: 0;
+}
+
+/*企业动态*/
+.enterprise-info .list-content .dynamic {
+    width: 757px;
+    margin-left: 20px;
+}
+
+.dynamic li {
+    width: 718px;
+    padding: 5px 0 15px 15px;
+    border-bottom: 1px dashed #ececec;
+}
+
+.dynamic li:last-child {
+    border-bottom: none;
+}
+
+.dynamic li h3 {
+    position: relative;
+    color: #453913;
+    height: 40px;
+    line-height: 40px;
+}
+
+.dynamic li h3 a {
+    font-size: 16px;
+    color: #453913;
+    padding-left: 15px;
+    position: relative;
+}
+
+.dynamic li h3 a:before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #453913;
+    top: 6px;
+    left: 0px;
+}
+
+.dynamic li h3 span {
+    position: absolute;
+    right: 13px;
+    color: #463913;
+    font-size: 14px;
+    top: 4px;
+}
+
+.dynamic li p {
+    margin-left: 15px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #6f5c26;
+    height: 35px;
+    overflow: hidden;
+}
+
+/*企业证书*/
+.certificate {
+    width: 757px;
+    margin-left: 20px;
+}
+
+.certificate li {
+    width: 171px;
+    float: left;
+    border-right: 1px solid #d7d7d7;
+    border-left: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+    margin-left: -1px;
+}
+
+.certificate li img {
+    width: 102px;
+    height: 146px;
+    margin: 20px 0 10px 30px;
+    cursor: pointer;
+}
+
+.certificate li p {
+    font-size: 14px;
+    color: #8B572A;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*分页*/
+.pagination {
+    text-align: right;
+    margin: 10px 50px 30px 0;
+}
+
+.pagination span,
+.pagination a {
+    font-size: 14px;
+}
+
+.pagination li {
+    vertical-align: top;
+}
+
+.top-pic .btnL {
+    width: 40px;
+    height: 40px;
+    background: #000;
+    top: 180px;
+    position: absolute;
+    left: 40px;
+    opacity: .4;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 20px;
+    display: none;
+}
+
+.top-pic .btnR {
+    width: 40px;
+    height: 40px;
+    background: #000;
+    top: 180px;
+    position: absolute;
+    right: 40px;
+    opacity: .4;
+    cursor: pointer;
+    z-index: 10;
+    display: none;
+}
+
+.top-pic i {
+    font-size: 30px;
+    line-height: 40px;
+    display: block;
+    padding: 2px 2px;
+}
+
+.top-pic .btnR i {
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.top-pic:hover .btnR,
+.top-pic:hover .btnL {
+    display: block;
+}
+
+.btnR:hover,
+.btnL:hover {
+    opacity: .6;
+}

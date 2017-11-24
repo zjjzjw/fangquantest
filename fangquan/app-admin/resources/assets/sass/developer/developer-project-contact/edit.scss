@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import "../../../common/confirm-pop";
+@import "../../../common/prompt-pop";
+@import "../../../common/list-edit";
+@import "../../../common/loading-pop";
+
+//内容头部
+.top-title {
+  height: 47px;
+  line-height: 47px;
+  font-size: 16px;
+  padding-left: 8px;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 40px;
+  color: #0a0a0a;
+  position: relative;
+}
+
+.top-title:before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 0;
+  width: 4px;
+  height: 14px;
+  background-color: #f4c044;
+}
+
+.title h3 {
+  font-size: 22px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.row {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+
+/*保存取消*/
+.text-center {
+  padding-top: 40px;
+}
+
+.text-center .button {
+  width: 122px;
+}
+
+.text-center .save {
+  margin-right: 10px;
+  background-color: #f4c044;
+  color: #fff;
+}
+.text-center .save:hover,
+.text-center .clone:hover {
+  color: #fff;
+}
+.text-center .clone {
+  background-color: #515151;
+  color: #fff;
+}
+
+.form-error {
+  position: absolute;
+  top: 33px;
+}

@@ -1,0 +1,46 @@
+.comment-list {
+    border-bottom: 1px solid #e7e7e7;
+}
+.comment-list .item {
+    padding: 1rem 1.5rem .2rem;
+    border-bottom: 1px solid #e7e7e7;
+}
+.comment-list .item img {
+    border-radius: 3rem;
+}
+.comment-list .item span {
+    line-height: 2.5rem;
+}
+.comment-list .item em {
+    position: absolute;
+    right: 1.5rem;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    color: #8d8c92;
+}
+.comment-list .item i {
+    font-size: 2rem;
+    margin-right: .5rem; 
+}
+.comment-list .item img {
+    width`: 2.5rem;
+    height: 2.5rem;
+}
+.comment-list .goodenvaluation i {
+    color: #f15f00;
+}
+.comment-list .item:last-child {
+    border: 0;
+}
+.comment-list .item .txt-muted{
+    line-height: 0;
+}
+.comment-list .item .env-des{
+    margin-top: .5rem;
+}
+.comment-list .item .env-time{
+    margin: .5rem 0;
+}
+.comment-list .env-name {
+    padding-left: .5rem;
+}

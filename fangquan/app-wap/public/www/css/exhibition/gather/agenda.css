@@ -1,0 +1,64 @@
+.content-wrapper {
+  padding-bottom:0;
+}
+.bg-image {
+  width: 100%;
+  height: 56vw;
+  background: url("../../../image/exhibition/gather/register/header.jpeg") no-repeat;
+  background-size: 100% 100%;
+}
+.content-wrapper {
+  padding-bottom: 0;
+  font-family: SoureHanSanSC Medium;
+}
+.content-box {
+  text-align: center;
+}
+.content-box ul {
+  padding: 6.4vw 9vw 4.7vw 9vw;
+  text-align: left;
+}
+.content-box li {
+  font-size: 15px;
+  color: #7D7D7D;
+  margin-bottom: 5.1vw;
+}
+.content-box li span{
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+.content-box li .info {
+  width: 69%;
+}
+.btn-group .btn {
+  margin-bottom: 25px;
+  width: 37.1vw;
+  height: 9.1vw;
+  background: #1bc7c9;
+  border-radius: 5px;
+  padding-left: 0;
+}
+
+@media (max-device-width: 320px) {
+  .content-box ul {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .content-box li {
+    margin-bottom: 3.1vw;
+    font-size: 14px;
+  }
+
+}
+
+@media (min-device-width: 321px) and (max-device-width: 375px) {
+  .content-box ul {
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+  .content-box li {
+    margin-bottom: 4.1vw;
+  }
+
+}

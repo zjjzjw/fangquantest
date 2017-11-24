@@ -1,0 +1,118 @@
+@import "../../../common/personal-left";
+@import "../../../common/collection-nav";
+@import "../../../common/back-top";
+@import "../../../common/no-data";
+
+.categories {
+  width: 630px;
+  margin-top: 30px;
+  font-size: 0px;
+  line-height: 30px;
+  margin-left: 20px;
+}
+
+.categories span {
+  height: 22px;
+  color: #666;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.categories a {
+  height: 22px;
+  line-height: 22px;
+  box-sizing: border-box;
+  font-size: 14px;
+  display: inline-block;
+  color: #666;
+  margin-right: 20px;
+  padding: 0 21px 0 21px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.categories .curr {
+  color: #fff;
+  background: #ffac5c;
+}
+
+.list-item {
+  margin-top: 40px;
+  height: auto;
+  overflow: hidden;
+  border-top: 1px solid #f6f6f6;
+}
+
+.list-item li {
+  width: 285px;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  float: left;
+  position: relative;
+}
+
+.img-box {
+  width: 247px;
+  height: 121px;
+  margin: 20px 20px 10px;
+}
+
+.list-item li .title {
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.list-item .reference-price {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+}
+
+.list-item .price {
+  color: #ffac5c;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+.list-item .iconfont {
+  font-size: 18px;
+  color: #1cc7ca;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: none;
+}
+
+.list-item li:hover {
+  background: #f3fcfc;
+}
+
+.list-item li:hover a {
+  color: #FFFFFF;
+}
+
+.list-item li:hover .iconfont {
+  display: block;
+}
+
+.contrast {
+  width: 85px;
+  height: 22px;
+  background: #ffac5c;
+  border-radius: 3px;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-bottom: 30px;
+}

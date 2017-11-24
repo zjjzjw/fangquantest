@@ -1,0 +1,57 @@
+.detail-box dl {
+    padding: 0 15px;
+}
+
+.detail-box dt {
+    font-size: 1.6rem;
+    color: #999;
+    padding: 10px 5px 5px 5px;
+}
+
+.detail-box dd {
+    font-size: 1.6rem;
+    color: #363636;
+    padding: 0 5px 10px 5px;
+    border-bottom: 1px solid #c8c8c8;
+    line-height: 1.6rem;
+}
+
+.detail-content .hinder {
+    position: relative;
+    font-size: 1.6rem;
+    height: 5rem;
+    line-height: 5rem;
+    border-bottom: 1px solid #c8c8c8;
+    display: block;
+    margin: 0 15px;
+}
+
+.detail-content .hinder i {
+    position: absolute;
+    right: 5px;
+}
+
+.detail-box .product-name p{
+    line-height: 2.4rem;
+}
+dl div {
+    border-bottom: 1px solid #c8c8c8;
+    padding: 5px 0;
+}
+dl p {
+    font-size: 1.6rem;
+    color: #363636;
+    padding: 0 5px;
+    line-height: 1.6rem;
+}
+dl .describe {
+    font-size: 1.6rem;
+    color: #999;
+    padding: 5px;
+}
+@media (min-device-width: 414px) {
+    .detail-content .hinder {
+        height: 6rem;
+        line-height: 6rem;
+    }
+}

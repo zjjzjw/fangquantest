@@ -1,0 +1,99 @@
+.content-wrapper {
+  padding-bottom:0;
+}
+.bg-image {
+  width: 100%;
+  height: 56vw;
+  background: url("../../../image/exhibition/gather/register/header.jpeg") no-repeat;
+  background-size: 100% 100%;
+}
+#form {
+  padding: 0 4vw;
+  font-family: SoureHanSanSC Medium;
+}
+.title {
+  text-align: center;
+  line-height: 13.1vw;
+  font-size: 15px;
+  color: #7D7D7D;
+  margin-bottom: 2.4vw;
+  border-bottom: 1px solid #edeaea;
+  margin-top: 4.4vw;
+}
+.form-group {
+  color: #7D7D7D;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 3.3vw;
+}
+.control-label {
+  display: inline-block;
+}
+.input-group {
+  display: inline-block;
+}
+.form-group input {
+  width: 50.7vw;
+  height: 8.9vw;
+  border-bottom: 1px solid #bfbfbf;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.btn-group {
+  margin-top:3vw;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.btn-group .btn {
+  background: #1bc7c9;
+  width: 37.1vw;
+  height: 9.1vw;
+  border-radius: 5px;
+  padding-left: 0;
+}
+.zvalid-resultformat {
+  position: absolute;
+  left: 26vw;
+  font-size: 1rem;
+  color: #f30;
+  top: 8.9vw;
+}
+
+@media (max-device-width: 320px) {
+  .btn-group {
+    margin-top:1vw;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .form-group {
+    padding-bottom: 4.3vw;
+  }
+}
+
+@media (min-device-width: 321px) and (max-device-width: 375px) {
+  .btn-group {
+    margin-top:2.5vw;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+}
+
+@media (min-device-width: 376px) and (max-device-width: 414px) {
+  .btn-group {
+    margin-top:3vw;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+}
+
+@media (min-device-width: 415px) and (max-device-width: 768px) {
+
+}
+
+@media (min-device-width: 1024px) {
+
+}

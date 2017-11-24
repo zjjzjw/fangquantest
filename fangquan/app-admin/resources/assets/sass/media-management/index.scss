@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import "../../common/list-table";
+@import "../../common/confirm-pop";
+@import "../../common/prompt-pop";
+
+.reset-btn {
+  margin-left: 30px;
+  display: inline-block;
+  padding: 9px 12px;
+  text-align: center;
+  width: 122px;
+  color: #fff;
+  background: #7cbed2;
+  border-radius: 4px;
+  outline: none;
+}
+
+tbody img{
+  width: 140px;
+  height:60px;
+}

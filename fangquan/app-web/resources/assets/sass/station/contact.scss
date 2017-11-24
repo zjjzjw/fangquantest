@@ -1,0 +1,33 @@
+@import "nav";
+.contact{
+  width:1200px;
+  margin: 0 auto;
+}
+.contact-content{
+  width: 1020px;
+  background-color: #fff;
+  float: left;
+  margin:20px 0 30px 20px;
+}
+.contact-content h3{
+  margin:40px 0 40px 60px;
+  font-size: 18px;
+  color: #666;
+}
+.contact-content .content{
+  margin:0 60px;
+}
+.contact-content .content p{
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+}
+.contact-content .content .content-right{
+  width: 900px;
+  height: 360px;
+  margin:40px auto 200px;
+}
+.contact-content .content .content-right img{
+  width: 900px;
+  height:360px ;
+}

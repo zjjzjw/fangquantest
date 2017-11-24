@@ -1,0 +1,15 @@
+div.header-box {
+    background: #eeeeee;
+}
+
+.item-info {
+    position: relative;
+}
+
+.item-info span {
+    position: absolute;
+    right: 40px;
+    top: 15px;
+    font-size: 2.5rem;
+    color: #999;
+}

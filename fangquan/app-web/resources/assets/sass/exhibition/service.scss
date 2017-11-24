@@ -1,0 +1,78 @@
+@import "service-nav";
+@import "../../common/exhibition-header";
+@import "../../common/friendly-link";
+.exhibition-header {
+  border-bottom: 1px solid #F2F2F2;
+  padding-bottom: 20px;
+}
+
+.exhibition-box {
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 80px;
+}
+
+.exhibition-content {
+  width: 960px;
+  background-color: #fff;
+  float: right;
+  margin-right: 30px;
+  overflow: hidden;
+}
+
+.list-content h3 {
+  font-size: 20px;
+  color: #696969;
+  margin-bottom: 30px;
+  font-weight: 700;
+  padding-left: 40px;
+  position: relative;
+  line-height: 50px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.icon {
+  position: absolute;
+  left: 0;
+  top: 16px;
+}
+
+.list-content {
+  margin-top: 30px;
+}
+
+.daily-planning .time {
+  width: 160px;
+  display: inline-block;
+}
+
+.daily-planning {
+  font-size: 20px;
+  color: #888888;
+  margin-bottom: 30px;
+}
+
+.img-box img {
+  margin-bottom: 30px;
+}
+
+.exhibition-notice li {
+  display: block;
+  margin-bottom: 30px;
+  color: #696969;
+  font-size: 20px;
+}
+
+footer {
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
+.exhibition-tour>p>strong{
+  font-weight: bold;
+  font-size: 16px;
+}

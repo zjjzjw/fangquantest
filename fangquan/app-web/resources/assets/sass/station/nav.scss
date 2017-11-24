@@ -1,0 +1,38 @@
+@import "../../common/back-top";
+.nav{
+  width:160px;
+  float: left;
+}
+.nav ul{
+  width: 160px;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+.nav ul li{
+  padding-top: 30px;
+  position: relative;
+}
+.nav ul li i{
+  padding-right: 20px;
+  color: #ccc;
+  font-size: 18px;
+}
+.nav ul li a{
+  font-size: 16px;
+  color: #999;
+}
+.nav .active:before{
+  background-color: #ffac5c;
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 0;
+  width: 4px;
+  height: 26px;
+
+}
+.nav .active i,.nav .active a{
+  color: #ffac5c;
+}

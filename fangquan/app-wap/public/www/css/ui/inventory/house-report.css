@@ -1,0 +1,27 @@
+.house-other-info {
+    display: -webkit-box;
+    padding: 0 1.5rem;
+    height: 5.5rem;
+    line-height: 5.5rem;
+    font-size: 1.2rem;
+    color: #8d8c92;
+    background-color: #f8f8f8;
+    border-top: .1rem solid #ccc;
+}
+.house-other-info div {
+    -webkit-box-flex: 1;
+}
+.house-other-info .house-report {
+    display: block;
+    color: #8d8c92;
+}
+.house-other-info .house-report .jb-icon {
+    color: #f15f00;
+}
+.house-other-info .house-report .arrow-icon {
+    font-size: 1.4rem;
+    color: #ccc;
+}
+.house-other-info .inventory-num {
+    text-align: right;
+}

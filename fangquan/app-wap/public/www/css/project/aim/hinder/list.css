@@ -1,0 +1,36 @@
+.list-content {
+    padding: 0 10px;
+}
+
+.list-content a {
+    display: block;
+    position: relative;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 0 10px;
+    color: #363636;
+    font-size: 1.6rem;
+}
+
+.list-content a i {
+    display: block;
+    position: absolute;
+    font-size: 1.4rem;
+    right: 5px;
+    top: 0;
+}
+
+@media (min-device-width: 414px) {
+    .list-content a {
+        font-size: 1.8rem;
+        height: 5rem;
+        line-height: 5rem;
+    }
+}
+
+.no-data {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 5rem;
+}

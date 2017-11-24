@@ -1,0 +1,21 @@
+@import "../../../common/confirm-pop";
+@import "../../../common/prompt-pop";
+@import "../../../common/loading-pop";
+@import "../../../common/add-picture";
+@import "../../../common/brand-nav";
+@import "../../../common/list-edit";
+@import "../../../common/press";
+
+form aside .row:nth-child(3) .small-14 {
+  margin-top: 8px;
+}
+
+form aside .row:nth-child(4) .small-14 {
+  margin-top: 15px;
+}
+
+.supply-title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+}

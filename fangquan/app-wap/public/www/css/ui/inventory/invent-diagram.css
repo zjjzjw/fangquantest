@@ -1,0 +1,41 @@
+.house-diagram {
+    padding: 1.5rem 0;
+}
+.diagram-item {
+    margin-bottom: 2rem; 
+}
+.diagram-item:last-child {
+    margin-bottom: 0;
+}
+.diagram-item>* {
+    padding: 0 1.5rem;
+}
+.diagram-item img {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+.diagram-title {
+    margin-top: 1.2rem;
+    line-height: 2rem;
+    font-size: 1.9rem;
+}
+.diagram-index {
+    margin-top: -2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: right;
+    font-style: italic;
+    letter-spacing: 4px;
+}
+.diagram-index em {
+    font-size: 1.9rem;
+    font-style: italic;
+}
+.diagram-index span {
+    color: #8d8c92;
+}
+.diagram-desc {
+    margin-top: .6rem;
+    line-height: 2rem;
+}

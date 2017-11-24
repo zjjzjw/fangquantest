@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import "../../../common/list-table";
+@import "../../../common/confirm-pop";
+@import "../../../common/prompt-pop";
+@import "../../../common/brand-nav";
+
+.button-box {
+  width: 100%;
+  height: 40px;
+  margin: 20px 0;
+  text-align: right;
+}
+
+.table {
+  border: 1px solid #666;
+}
+
+thead th {
+  border-right: 1px solid #666;
+}
+
+thead th:last-child {
+  border: none;
+}
+
+.table > thead > tr > th {
+  border-bottom: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.table tbody {
+  border: none;
+}
+
+.table > tbody > tr > th,
+.table > tbody > tr > td {
+  border-top: 1px solid #666;
+  border-right: 1px solid #666;
+}
+
+tbody th {
+  font-weight: bold;
+}
+
+tbody td:last-child {
+  border: none;
+}

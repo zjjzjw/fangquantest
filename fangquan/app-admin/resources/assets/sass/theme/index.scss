@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@import "../../common/list-table";
+@import "../../common/confirm-pop";
+
+
+.filter-box {
+  width: 97%;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.add {
+  float: right;
+  margin-right: 20px;
+}

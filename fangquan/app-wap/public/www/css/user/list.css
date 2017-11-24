@@ -1,0 +1,48 @@
+.list-box a {
+    display: block;
+    position: relative;
+    padding: 0 20px;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    border-bottom: 1px solid #c8c8c8;
+    font-size: 1.8rem;
+}
+.list-box a i {
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+.list-box a .icon-info {
+    color: #fa9229;
+}
+.list-box a .icon-card {
+    color: #eb2252;
+}
+.list-box a .icon-contacts {
+    color: #f2b73b;
+}
+.list-box a .icon-approval {
+    color: #00acf1;
+}
+.list-box a .icon-opinion {
+    color: #42ce66;
+}
+.list-box a .icon-set {
+    color: #eb2252;
+}
+.list-box a span {
+    position: absolute;
+    right: 30px;
+    color: #999;
+}
+@media(min-device-width:375px){
+    .list-box a {
+        height: 5rem;
+        line-height: 5rem;
+    }
+}
+@media(min-device-width:414px){
+    .list-box a {
+        height: 5.5rem;
+        line-height: 5.5rem;
+    }
+}

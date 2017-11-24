@@ -1,0 +1,27 @@
+.house-base {
+    border-top: .1rem solid #e7e7e7;
+    border-bottom: .1rem solid #e7e7e7;
+}
+.house-base > p {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    display: inline-block;
+    width: 40%;
+}
+.house-base > p:nth-child(odd) {
+    width: 58%;
+}
+.house-base dl {
+    display: -webkit-box;
+    line-height: 2.5rem;
+}
+.house-base dl dd{
+    -webkit-box-flex: 1;
+}
+.house-base dd span {
+    display: inline-block;
+}
+.house-base .link-color:link, .house-base .link-color:visited,
+.house-base .link-color:hover, .house-base .link-color:active {
+    color: #007FFF;
+}

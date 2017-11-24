@@ -1,0 +1,65 @@
+.content-wrapper {
+  padding-bottom:0;
+  width: 100%;
+  height:100vh;
+  background-image: url("/www/image/last-beijing.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+.bottom-box{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: Source Serif Pro, PT Sans, Trebuchet MS, Helvetica, Arial;
+}
+.bottom-box .title{
+  width: 85%;
+  margin:0 auto;
+  font-size: 18px;
+  font-weight: bold;
+  padding:80px 0;
+}
+.bottom-box .button-box a{
+  display:block;
+  width: 33%;
+  height: 40px;
+  margin:0 auto;
+  border-radius: 8px;
+  line-height: 40px;
+  font-size: 15px;
+  color: #fff;
+  font-family: Source Serif Pro, PT Sans, Trebuchet MS, Helvetica, Arial;
+  background-color: #1bc7c9;
+}
+
+@media (max-device-width: 320px) {
+  .bottom-box .title{
+    font-size: 16px;
+    padding:60px 0;
+  }
+}
+
+@media (min-device-width: 321px) and (max-device-width: 375px) {
+  .header-qs {
+    font-size: 18px;
+  }
+
+}
+
+@media (min-device-width: 376px) and (max-device-width: 414px) {
+  .header-qs {
+    font-size: 20px;
+  }
+
+}
+
+@media (min-device-width: 415px) and (max-device-width: 768px) {
+
+}
+
+@media (min-device-width: 1024px) {
+
+}
+

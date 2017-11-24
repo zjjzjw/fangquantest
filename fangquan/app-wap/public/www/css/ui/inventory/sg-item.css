@@ -1,0 +1,75 @@
+.sg-item {
+    display: -webkit-box;
+    padding: 1.5rem;
+    border-bottom: .1rem solid #d9d9d9;
+}
+.sg-item .invent-img {
+    position: relative;
+    width: 10rem;
+    height: 7.5rem;
+    border-radius: .3rem;
+    overflow: hidden;
+}
+.sg-item .invent-img .high-tag {
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 3rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,.7);
+    border-radius: .1rem;
+}
+.sg-item .invent-info {
+    -webkit-box-flex: 1;
+    margin-left: 1rem;
+}
+.sg-item .invent-info h2 {
+    display: -webkit-box;
+    margin-bottom: .4rem;
+}
+.sg-item .invent-info h2 span {
+    display: block;
+}
+.sg-icon {
+    padding: 0 .7rem 0 .1rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #ff8000;
+    border-radius: .1rem;
+}
+.sg-icon .iconfont {
+    font-size: 1.4rem;
+    color: #fff;
+}
+.sg-item .invent-info h2 .invent-title {
+    -webkit-box-flex: 1;
+    line-height: 1.8rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.sg-item .invent-info .base-info {
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    color: #8d8c92;
+}
+.sg-item .invent-info .invent-price {
+    float: right;
+    margin-top: -2.1rem;
+}
+.sg-item .invent-info .invent-price em {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.sg-item .invent-info .invent-wt {
+    font-size: 1.2rem;
+    color: #ed9b47;
+}

@@ -1,0 +1,30 @@
+.provider-left{
+  margin: 0 11px 0 20px;
+  display: inline-block;
+  font-family: "Hiragino Sans GB";
+  font-weight: bold;
+  color: #757575;
+  width:278px;
+  height: auto;
+  border:2px solid #1bc7c9;
+  font-size: 18px;
+}
+.provider-left .left-box p{
+  height: 47px;
+  line-height: 47px;
+  padding:0 10px;
+  background-color: #ebffff;
+  border-bottom:2px solid #1bc7c9;
+}
+.provider-left .bottom-box>ul{
+  padding:15px 0;
+}
+.provider-left .bottom-box>ul>li{
+  display: inline-block;
+  padding:0 10px;
+  line-height: 40px;
+}
+.provider-left .bottom-box>ul>li>ul{
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import "../../../common/list-table";
+@import "../../../common/confirm-pop";
+@import "../../../common/prompt-pop";
+
+.add-btn {
+  float: right;
+  margin-right: 20px;
+  background-color: #73cde8;
+  border-radius: 5px;
+}
+
+.add-btn a {
+  display: inline-block;
+  padding: 0.65em 1.7em;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.add-btn a:hover {
+  color: #FFFFFF;
+}

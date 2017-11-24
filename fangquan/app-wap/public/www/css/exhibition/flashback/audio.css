@@ -1,0 +1,14 @@
+@import "../../ui/exhibition-h5/header.css";
+
+.exhibition-header {
+    border-bottom: 1px solid #F2F2F2;
+    padding-bottom: 20px;
+}
+
+.content-box {
+    padding: 4vw;
+}
+
+.content-box video {
+    width: 99%;
+}

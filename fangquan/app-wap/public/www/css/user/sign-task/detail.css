@@ -1,0 +1,53 @@
+/*详情页*/
+.detail-box {
+    background: #fff;
+}
+
+.detail-box dl {
+    padding: 0 15px;
+}
+
+.detail-box dt {
+    font-size: 1.6rem;
+    color: #999;
+    padding: 10px 5px 5px 5px;
+}
+
+.detail-box dd {
+    font-size: 1.6rem;
+    color: #363636;
+    padding: 0 5px 10px 5px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.detail-box dd:last-child {
+    border-bottom: none;
+}
+
+.detail-box a {
+    display: block;
+    position: relative;
+    padding: 0 20px;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    border-top: 1px solid #c8c8c8;
+    font-size: 1.8rem;
+}
+
+.detail-box a:last-child {
+    border-bottom: 1px solid #c8c8c8;
+    margin-bottom: 2rem;
+}
+
+.detail-box a span {
+    position: absolute;
+    right: 40px;
+    color: #999;
+}
+
+@media (min-device-width: 414px) {
+    .detail-box a {
+        height: 5.5rem;
+        line-height: 5.5rem;
+    }
+}

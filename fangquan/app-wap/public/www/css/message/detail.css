@@ -1,0 +1,36 @@
+div.header-box {
+    background: #eeeeee;
+}
+
+.detail-title {
+    padding: 13px 15px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.detail-title .item-title {
+    font-size: 1.8rem;
+}
+
+.detail-title .time {
+    font-size: 1.4rem;
+    color: #999;
+}
+
+.detail-content {
+    word-wrap: break-word;
+    padding: 20px 60px 0 20px;
+    height: auto;
+    overflow: hidden;
+}
+
+.detail-content ol {
+    display: block;
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+@media (min-device-width: 414px) {
+    .detail-title .item-title {
+        font-size: 1.8rem;
+    }
+}

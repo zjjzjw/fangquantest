@@ -1,0 +1,111 @@
+@import "../../../common/personal-left";
+@import "../../../common/back-top";
+@import "../../../common/no-data";
+
+.content_box {
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.right-box h3 {
+  line-height: 60px;
+  font-size: 16px;
+  color: #666;
+  margin-left: 40px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.right-box > ul {
+  z-index: 2;
+  box-sizing: border-box;
+  min-height: 500px;
+}
+
+.right-box > ul .read {
+  background: #fdfdfd;
+  color: #CCCCCC;
+}
+
+.right-box > ul > li {
+  height: auto;
+  overflow: hidden;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.right-box > ul > li:nth-child(even) {
+  background: #fdfdfd;
+}
+
+.right-box .push {
+  font-size: 16px;
+  color: #cbcbcb;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.active p {
+  color: #1cc7ca;
+}
+
+.active .message_content {
+  display: block;
+}
+
+.right-box .unread .iconfont {
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  background: #ff8b7a;
+  border-radius: 50%;
+  font-weight: bold;
+  position: absolute;
+  top: 24px;
+  left: 0px;
+}
+
+.right-box .unread + span {
+  color: #999;
+}
+
+.right-box > ul > li > p {
+  width: 710px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 16px;
+  display: inline-block;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+  position: relative;
+  padding-left: 10px;
+}
+
+.right-box > ul > li span {
+  width: 80px;
+  text-align: center;
+  display: inline-block;
+  color: #ccc;
+}
+
+.message_content {
+  height: auto;
+  overflow: hidden;
+  margin: 1px 50px 30px 60px;
+  display: none;
+}
+
+.message_content img {
+  width: 360px;
+  height: 190px;
+  margin-bottom: 20px;
+}
+
+.message_content p {
+  color: #666;
+  font-size: 13px;
+  line-height: 24px;
+}

@@ -1,0 +1,279 @@
+/*条件筛选*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.filter {
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.menu {
+    height: 4.5rem;
+    z-index: 150;
+}
+
+#menuinfo {
+    z-index: 102;
+    position: relative;
+}
+
+.menunav {
+    display: -webkit-box;
+    height: 4.5rem;
+    width: 100%;
+    background: #fff;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #d9d9d9;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    color: #666;
+}
+
+.menunav .high, .optionlist .high, .optionlist .high:visited, .optionlist .high a, .optionlist .high a:visited {
+    color: #ff8a00;
+}
+
+.menunav > p {
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    height: 4.5rem;
+    width: 100%;
+    -webkit-box-flex: 1;
+    padding: 0 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.parentup {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #363636;
+    padding-right: 20px;
+}
+
+.menunav i {
+    display: block;
+}
+
+.menunav .g-touchicon-l {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 0;
+    border-bottom: 5px solid #ff8a00;
+    margin-left: 4px;
+}
+
+.menunav .revolve {
+    border-top: 5px solid #666;
+    border-bottom: 0;
+    display: block;
+}
+
+/*筛选列表详细内容*/
+.optionlist {
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    width: 100%;
+    font-size: 1.4rem;
+    z-index: 130;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+}
+
+.menunav-info {
+    height: 27rem;
+    padding: 0 5px;
+}
+
+.optionlist .principal {
+    height: 33rem;
+}
+
+.menunav-info .auto-scoll {
+    overflow-y: auto;
+    height: 100%;
+    position: relative;
+}
+
+.menunav-info a {
+    display: block;
+    height: 4.3rem;
+    line-height: 4.3rem;
+    padding: 0 5px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.menunav-info a:last-child {
+    border-bottom: none;
+}
+
+.optionlist a {
+    display: block;
+    color: #666;
+}
+
+.optionlist a.active {
+    color: #ff8a00;
+}
+
+
+/*背景阴影*/
+#dialog {
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.menu .active {
+    color: #ff8a00;
+}
+
+.menu .time {
+    position: relative;
+    display: block;
+    padding-left: 14px;
+    padding-right: 16px;
+}
+
+.menu i {
+    display: inline-block;
+}
+
+.menu .time .up {
+    position: absolute;
+    top: -4px;
+    right: 1px;
+}
+
+.menu .time .down {
+    position: absolute;
+    top: 3px;
+    right: 1px;
+}
+
+.menu .down {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 320px) {
+    .menunav .g-touchicon-l {
+        right: 5px;
+        top: 7px;
+    }
+
+    .optionlist .principal {
+        height: 27rem;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .menu {
+        height: 5rem;
+    }
+
+    .menunav {
+        font-size: 1.6rem;
+        height: 5rem;
+    }
+
+    .menunav-info,
+    .city-info {
+        height: 30rem;
+    }
+
+    .menunav > p {
+        padding: 0 15px;
+        height: 5rem;
+    }
+
+    .optionlist {
+        top: 10rem;
+    }
+
+    .menunav-info a {
+        height: 4.8rem;
+        line-height: 4.8rem;
+        font-size: 1.6rem;
+        padding-left: 15px;
+    }
+
+    .optionlist .principal {
+        height: 30rem;
+    }
+
+    .menunav .g-touchicon-l {
+        top: 8px;
+        right: 5px;
+    }
+
+}
+
+@media only screen and (min-device-width: 414px) {
+    .menu {
+        height: 5.5rem;
+    }
+
+    .menunav {
+        font-size: 1.6rem;
+        height: 5.5rem;
+    }
+
+    .menunav > p {
+        padding: 0 15px;
+        height: 5.5rem;
+    }
+
+    .optionlist {
+        top: 11rem;
+    }
+
+    .menunav-info,
+    .city-info {
+        height: 33rem;
+    }
+
+    .menunav-info a {
+        height: 5.3rem;
+        line-height: 5.3rem;
+        font-size: 1.6rem;
+        padding-left: 15px;
+    }
+
+    .top-choose .time .up {
+        position: absolute;
+        top: -.2rem;
+        left: 5.5rem;
+    }
+
+    .top-choose .time .down {
+        position: absolute;
+        top: .5rem;
+        left: 5.5rem;
+    }
+
+    .optionlist .principal {
+        height: 33rem;
+    }
+}

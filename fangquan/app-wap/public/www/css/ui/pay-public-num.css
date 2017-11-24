@@ -1,0 +1,30 @@
+/* 安个家账号 */
+.txt-center {
+    text-align: center;
+}
+.custom-gh {
+    padding-top: 2.5rem;
+}
+.custom-gh dt {
+    padding-bottom: 1rem;
+}
+.custom-gh dd, .custom-gh p {
+    line-height: 2rem;
+}
+.custom-gh .qrcode {
+    padding: 1rem 0 .5rem;
+    width: 40%;
+}
+.custom-gh .share-btn {
+    width: auto;
+    line-height: 3rem;
+    height: 3rem;
+    font-size: 1.6rem;
+    padding: 0 1.4rem;
+    background-color: #f15f00;
+    margin-top: 1.2rem;
+    margin-bottom: 1.4rem;
+}
+.txt-link, .txt-link:link, .txt-link:visited, .txt-link:hover, .txt-link:active {
+    color: #8c8c92;
+}

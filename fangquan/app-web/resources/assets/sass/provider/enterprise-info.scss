@@ -1,0 +1,382 @@
+@import "../../common/common-slide-pop";
+ @import "../../common/swiper.min.css";
+.main-content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.right-box {
+  display: block;
+  background: #fff;
+  width: 840px;
+  float: left;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+
+.right-box h3 {
+  width: 757px;
+  height: 41px;
+  font-size: 16px;
+  color: #666;
+  box-sizing: border-box;
+  line-height: 41px;
+  position: relative;
+  padding-left: 35px;
+}
+
+.right-box h3:before {
+  content: '';
+  width: 5px;
+  height: 19px;
+  background: #ffac5c;
+  opacity: 0.5;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+
+.enterprise-info .list-content {
+  width: 840px;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #f2f2f2;
+}
+
+.enterprise-info .list-content .parent-title {
+  margin-top: 40px;
+}
+
+.enterprise-info .list-content .parent-title:first-child {
+  margin-top: 30px;
+  padding-top: 0;
+  border-top: none;
+}
+
+/*顶部轮播大图*/
+.swiper-container {
+     width:1200px;
+     height:360px;
+     overflow: hidden;
+     margin-bottom: 20px;
+ }
+ .swiper-wrapper {
+   position: absolute;
+ }
+.swiper-slide {
+   float: left;
+   position: relative;
+   width: 1200px;
+   text-align: center;
+   background-color: #ffffff;
+ }
+  .swiper-container .swiper-wrapper .swiper-slide {
+    max-height: 100%;
+    max-width: 100%;
+ }
+/*基本信息*/
+.enterprise-info .list-content .basic-info {
+  width: 757px;
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+
+.enterprise-info .basic-info li {
+  display: inline-block;
+  width: 372px;
+  font-size: 14px;
+  line-height: 36px;
+  color: #999;
+}
+
+.enterprise-info .basic-info .produce-address {
+  margin-top: 24px;
+  width: 100%;
+}
+
+.enterprise-info .basic-info .operation-address {
+  width: 100%;
+}
+
+.enterprise-info .license a {
+  color: #ffac5c;
+  padding-left: 5px;
+}
+
+.enterprise-info .basic-info span {
+  vertical-align: top;
+}
+
+.enterprise-info .basic-info .title {
+  width: 64px;
+  color: #999;
+  padding-right: 20px;
+}
+
+.enterprise-info .basic-info .content {
+  display: inline-block;
+  width: 270px;
+  color: #666;
+}
+
+.enterprise-info .basic-info .address {
+  width: 640px;
+}
+
+.enterprise-info .basic-info .bussiness-produce {
+  display: block;
+  width: 730px;
+}
+
+.enterprise-info .bussiness-produce .details {
+  width: 640px;
+  color: #666;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.enterprise-info .bussiness-produce .title {
+  line-height: 22px;
+}
+
+.enterprise-info .bussiness-produce .open-all {
+  display: none;
+  color: #ffac5c;
+}
+
+.enterprise-info .open-all i {
+  color: #ffac5c;
+}
+
+.enterprise-info .basic-info .info-pic {
+  display: block;
+  width: 730px;
+  color: #584d2b;
+}
+
+/*工厂设备*/
+.enterprise-info .p_imgs {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+  vertical-align: top;
+  margin: 50px 0;
+}
+
+.enterprise-info .p_imgs img {
+  width: 260px;
+  height: 146px;
+}
+
+.enterprise-info .p_imgs p {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/*弹层*/
+#device-swiper-box {
+     
+     margin-top:30px;  
+}
+.close-device-box {
+  top:0;
+}
+.img_hd {
+  margin-top:14px;
+} 
+/*组织架构*/
+.has-image {
+  display: inline-block;
+  width: 200px;
+}
+
+.line {
+  width: 100%;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.structure-image,
+.sub-structure-image {
+  display: inline-block;
+  width: 260px;
+  margin-right: 20px;
+  opacity: 0.8;
+  border-radius: 6px;
+  margin-bottom: 50px;
+}
+
+.img-link {
+  position: relative;
+  padding: 0 10px;
+}
+
+.img-link span {
+  color: #fff;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.img-link i {
+  color: #fff;
+  font-size: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-link .arrow {
+  position: absolute;
+  display: inline-block;
+  font-size: 24px;
+  right: 10px;
+  top: 2px;
+}
+
+.structure-image {
+  background: #ff8c77;
+}
+
+.sub-structure-image {
+  background: #ffac5c;
+}
+
+/*战略合作开发商*/
+.enterprise-info .developer {
+  display: inline-block;
+  width: 600px;
+  height: 140px;
+  position: relative;
+}
+
+.developer a:link {
+  color:white;
+}
+.swiper-button-next,.swiper-button-prev{
+  background:#ccc;
+  font-size:14px;
+  position:absolute;
+  width:20px;
+  height:20px;
+  color:white;
+  text-align:center;
+  vertical-align:middle;
+
+}
+.swiper-button-next {
+  left:590px;
+  margin-top:1px;
+}
+.swiper-button-prev{
+  right:-10px;
+  vertical-align:middle;
+  top:66px;
+}
+
+.developer .provider-friends-box {
+  width: 550px;
+  height: 72px;
+  position: relative;
+  top: 30px;
+  overflow: hidden;
+}
+
+.swiper-wrapper.lb_ul {
+   height: 72px;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+ }
+
+swiper-wrapper.lb_ul li {
+   float: left;
+   width: 550px;
+   height: 72px;
+ }
+.swiper-wrapper.lb_ul li img {
+   width: 135px;
+   height: 72px;
+   float: left;
+   margin-right: -1px;
+ 
+ }
+.developer li img {
+  width: 135px;
+  height: 72px;
+  float: left;
+  border: 1px solid #d9d9d9;
+  margin-right: -1px;
+
+}
+
+/*企业证书*/
+.certificate {
+  width: 540px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.certificate li {
+  width: 171px;
+  height: 166px;
+  float: left;
+  border: 1px solid #d7d7d7;
+  margin-left: -1px;
+}
+
+.certificate .patent i {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.certificate li a {
+  display: block;
+}
+
+.certificate li i {
+  text-align: center;
+  display: block;
+  font-size: 58px;
+  color: #ddd;
+  margin-top: 15px;
+}
+
+.certificate li p {
+  width: 108px;
+  margin-left: 31px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  height: 22px;
+  line-height: 22px;
+  border-radius: 3px;
+  opacity: 0.8;
+}
+
+.certificate .qualification p {
+  background: #1cc7ca;
+}
+
+.certificate .patent p {
+  background: #7ebc7b;
+}
+
+.certificate .glory p {
+  background: #7c988d;
+}
+
+pre {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: #666;
+  line-height: 24px;
+  background-color: #fff;
+  border: none;
+}

@@ -1,0 +1,86 @@
+@import "nav";
+.recruitmen{
+  width:1200px;
+  margin: 0 auto;
+}
+.recruitmen-content{
+  width: 1020px;
+  background-color: #fff;
+  float: left;
+  margin:20px 0 30px 20px;
+}
+.recruitmen-content h3{
+  margin:40px 0 40px 60px;
+  font-size: 18px;
+  color: #666;
+}
+.recruitmen-content .content{
+  margin:0 60px;
+}
+.recruitmen-content .content p{
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.content-detail{
+  margin:40px 60px;
+}
+.content-detail h4{
+  position: relative;
+  font-size: 16px;
+  color: #666;
+}
+.content-detail h4 i {
+  width: 5px;
+  height: 19px;
+  background: #f67524;
+  display: inline-block;
+  position: absolute;
+  left: -60px;
+  top:-2px;
+}
+.content-detail .common {
+  width: 852px;
+  height: auto;
+  overflow: hidden;
+}
+
+.content-detail .common dl {
+  float: left;
+  width: 400px;
+  margin-top: 22px;
+  box-sizing: border-box;
+}
+.content-detail .common dl dt {
+  margin-bottom: 21px;
+  font-size: 14px;
+  color: #666;
+}
+
+.content-detail .common dl dd {
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #666;
+}
+.problem dl {
+  width: 815px;
+  margin-top: 26px;
+  font-size: 14px;
+}
+
+.problem dl:first-child {
+  margin-top: 24px;
+}
+
+.problem dl dt {
+  margin-bottom: 16px;
+}
+
+.problem dd a {
+  color: #1cc7ca;
+}
+
+.common a:hover {
+  text-decoration: underline;
+  color: #ffac5c;
+}

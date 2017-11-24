@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import "../../../common/confirm-pop";
+@import "../../../common/prompt-pop";
+@import "../../../common/list-edit";
+@import "../../../common/loading-pop";
+@import "../../../common/common-edit";
+@import "../../../common/add-picture";
+
+.content-textarea {
+  max-width: 550px;
+  height: 200px;
+}
+
+.img-box {
+  width: 80%;
+}
+
+.audio-title {
+  margin-bottom: 20px;
+}
+
+.error-tip-content,
+.error-tip-status,
+.error-tip-timing_publish {
+  color: #a94442;
+}

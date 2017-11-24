@@ -1,0 +1,120 @@
+.main-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+.right-box {
+    position: relative;
+    display: block;
+    background: #fff;
+    width: 840px;
+    float: left;
+    margin-left: 20px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+.right-box .detail-info {
+    padding: 20px 20px 40px 20px;
+}
+.right-box .fl-img,
+.right-box .fr-info{
+    display: inline-block;
+    vertical-align: top;
+}
+.right-box .fl-img img {
+    width: 520px;
+    height: 260px;
+}
+.right-box .fr-info {
+    width: 240px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.right-box .fr-info .title {
+    font-size: 16px;
+    color: #666;
+}
+.right-box .fr-info .price {
+    color: #999;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.right-box .price span {
+    font-size: 12px;
+    color: #666;
+}
+.right-box h3 {
+    width: 757px;
+    height: 41px;
+    font-size: 16px;
+    color: #666;
+    box-sizing: border-box;
+    line-height: 41px;
+    position: relative;
+    padding-left: 35px;
+}
+.right-box h3:before {
+    content: '';
+    width: 5px;
+    height: 19px;
+    background: #ffac5c;
+    opacity: 0.5;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+.right-box .scheme-detail {
+    padding: 10px 35px 40px 35px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #666;
+}
+.product-box {
+    width: 100%;
+    margin: 20px 30px 0 35px;
+    font-size: 0;
+}
+.product-box li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+}
+.product-box li img {
+    border-radius: 6px;
+    width: 370px;
+    height: 180px;
+    padding-bottom: 40px;
+}
+.product-box li p {
+    width: 360px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+    color: #333;
+}
+.product-box li .price {
+    color: #999;
+    font-size: 16px;
+    padding-bottom: 60px;
+}
+.product-box .price span {
+    font-size:14px;
+    color: #666;
+}
+.product-collection-box {
+    margin-top: 60px;
+}
+.product-collection-box .close-product-collection {
+    font-size: 14px;
+    color: #999;
+    border: 1px solid #eee;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+.product-collection-box .product-collection {
+    font-size: 14px;
+    color: #f5b327;
+    border: 1px solid #eee;
+    padding: 5px 20px;
+    border-radius: 3px;
+}

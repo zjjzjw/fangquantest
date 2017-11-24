@@ -1,0 +1,146 @@
+@import "../../common/back-top";
+
+.list-content {
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
+}
+
+.bannen {
+  width: 100%;
+  height: 326px;
+  background: url("/www/images/developer/bannen2.png") no-repeat;
+  background-position: center center;
+}
+
+.list-content .ranking-list {
+  clear: both;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.ranking-list h3 {
+  font-size: 36px;
+  line-height: 60px;
+  color: #666;
+}
+
+.ranking-list ul {
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 85px;
+  border-top: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+
+.ranking-list h4 {
+  font-size: 36px;
+  color: #666;
+  font-weight: 400;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+
+.ranking-list li {
+  width: 239px;
+  height: 130px;
+  line-height: 130px;
+  position: relative;
+  text-align: center;
+  background: #FFFFFF;
+  float: left;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.ranking-list li .bg-top1 {
+  background: url("/www/images/developer/bq1.png") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.ranking-list li .bg-top2 {
+  background: url("/www/images/developer/bq2.png") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.ranking-list li .bg-top3 {
+  background: url("/www/images/developer/bq3.png") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.ranking-list .bg-top {
+  width: 32px;
+  height: 36px;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  z-index: 20;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("/www/images/developer/bq.png") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.ranking-list li a {
+  display: inherit;
+}
+
+.ranking-list li .top-bannen-logo {
+  max-width: 240px;
+  max-height: 130px;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.right-box {
+  width: 200px;
+  height: auto;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 240px;
+  background: #FFFFFF;
+  border: 1px solid #eeeeee;
+}
+
+.right-box img {
+  max-width: 200px;
+  max-height: 97px;
+  vertical-align: middle;
+}
+
+.right-box li {
+  position: relative;
+  height: 97px;
+  overflow: hidden;
+  text-align: center;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.right-box li a {
+  display: block;
+}
+
+.advertisement {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  background: #eeeeee;
+  width: 46px;
+  height: 20px;
+  font-size: 14px;
+  color: #b6b6b6;
+  text-align: center;
+  border-radius: 5px;
+}

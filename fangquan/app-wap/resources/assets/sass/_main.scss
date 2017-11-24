@@ -1,0 +1,349 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('../font/iconfont.eot?t=1500343244261'); /* IE9*/
+  src: url('../font/iconfont.eot?t=1500343244261#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/iconfont.woff?t=1500343244261') format('woff'), /* chrome, firefox */
+  url('../font/iconfont.ttf?t=1500343244261') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font/iconfont.svg?t=1500343244261#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font: 62.5% "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-size: 14px;
+  color: #3e3e3e;
+  background-color: #fff;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  border: none;
+  vertical-align: top;
+  height: auto;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  resize: none;
+  outline: 0;
+}
+
+fieldset {
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+address,
+cite,
+code,
+em,
+th,
+i,
+strong {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.ib-display {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.clearfix {
+  overflow: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+a {
+  color: #3e3e3e;
+  text-decoration: none;
+  outline: none;
+}
+
+a.cur {
+  color: #f15f00;
+}
+
+a:hover,
+a:link {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+.wrap-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.page {
+  background: #f5f5f5;
+}
+/*头部*/
+.header {
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+    border-bottom: 2px solid #1bc7c9;
+    background: #fff;
+}
+
+.header .public-header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header .public-header .logo {
+    float: left;
+    height: 43px;
+    margin-top: 10px;
+    padding-right: 40px;
+}
+
+.header .public-header .logo img {
+    width: 103px;
+    height: 43px;
+}
+
+.header .public-header .supplice {
+    float: left;
+    font-size: 16px;
+    line-height: 70px;
+}
+
+.header .public-header .supplice a {
+    font-size: 16px;
+    color: #483b16;
+}
+
+.header .public-header .supplice a.type {
+    color: #1bc7c9;
+}
+
+.header .public-header .supplice a {
+    margin-right: 25px;
+}
+
+.header .public-header .login {
+    float: right;
+    font-size: 14px;
+    line-height: 70px;
+    color: #796735;
+}
+
+.public-header .login .lon-in {
+    float: left;
+    letter-spacing: 5px;
+}
+
+.public-header .login span {
+    padding-right: 5px;
+}
+
+.public-header .login .register {
+    float: left;
+    letter-spacing: 5px;
+}
+
+.login .messages {
+    float: left;
+    position: relative;
+    margin-right: 15px;
+}
+
+.login .messages i {
+    font-size: 24px;
+    color: #796735;
+    font-weight: 700;
+}
+
+.login .messages span {
+    padding: 1px 2px;
+    background: #FF0000;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 14px;
+    border-radius: 7px 7px 7px 0px;
+    font-size: 12px;
+    line-height: 12px;
+    min-width: 12px;
+}
+
+.header .public-header .nickname {
+    font-size: 14px;
+    color: #796735;
+    display: inline-block;
+    font-weight: 700;
+    max-width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    float: left;
+    text-overflow: ellipsis;
+    margin-right: 5px;
+}
+
+.nickname em {
+    color: #f67524;
+}
+
+.header .public-header .login span {
+    display: inline-block;
+    float: left;
+}
+
+/*底部*/
+footer {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-top: solid 1px #e3e3e3;
+}
+
+
+footer .box {
+    width: 980px;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-bottom: solid 1px #eeeeee;
+}
+
+footer .box .footer-info {
+    float: left;
+}
+
+footer .box .footer-info a {
+    float: left;
+    margin-right: 26px;
+    color: #999999;
+}
+
+footer .box .footer-hotline {
+    float: right;
+    color: #999999;
+    font-size: 12px;
+}
+
+footer .footer-bottom {
+    line-height: 58px;
+    text-align: center;
+}
+
+footer .footer-bottom a,
+footer .footer-bottom span {
+    display: inline-block;
+    font-size: 12px;
+    color: #cccccc;
+}
+
+footer .footer-bottom span {
+    margin-right: 25px;
+
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  border: 1px solid #e3e3e3 !important;
+}

@@ -1,0 +1,24 @@
+/*编辑*/
+.detail-box {
+    background: #fff;
+}
+
+.detail-box dl {
+    padding: 0 15px;
+}
+
+.detail-box dt {
+    font-size: 1.6rem;
+    color: #999;
+    padding: 10px 5px 5px 5px;
+}
+
+.detail-box dd {
+    font-size: 1.6rem;
+    color: #363636;
+    padding: 0 5px 10px 5px;
+    border-bottom: 1px solid #c8c8c8;
+}
+.detail-box dd:last-child {
+    border-bottom: none;
+}

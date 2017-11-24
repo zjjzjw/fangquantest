@@ -1,0 +1,61 @@
+.page {
+    background-color: #fff;
+}
+.box-wrap {
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+}
+.box-flex {
+    display: block;
+    box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+}
+article {
+    padding: 1.5rem;
+    border-radius: .5rem;
+    position: relative;
+    border-bottom: 1px solid #e7e7e7;
+}
+article > h1 {
+    position: absolute;
+    top: 1.6rem;
+    width: 7.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #3e3e3e;
+}
+article > h1 em{
+    font-size: 1rem;
+}
+.visit-box {
+    padding: 1rem;
+    background-color: #eee;
+    margin: 0 0 1.5rem 7.5rem;
+    border-radius: .5rem;
+
+}
+.visit-box .visit-link {
+    margin-bottom: 2rem;
+}
+.visit-box .visit-link:last-child {
+    margin-bottom: 0;
+}
+.visit-box img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .3rem;
+    margin-right: .5rem;
+}
+.visit-box h2 {
+    font-size: 1.4rem;
+    color: #3e3e3e;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.visit-box p {
+    font-size: 1.2rem;
+    color: #8d8c92;
+}
