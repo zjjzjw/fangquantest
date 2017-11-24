@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@import "../../../common/confirm-pop";
+@import "../../../common/prompt-pop";
+@import "../../../common/list-edit";
+@import "../../../common/loading-pop";
+@import "../../../common/add-picture";
+@import "../../../common/select-product-pop";
+
+//内容头部
+.top-title {
+  height: 47px;
+  line-height: 47px;
+  font-size: 16px;
+  padding-left: 8px;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 40px;
+  color: #0a0a0a;
+  position: relative;
+}
+
+.top-title:before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 0;
+  width: 4px;
+  height: 14px;
+  background-color: #f4c044;
+}
+
+.title h3 {
+  font-size: 22px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.row {
+  width: 400px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.textarea-select {
+  border: 1px solid #d9d9d9;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  line-height: 28px;
+  max-height: 3.3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #6e6e6e;
+}
+
+/*保存取消*/
+.text-center {
+  padding-top: 40px;
+}
+
+.text-center .button {
+  width: 122px;
+}
+
+.text-center .save {
+  margin-right: 10px;
+  background-color: #f4c044;
+  color: #fff;
+}
+
+.text-center .save:hover,
+.text-center .clone:hover {
+  color: #fff;
+}
+
+.text-center .clone {
+  background-color: #515151;
+  color: #fff;
+}
+
+.form-error {
+  position: absolute;
+  top: 33px;
+}
+
+.textarea {
+  width: 100%;
+}
+
+textarea[name="summary"] {
+  height: 10rem;
+}
+
+.project-category {
+  height: 170px;
+  padding-top: 10px;
+  overflow: hidden;
+  overflow-y: auto;
+  border: 1px solid #d9d9d9;
+}
+
+.category-item span {
+  padding-left: 10px;
+  width: 100px;
+  display: inline-block;
+}
+
+.category-item .form-error {
+  top: 140px;
+}

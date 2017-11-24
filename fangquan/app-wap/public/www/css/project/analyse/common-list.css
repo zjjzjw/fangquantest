@@ -1,0 +1,31 @@
+.list-box {
+    padding: 0 15px;
+}
+.list-box a {
+    display: block;
+    position: relative;
+    padding: 0 20px 0 10px;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    border-bottom: 1px solid #c8c8c8;
+    font-size: 1.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list-box a span {
+    position: absolute;
+    right: 5px;
+    color: #999;
+}
+.list-box .no-data {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 5rem;
+}
+@media(min-device-width:414px){
+    .list-box a {
+        height: 5.5rem;
+        line-height: 5.5rem;
+    }
+}

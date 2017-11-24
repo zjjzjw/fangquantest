@@ -1,0 +1,131 @@
+.page {
+    background: #eee;
+}
+
+.flow-content {
+    padding: 15px;
+}
+
+.item-time {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 8px;
+}
+
+.item-time p {
+    height: 4.5rem;
+    line-height: 4.5rem;
+    padding-left: 30px;
+    font-size: 1.8rem;
+    position: relative;
+}
+
+.item-time:before {
+    position: absolute;
+    left: 0;
+    content: '';
+    top: -1%;
+    height: 102%;
+    width: 2px;
+    background: #ff8a00;
+}
+
+.item-time .circle {
+    position: absolute;
+    top: 15px;
+    left: -5.5px;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    /*-webkit-border-radius: 10px;*/
+    /*-moz-border-radius: 10px;*/
+    border: 2px #ff8a00 solid;
+}
+
+.item-time p i {
+    display: block;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.item-time p .show-more {
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+.event-box {
+    padding: 0 20px;
+}
+
+.item-event {
+    position: relative;
+    border-top: 1px solid #c8c8c8;
+    padding: 15px 0;
+}
+.item-event .purchase-name {
+    line-height: 2.4rem;
+    height: 2.4rem;
+}
+.item-event span {
+    display: inline-block;
+    width: 80%;
+    font-size: 1.6rem;
+    color: #666;
+}
+
+.item-event i {
+    position: absolute;
+    right: 0;
+    top: 21px;
+    font-size: 2.6rem;
+}
+
+@media (min-device-width: 375px) {
+    .item-time .circle {
+        top: 15px;
+        left: -7px;
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media (min-device-width: 414px) {
+    .item-time p {
+        height: 5.5rem;
+        line-height: 5.5rem;
+        font-size: 1.8rem;
+    }
+
+    .item-event i {
+        font-size: 2.4rem;
+    }
+
+    .item-time p i {
+        right: 23px;
+    }
+
+    .item-time .circle {
+        top: 18px;
+        left: -8px;
+        width: 14px;
+        height: 14px;
+    }
+}
+
+.no-data {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 5rem;
+}

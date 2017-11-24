@@ -1,0 +1,15 @@
+@import "../ui/exhibition-h5/header.css";
+@import "../ui/exhibition-h5/footer.css";
+
+.contact {
+    border-bottom: 1.1vw solid #F2F2F2;
+    padding: 0 4vw;
+    margin-top: 5.3vw;
+}
+
+.contact li {
+    font-size: 13px;
+    color: #3F3F3F;
+    font-weight: bold;
+    margin-bottom: 5.3vw;
+}

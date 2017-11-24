@@ -1,0 +1,93 @@
+/*编辑*/
+.page {
+    background: #fff;
+}
+.detail-box {
+    background: #fff;
+}
+.detail-box dl {
+    padding: 0 15px;
+}
+.detail-box dt {
+    font-size: 1.6rem;
+    color: #999;
+    padding: 10px 5px 5px 5px;
+}
+.detail-box dd {
+    font-size: 1.6rem;
+    color: #363636;
+    padding: 0 5px 10px 5px;
+    border-bottom: 1px solid #c8c8c8;
+}
+.claim-lines {
+    position: relative;
+}
+.claim-lines .claim-btn,
+.assign-lines .assign-btn,
+.principal-choose .principal-btn {
+    font-size: 1.8rem;
+    color: #fff;
+    background: #ff8a00;
+    padding: 1rem 0;
+    width: 95%;
+    margin: 3rem 10px;
+    text-align: center;
+    border-radius: .3rem;
+    letter-spacing: 2px;
+    height: auto;
+}
+.principal-choose {
+    background: #fff;
+    padding: 0 15px;
+}
+.department {
+    border-top: 1px solid #c8c8c8;
+    padding: 0 10px;
+}
+.department:first-child {
+    border-top: none;
+}
+.department p {
+    font-size: 1.6rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    position: relative;
+}
+.department p i {
+    position: absolute;
+    right: 5px;
+    font-size: 1.4rem;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+.department p .item-show {
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+.department ul {
+    padding-bottom: 1rem;
+}
+.department li {
+    font-size: 1.6rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+.department input {
+    -webkit-appearance: radio;
+    height: 1.6rem;
+    vertical-align: middle;
+    width: 10%;
+}
+@media(min-device-width:414px){
+    .claim-lines .claim-btn,
+    .assign-lines .assign-btn,
+    .principal-choose .principal-btn {
+        padding: 1.5rem 0;
+    }
+}

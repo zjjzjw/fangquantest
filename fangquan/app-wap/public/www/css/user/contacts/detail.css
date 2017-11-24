@@ -1,0 +1,59 @@
+.pic-box {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.pic-box img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.pic-box .name {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+
+.detail-info p:first-child {
+    border-top: 1px solid #c8c8c8;
+}
+
+.detail-info p {
+    position: relative;
+    font-size: 1.6rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    border-bottom: 1px solid #c8c8c8;
+    margin: 0 1rem;
+    padding: 0 1rem;
+}
+
+.detail-info p span {
+    position: absolute;
+    right: 1rem;
+}
+
+@media (min-device-width: 375px) {
+    .pic-box img {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .detail-info p {
+        height: 5rem;
+        line-height: 5rem;
+    }
+}
+
+@media (min-device-width: 375px) {
+    .pic-box img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .detail-info p {
+        font-size: 1.8rem;
+        height: 5.5rem;
+        line-height: 5.5rem;
+    }
+}

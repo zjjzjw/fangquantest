@@ -1,0 +1,168 @@
+/* 轮播蒙板 */
+.canvas {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    z-index: 9999;
+}
+/* 轮播样式 */
+.swipe, .image-list, .image-list > div {
+    height: 250px;
+}
+.swipe {
+    margin: 0 auto;
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+}
+.image-list {
+    overflow: hidden;
+    position: relative;
+}
+.image-list > div {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.canvas, .canvas .image-list, .canvas .item {
+    height: 100%;
+}
+.canvas .item, .swipe .item {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+.image-type-index {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+.image-type-index > div {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #fff;
+    line-height: 2rem;
+    height: 2rem;
+    padding: 0 .7rem;
+    background-color: #3e3e3e;
+    opacity: 0.8;
+    border-radius: 3rem;
+}
+.image-type-index span {
+    display: inline-block;
+    padding: 0 5px;
+    line-height: 1;
+}
+.image-type-index-pop {
+    position: absolute;
+    bottom: 3rem;
+    text-align: center;
+    width: 100%;
+    color: #9A9A9A;
+}
+
+.image-type-wrap {
+    display: -webkit-box;
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+}
+.image-type-wrap > span {
+    -webkit-box-flex: 1;
+    display: block;
+    border-right: 2px solid #413D3D;
+    font-size: 1.6rem;
+    text-align: center;
+    cursor: pointer;
+    color: #8c8c92;
+}
+.image-type-wrap > span.actived {
+    color: #f15f00;
+}
+.image-type-wrap > span:last-child {
+    border-right: 0;
+}
+/*detail*/
+.common-info {
+    position: relative;
+    background: #fff;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: #919192;
+}
+.common-info p {
+    padding: .3rem 0;
+}
+.common-info .title {
+    font-weight: bold;
+    color: #3e3e3e;
+}
+.common-info .title span {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #919192;
+    padding: .1rem;
+    margin-right: .2rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+}
+.common-info .total-price span {
+    color: #f15f00;
+    font-size: 1.8rem;
+}
+.common-info .area span,
+.common-info .orientation span {
+    color: #3e3e3e;
+}
+.common-info .orientation {
+    position: absolute;
+    right: 8rem;
+    bottom: 1rem;
+}
+.type-desc {
+    height: 3rem;
+    line-height: 3rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    color: #919192;
+}
+.type-detail {
+    background: #fff;
+    padding: 1rem;
+}
+.type-detail .type-item {
+    position: relative;
+    margin-bottom: .7rem;
+}
+.type-detail .detail-name {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.type-detail .detail-desc {
+    padding-left: 6rem;
+}
+/*楼盘编号*/
+.loupan-num {
+    height: 4rem;
+    line-height: 3rem;
+    font-size: 1.4rem;
+    text-align: right;
+    padding-right: 1.7rem;
+    color: #919192;
+}
+.add-bottom {
+    height: 5rem;
+}
+.no-img-type {
+    width: 100%;
+}

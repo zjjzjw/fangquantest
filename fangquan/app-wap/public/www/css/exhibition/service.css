@@ -1,0 +1,45 @@
+@import "../ui/exhibition-h5/header.css";
+@import "../ui/exhibition-h5/footer.css";
+
+.list-content {
+  border-bottom: 8px solid #efefef;
+  margin-top: 3.2vw;
+}
+.list-content h3 {
+  font-size: 15px;
+  color: #696969;
+  font-weight: bold;
+  padding-left: 30px;
+  position: relative;
+  line-height: 50px;
+  margin: 0 4vw;
+}
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.icon img {
+  vertical-align: middle;
+}
+.list-content h3:before {
+  content: '';
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: url("../../image/exhibition/service/down.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.list-content.active h3:before {
+  background: url("../../image/exhibition/service/up.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.service-contenet {
+  border-top: 1px solid #d3d3d3;
+  margin: 0 4vw 4vw;
+  padding-top: 3.3vw;
+  overflow: hidden;
+  display: none;
+}

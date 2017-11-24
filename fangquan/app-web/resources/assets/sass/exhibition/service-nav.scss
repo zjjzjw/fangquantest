@@ -1,0 +1,48 @@
+@import "../../common/back-top";
+
+.nav {
+  width: 156px;
+  position: fixed;
+  margin-left: 20px;
+}
+
+.nav h3 {
+  margin-top: 30px;
+  text-align: center;
+  color: #20c2cf;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav ul {
+  width: 160px;
+  background-color: #fff;
+  text-align: center;
+  border: 2px solid #20c2cf;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.nav ul li {
+  line-height: 40px;
+  border-top: 2px solid #20c2cf;
+}
+
+.nav ul li:first-child {
+  border-top: none;
+}
+
+.nav ul li a {
+  font-size: 20px;
+  color: #1bc7c9;
+  display: block;
+}
+
+.nav .active a {
+  color: #FFFFFF;
+}
+
+.nav .active {
+  color: #FFFFFF;
+  background: #1bc7c9;
+}

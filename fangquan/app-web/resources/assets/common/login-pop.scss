@@ -1,0 +1,134 @@
+
+.hint-title {
+  padding: 10px 15px 0 0;
+  font-size: 24px;
+  float: right;
+}
+
+.hint-content {
+  margin: 90px auto 0;
+  text-align: center;
+}
+
+.hint-content .text {
+  font-size: 24px;
+  color: #666;
+}
+
+.hint-content .tel {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #ffac5c;
+}
+
+.hint-close {
+  position: relative;
+  cursor: pointer;
+}
+
+.hint-close i {
+  position: absolute;
+  top: -6px;
+  right: 0px;
+  font-size: 24px;
+  color: #ccc;
+}
+
+.hint-title {
+  color: #666;
+  margin: 88px 270px 0 0;
+}
+
+.hint-content {
+  margin-top: 176px;
+}
+
+.form-group {
+  position: relative;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.form-error {
+  position: absolute;
+  top: 43px;
+  left: 190px;
+}
+
+.form-group .control-label {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 160px;
+  top: 14px;
+  text-align: center;
+}
+
+.form-group input {
+  width: 50%;
+  height: 50px;
+  line-height: 50px;
+  text-indent: 39px;
+  font-size: 14px;
+  color: #999;
+}
+
+.control-label .iconfont {
+  font-size: 20px;
+  line-height: 20px;
+  color: #CCCCCC;
+}
+
+.form-group .btn {
+  width: 50%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: none;
+  background-color: #1cc7ca;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  text-indent: 0;
+  float: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.form-group:last-child {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.login-link {
+  font-size: 16px;
+}
+
+.login-link .wechat {
+  color: #7ec7bc;
+  margin-right: 20px;
+  color: #7ebc7b;
+}
+
+.login-link .wechat i.iconfont {
+  font-size: 18px;
+  padding-right: 5px;
+  color: #7ebc7b;
+}
+
+.login-link .forgot-password {
+  color: #ff8c77;
+  margin-right: 20px;
+}
+
+.login-link .register {
+  color: #ffac5c;
+}
+
+.msg-message{
+  position: absolute;
+  left: 240px;
+  font-size: 14px;
+  color:#ff0000;
+}

@@ -1,0 +1,60 @@
+.list-box {
+    margin: 0 15px;
+}
+
+.list-box p {
+    font-size: 1.6rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    position: relative;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.list-box p i {
+    position: absolute;
+    right: 5px;
+    font-size: 1.4rem;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+.department p .item-show {
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+.list-box li a {
+    display: block;
+    position: relative;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    border-bottom: 1px solid #c8c8c8;
+    font-size: 1.8rem;
+}
+
+.list-box li a span {
+    position: absolute;
+    right: 3px;
+    color: #999;
+}
+
+.sign-task {
+    display: none;
+}
+
+.sign-task li {
+    position: relative;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    border-top: 1px solid #c8c8c8;
+}
+
+.sign-task li:first-child {
+    border-top: none;
+}

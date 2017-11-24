@@ -1,0 +1,24 @@
+{
+    "modules": [
+        {
+            "src": "auth/login",
+            "dest": "auth"
+        },
+        {
+            "src": "auth/register",
+            "dest": "auth"
+        },
+        {
+            "src": "auth/reset-password",
+            "dest": "auth"
+        },
+        {
+            "src": "home/index",
+            "dest": "home"
+        },
+        {
+            "src": "provider/enterprise-info",
+            "dest": "provider"
+        }
+    ]
+}

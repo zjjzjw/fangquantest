@@ -1,0 +1,201 @@
+div.header-box {
+    background: #eeeeee;
+}
+
+/*创建*/
+.creat-box,
+.add-box {
+    margin: 0 auto;
+    width: 100%;
+    text-align: right;
+    background: #fff;
+}
+
+.creat-box p,
+.add-box p {
+    font-size: 1.6rem;
+    color: #363636;
+    height: 5rem;
+    line-height: 5rem;
+    padding: 0 10px;
+    position: relative;
+}
+
+.creat-box span,
+.add-box span {
+    max-width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.creat-box input,
+.add-box input {
+    width: 64%;
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    border-radius: 0;
+    margin-left: 1rem;
+    display: inline-block;
+    height: initial;
+}
+
+input::-ms-input-placeholder {
+    color: #999;
+}
+
+input::-webkit-input-placeholder {
+    color: #999;
+}
+
+input::-moz-placeholder {
+    color: #999;
+}
+.add-box select {
+    width: 65%;
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 1.6rem;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    border-radius: 0;
+    background: #fff url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+") no-repeat 100% center;
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    color: #3E3E3E;
+    line-height: normal;
+    height: 30px;
+    padding: 0 0 0 10px;
+}
+
+.creat-box .first-top {
+    padding-top: 1.5rem;
+}
+
+.save-box {
+    position: relative;
+}
+
+.error-tip {
+    position: relative;
+}
+
+.creat-box em {
+    position: absolute;
+    right: 2rem;
+    top: 0px;
+    color: #363636;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.zvalid-resultformat {
+    position: absolute;
+    left: 36%;
+    font-size: 1.4rem;
+    color: #f30;
+    top: -10px;
+}
+
+.save-box .save-btn {
+    font-size: 1.8rem;
+    color: #fff;
+    background: #ff8a00;
+    padding: 1rem 0;
+    width: 95%;
+    margin: 3rem 10px;
+    text-align: center;
+    border-radius: .3rem;
+    letter-spacing: 2px;
+    height: auto;
+}
+.add-box .add-save-btn {
+    font-size: 1.8rem;
+    color: #fff;
+    background: #ff8a00;
+    padding: 1rem 0;
+    width: 95%;
+    margin: 3rem 10px;
+    text-align: center;
+    border-radius: .3rem;
+    letter-spacing: 2px;
+    height: auto;
+}
+.box-item {
+    margin: 0 15%;
+    text-align: left;
+}
+.product-list-box {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+.product-list-box .box-item p {
+    height: 2.2rem;
+    line-height: 2.2rem;
+}
+.product-list-box .box-item .product-title {
+    position: relative;
+    height: 3rem;
+    line-height: 3rem;
+}
+.product-list-box .product-name {
+    border-top: 1px solid #d9d9d9;
+}
+.product-list-box .product-per-price {
+    border-bottom: 1px solid #d9d9d9;
+}
+.id-description,
+.number-description,
+.price-description {
+    text-align: center;
+    color: #f30;
+}
+.add-product-btn {
+    text-align: center;
+    padding: .6rem 0;
+    width: 40%;
+    margin-left: 30%;
+    border: 1px solid #ff8a00;
+    margin-top: 2rem;
+    color: #ff8a00;
+    font-size: 1.6rem;
+    border-radius: 3px;
+    margin-bottom: 1.5rem;
+}
+.del-parameter-btn {
+    position: absolute;
+    right: 1rem;
+    color: #f15f00;
+    font-size: 1.8rem;
+}
+.box-item:last-child .product-per-price {
+    border:none;
+}
+@media (min-device-width: 375px) {
+    .creat-box p {
+        height: 5rem;
+        line-height: 5rem;
+    }
+}
+
+@media (min-device-width: 414px) {
+    .creat-box p {
+        height: 5.5rem;
+        line-height: 5.5rem;
+    }
+
+    .save-box .save-btn {
+        padding: 1.5rem 0;
+    }
+
+    .zvalid-resultformat {
+        top: -12px;
+    }
+
+    .creat-box .province {
+        width: 32%;
+    }
+}

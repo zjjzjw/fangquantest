@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@import "../../../common/list-table";
+.ui-menu .ui-menu-item-wrapper{
+  padding:0 0 0 5px;
+}
+.ui-menu {
+  text-align: left;
+}
+.search-box .row{
+  line-height:25px;
+}
+.reset-btn{
+  margin-left:30px;
+  display: inline-block;
+  padding: 9px 12px;
+  text-align: center;
+  width: 122px;
+  color: #fff;
+  background: #7cbed2;
+  border-radius: 4px;
+  outline: none;
+}
+.reset-btn:hover{
+  color: #fff;
+}

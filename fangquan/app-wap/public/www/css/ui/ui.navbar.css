@@ -1,0 +1,35 @@
+.nav-btm {
+    position: fixed;
+    margin: auto;
+    padding: .5rem 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f5f5f5;
+    border-top: 1px solid #c8c8c8;
+    z-index: 99;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.nav-btm>a {
+    display: block;
+    text-align: center;
+    flex: 1;
+    -ms-flex: 1;
+    -webkit-flex: 1;
+    box-flex: 1;
+    -ms-box-flex: 1;
+    -webkit-box-flex: 1;
+    color: #999;
+}
+.nav-btm>a i {
+    display: block;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+.nav-btm .active {
+    color: #ff8a00;
+}

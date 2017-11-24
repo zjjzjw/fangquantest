@@ -1,0 +1,72 @@
+div.header-box {
+    background: #eeeeee;
+}
+
+/*详情页*/
+.detail-box {
+    background: #fff;
+}
+
+.detail-box dl {
+    padding: 0 15px;
+}
+
+.detail-box dt {
+    font-size: 1.6rem;
+    color: #999;
+    padding: 10px 5px 5px 5px;
+}
+
+.detail-box dd {
+    font-size: 1.6rem;
+    color: #363636;
+    padding: 0 5px 10px 5px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.detail-box dd:last-child {
+    border-bottom: none;
+}
+
+.detail-box a:last-child {
+    border-bottom: 1px solid #c8c8c8;
+    margin-bottom: 2rem;
+}
+
+.detail-box a span {
+    position: absolute;
+    right: 40px;
+    color: #999;
+}
+
+.parameters {
+    padding: 0 15px;
+    font-size: 1.6rem;
+}
+
+.parameters h3 {
+    line-height: 3rem;
+    font-size: 1.6rem;
+    color: #999;
+}
+
+.parameters ul {
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.parameters li {
+    border-top: 1px solid #c8c8c8;
+}
+
+.parameters li span {
+    width: 45%;
+    line-height: 4.5rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.detail-box img {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,15 @@
+@import "../../../common/list-table";
+@import "../../../common/confirm-pop";
+@import "../../../common/prompt-pop";
+
+//添加按钮
+.add-btn {
+  float: right;
+  margin-right: 20px;
+  background-color: #73cde8;
+  border-radius: 5px;
+}
+
+.add-btn a:hover {
+  color: #FFFFFF;
+}

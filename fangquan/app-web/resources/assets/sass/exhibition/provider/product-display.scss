@@ -1,0 +1,111 @@
+@import "../../../common/exhibition-header";
+@import "../../../common/provider-header";
+@import "../../../common/provider-left";
+footer {
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
+.provider-box{
+  width: 1200px;
+  margin:0 auto;
+  background-color: #fff;
+  height: auto;
+  font-family: "Hiragino Sans GB";
+  padding-bottom: 40px;
+}
+.provider-right{
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+  color: #757575;
+  font-size: 18px;
+}
+.provider-right .content-box{
+  width: 866px;
+  height: auto;
+  padding:20px 15px;
+  border: 2px solid #1bc7c9;
+}
+.content-box .base-info{
+  padding-top:10px;
+  position: relative;
+  padding-bottom:20px;
+  border-bottom: 2px solid #1bc7c9;
+}
+.content-box .base-info>img{
+  position: absolute;
+  left: 0;
+  top:10px;
+}
+.content-box .details{
+  padding-left: 50px;
+  position: relative;
+}
+.content-box .details>p{
+  display: inline-block;
+  position: absolute;
+  top:0;
+}
+.content-box .details .classify-detail{
+  width: 680px;
+  display: inline-block;
+  margin-left: 100px;
+}
+.content-box .details .classify-detail ul li{
+  display: inline-block;
+  padding:0 13px;
+  font-size: 18px;
+  border: 2px solid #1bc7c9;
+  color: #1bc7c9;
+  margin:0 5px 8px;
+}
+.content-box .details .classify-detail ul .active{
+  background-color: #1bc7c9;
+  color: #fff;
+}
+.content-box .product-details{
+  width: 100%;
+  margin-top: 26px;
+}
+.content-box .product-details ul li{
+  width: 30%;
+  height: auto;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+.content-box .product-details ul li:nth-child(2n+1){
+  margin-left: 0.5%;
+}
+.content-box .product-details ul li:nth-child(2n+1),.content-box .product-details ul li:nth-child(2n+2){
+  margin-right: 2.5%;
+}
+.content-box .product-details ul li .img-box{
+  width: 100%;
+  height: 190px;
+  border: 1px solid #efefef;
+  text-align: center;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+.content-box .product-details ul li .img-box img{
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  padding:15px 10px;
+}
+.content-box .product-details ul li p{
+  width: 100%;
+  line-height: 35px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.classify-detail ul a {
+  color:#1bc7c9;
+}
+
+.classify-detail ul .active a {
+  color:#fff;
+}

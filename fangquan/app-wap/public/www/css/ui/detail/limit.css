@@ -1,0 +1,19 @@
+.top-close {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    font-size: 1.6rem;
+    background: #f1f0f0;
+}
+
+.top-close i {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.hint-content {
+    padding-left: 15px;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+}

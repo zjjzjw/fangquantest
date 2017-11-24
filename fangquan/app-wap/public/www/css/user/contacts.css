@@ -1,0 +1,55 @@
+.department {
+    border-bottom: 1px solid #c8c8c8;
+    margin: 0 15px;
+}
+.department p {
+    font-size: 1.6rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    position: relative;
+}
+.department p i {
+    position: absolute;
+    right: 5px;
+    font-size: 1.4rem;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+.department p .item-show {
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+.department ul {
+    padding-bottom: 1rem;
+}
+.department li {
+    font-size: 1.6rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+.department-people {
+    border-top: 1px solid #c8c8c8;
+}
+.department-people li {
+    position: relative;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    border-top: 1px solid #c8c8c8;
+}
+.department-people a {
+    color: #f15f00;
+}
+.department-people li:first-child {
+    border-top: none;
+}
+.department-people li span {
+    position: absolute;
+    right: .5rem;
+    color: #888;
+}

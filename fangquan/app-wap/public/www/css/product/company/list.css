@@ -1,0 +1,27 @@
+.company-list a {
+    display: block;
+    position: relative;
+    padding: 0 20px;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    border-bottom: 1px solid #c8c8c8;
+    font-size: 1.8rem;
+}
+
+.company-list a span {
+    position: absolute;
+    right: 40px;
+    color: #999;
+}
+@media(min-device-width:375px){
+    .company-list a {
+        height: 5rem;
+        line-height: 5rem;
+    }
+}
+@media(min-device-width:414px){
+    .company-list a {
+        height: 5.5rem;
+        line-height: 5.5rem;
+    }
+}

@@ -1,0 +1,18 @@
+@import "../../../common/confirm-pop";
+@import "../../../common/prompt-pop";
+@import "../../../common/loading-pop";
+@import "../../../common/brand-nav";
+@import "../../../common/list-edit";
+
+.small-14 label {
+  margin-right: 3%;
+}
+
+.inline-areas {
+  width: 27%;
+  display: inline-block;
+}
+
+.inline-areas:first-child{
+  margin-right: 2%;
+}

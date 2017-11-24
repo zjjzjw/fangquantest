@@ -1,0 +1,64 @@
+.house-comm {
+    padding: 0 1.5rem;
+    height: 2.5rem;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    color: #8d8c92;
+    background-color: #eee;
+    border-top: .1rem solid #e7e7e7;
+    border-bottom: .1rem solid #e7e7e7;
+}
+.other-people-list{
+    background-color: #FFF;
+    position: relative;
+}
+.other-people-list .list-item {
+    position: relative;
+}
+.other-people-list img{
+    border-radius: .5rem;
+}
+.other-people{
+    display:-webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    padding: 1.5rem 0;
+    margin-left: 1.5rem;
+    border-bottom: .1rem solid #e7e7e7;
+}
+.other-des{
+    position: relative;
+    margin-right: 1.5rem;
+}
+.other-lookhouse{
+    padding-top: 10px;
+    color: #8d8c92;
+}
+.other-people-list .list-item .other-chat{
+    position: absolute;
+    right: 1.5rem;
+    top: 2.5rem;
+    padding: 0 1.5rem;
+    width: auto;
+}
+.chat-ic{
+    line-height: 5rem;
+}
+.iconstar {
+    color: #fe7e00;
+}
+.star {
+    display: inline-block;
+    margin-left: .5rem;
+}
+.star i {
+    float: left;
+    margin: .2rem .2rem 0 0;
+    font-size: 1.2rem;
+}
+.iconstar {
+    color: #fe7e00;
+}
+.star .right-star {
+    margin-left: -1.4rem;
+}

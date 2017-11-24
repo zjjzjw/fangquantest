@@ -1,0 +1,42 @@
+@import "../../../common/exhibition-header";
+@import "../../../common/provider-header";
+@import "../../../common/provider-left";
+
+.wrapper-box {
+  width: 1200px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  font-family: "HiraginoSansGB W3";
+}
+
+.provider-left {
+  float: left;
+}
+
+.provider-right {
+  width: 863px;
+  min-height: 699px;
+  float: left;
+  margin-left: 5px;
+  border: 2px solid #1bc7c9;
+  padding: 12px 10px 0;
+}
+
+.img-box {
+  overflow: hidden;
+}
+
+.img-box img {
+  width: 100%;
+}
+
+.provider-right {
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+.provider-right ul li {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #757575;
+}

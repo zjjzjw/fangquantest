@@ -1,0 +1,54 @@
+/* 点击查看更多闪购 */
+.flash-inventory-box {
+    padding: 0 1.5rem;
+    height: 5rem;
+    line-height: 3.2rem;
+    font-size: 1.2rem;
+    background-color: #f8f8f8;
+}
+.flash-inventory-box a {
+    display: block;
+    color: #8d8c92;
+}
+.flash-inventory-box .sg-icon {
+    display: inline-block;
+    margin-right: .5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #fff;
+    background-color: #ff8000;
+    border-radius: .1rem;
+    padding: 0 .7rem 0 .1rem;
+}
+.flash-inventory-box .sg-icon i {
+    color: #fff;
+    font-size: 1.4rem;
+}
+.people-num {
+    font-size: 12px;
+    color: #8d8c92;
+    margin-top: 15px;
+}
+.sg-timeleft {
+    margin-top: -1rem;
+}
+.time-after {
+    position: absolute;
+    right: 15px;
+}
+.sg-lastline {
+    margin-top: -3.2rem;
+}
+.icon-sizi {
+    font-size: 12px;
+    color:#ff8000;
+    margin:-0.5rem  .3rem .7rem  1rem;
+}
+.icon-time {
+    font-size: 15px;
+    color:#ff8000;
+    margin:-0.5rem  .3rem .7rem -0.1rem;
+}

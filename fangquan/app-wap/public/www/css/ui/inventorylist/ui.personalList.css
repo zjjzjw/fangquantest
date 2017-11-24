@@ -1,0 +1,258 @@
+/*列表页*/
+.property-list {
+    background-color: #eee;
+    position: relative;
+    padding-top: 1rem;
+}
+
+.property-list .list-item {
+    padding-top: 1.5rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    border-top: .1rem solid #e7e7e7;
+}
+
+.property-list .item-detail {
+    padding-left: 1rem;
+    margin-right: 1rem;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    width: auto;
+}
+
+.invent-img img {
+    width: 10rem;
+    height: 7.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: .2rem;
+}
+
+.property-list .pseudo-visited:link {
+    color: #3e3e3e;
+}
+
+.property-list .pseudo-visited:visited {
+    color: #8d8c92;
+}
+
+.property-list .pseudo-visited:hover,
+.property-list .pseudo-visited:active {
+    color: #3e3e3e;
+}
+
+.property-list .item-detail .detail-desc {
+    font-size: 1.5rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+}
+
+.property-list .detail-comm {
+    font-size: 1.6rem;
+    font-weight: bold;
+    vertical-align: top;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    height: 2.5rem;
+    line-height: 2rem;
+    margin-top: .5rem;
+}
+
+.property-list .detail-comm .price-down {
+    color: #fff;
+    background-color: #2cb200;
+    font-weight: normal;
+    font-size: 1.2rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    display: block;
+    padding: 0 .4rem;
+    border-radius: .5rem;
+    margin-left: .4rem;
+}
+
+.property-list .detail-comm span {
+    display: block;
+}
+
+.property-list .detail-comm p:first-child, .detail-comm span:first-child {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.property-list .detail-comm p:last-child {
+    -webkit-box-flex: 1000;
+    -moz-box-flex: 1000;
+    box-flex: 1000;
+}
+
+.detail-comm span i {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.property-list .desc-place {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+}
+
+.property-list .desc-money em {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.property-list .sg-icon {
+    padding: 0 .7rem 0 .1rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #FF6D4B;
+    border-radius: .1rem;
+    margin-left: .8rem;
+}
+
+.property-list .exclusive {
+    height: 1.8rem;
+    line-height: 1.8rem;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+    background: #50bebe;
+    color: #fff;
+    border-radius: .1rem;
+    margin-left: .8rem;
+}
+
+/*无结果页面*/
+.no-result {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    text-align: center;
+}
+
+.no-result .search-icon {
+    margin-top: 20%;
+    font-size: 10rem;
+    margin-bottom: 1.6rem;
+    display: block;
+}
+
+.no-result p {
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+
+/* 添加高清图片 */
+.invent-img {
+    position: relative;
+}
+
+.invent-img span {
+    position: absolute;
+    left: 1.5rem;
+    bottom: 1rem;
+    width: 3rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .7);
+    -webkit-font-smoothing: antialiased;
+    border-radius: 0 0 0 .3rem;
+}
+
+/*flex布局 test*/
+.property-list .item-detail .flex-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.property-list .flex-box span {
+    display: block;
+    padding-right: .3rem;
+}
+
+.property-list .flex-box .comm-distance {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    width: 0;
+    height: 1.4rem;
+    padding: 0 .4rem;
+    line-height: 1.4rem;
+    border-left: 1px solid #8d8c92;
+    margin-top: .3rem;
+}
+
+.property-list .comm-distance i {
+    font-size: 1.4rem;
+}
+
+.property-list .flex-box .desc-money {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    width: 0;
+    min-width: 5rem;
+    padding-right: 0;
+    text-align: right;
+    font-size: 1.4rem;
+}
+
+/*new down*/
+.saleagent img {
+    width: 3.5rem;
+    height: 3.5rem;
+    -webkit-border-radius: 3rem;
+    margin: 0 0 1rem 1.5rem;
+    border: .1rem solid #e7e7e7;
+}
+
+.saleagent {
+    border-bottom: .1rem solid #e7e7e7;
+    padding-bottom: 1rem;
+}
+
+.track-link {
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.list-filter {
+    border-bottom: 0;
+}
+
+.saleagent .agent-right {
+    margin: -4.5rem 0 0 6rem;
+}
+
+.saleagent span {
+    display: block;
+    font-size: 1.2rem;
+    color: #8d8c92;
+}
+
+.saleagent .agentother {
+    font-size: 1.2rem;
+    float: right;
+    margin-right: 1.5rem;
+    margin-top: -1.3rem;
+}
+
+.saleagent .agentname {
+    color: #000;
+    font-size: 1.4rem;
+}

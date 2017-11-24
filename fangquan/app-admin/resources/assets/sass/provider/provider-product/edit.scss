@@ -1,0 +1,25 @@
+@import "../nav";
+@import "../../../common/confirm-pop";
+@import "../../../common/prompt-pop";
+@import "../../../common/list-edit";
+@import "../../../common/loading-pop";
+@import "../../../common/add-picture";
+.attribute {
+    padding-left: 10px;
+}
+.attribute li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.attribute span {
+    display: inline-block;
+    min-width: 100px;
+}
+.attribute input {
+    display: inline-block;
+    width: 150px;
+}
+
+.error-tip-provider_product{
+  color: #a94442;
+}

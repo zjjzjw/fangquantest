@@ -1,0 +1,70 @@
+.page {
+    background-color: #eee;
+}
+
+.list-type:first-child {
+    border-top: none;
+}
+
+.list-type {
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    margin-bottom: 1rem;
+}
+
+.left-box {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    vertical-align: top;
+}
+
+.left-box p {
+    text-align: center;
+    line-height: 5.5rem;
+}
+
+.right-box {
+    display: inline-block;
+    width: 68%;
+    border-left: 1px solid #c8c8c8;
+}
+
+.right-box li {
+    padding-left: 10px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.right-box li a {
+    height: 5.5rem;
+    line-height: 5.5rem;
+    display: block;
+}
+
+.right-box li:last-child {
+    border-bottom: none;
+}
+
+.left-box i {
+    position: absolute;
+    bottom: .5rem;
+    left: 40%;
+    display: inline-block;
+    margin-left: 4px;
+    width: 7px;
+    height: 7px;
+    border: solid #2b2b2b;
+    border-width: 1px 1px 0 0;
+}
+
+.left-box .pull-down {
+    transform: translate(5px, -3px) rotate(-225deg);
+    -webkit-transform: translate(5px, -3px) rotate(-225deg);
+}
+
+.left-box .arrow-up {
+    transform: translate(5px, 0px) rotate(-45deg);
+    -webkit-transform: translate(5px, 0px) rotate(-45deg);
+}

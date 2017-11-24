@@ -1,0 +1,117 @@
+/* 想买 */
+.house-outline {
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    padding: 1.3rem 1.5rem .5rem;
+}
+.house-outline .total-price {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.house-outline dl {
+    -webkit-box-flex: 1;
+    -moz-box-orient: 1;
+    box-orient: 1;
+}
+.house-outline .price-down {
+    margin-top: .4rem;
+    margin-left: .5rem;
+    padding: 0 .5rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #fff;
+    background-color: #2cb200;
+    border-radius: .5rem;
+    white-space: nowrap;
+}
+.house-outline .pdown,
+.house-outline .pup {
+    padding-left: .8rem;
+}
+.house-outline .pdown,
+.house-outline .pdown i {
+    color: #2cb200;
+}
+.house-outline .pup,
+.house-outline .pup i {
+    color: #f00;
+}
+.house-outline dt {
+    display: -webkit-box;
+    line-height: 2rem;
+    font-weight: bold;
+    padding-bottom: .5rem;
+    width: 85%;
+}
+.house-outline dt span {
+    display: block;
+}
+.house-outline dt span:first-child {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.house-outline dt span:nth-child(2) {
+    margin: 0 1.2rem;
+}
+.house-outline dt span:last-child {
+    -webkit-box-flex: 1000;
+    -moz-box-flex: 1000;
+    box-flex: 1000;
+}
+.house-outline .exclusive {
+    display: inline-block;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+    background: #50bebe;
+    color: #fff;
+    border-radius: .1rem;
+    margin-left: .8rem;
+    margin-bottom: -.3rem;
+}
+.house-outline .exclusive-box {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+    padding-bottom: .5rem;
+}
+.house-outline .exclusive-box span {
+    display: block;
+}
+.look-num span {
+    color:#8d8c92;
+}
+.look-num i {
+    color: #E54A00;
+}
+.exclusive-box .want-buy {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: block;
+    width: 4rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #f15f00;
+    border-left: .1rem solid #e7e7e7;
+    padding-left: .2rem;
+}
+.exclusive-box .want-buy i {
+    display: block;
+    font-size: 2rem;
+    color: #f15f00;
+}

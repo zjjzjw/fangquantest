@@ -1,0 +1,110 @@
+@import "../../../common/no-data";
+
+.main-content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.right-box {
+  position: relative;
+  display: block;
+  background: #fff;
+  width: 840px;
+  float: left;
+  margin-left: 20px;
+  box-sizing: border-box;
+  margin-bottom: 60px;
+}
+
+.right-box .choose {
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+}
+
+.right-box .choose a {
+  display: inline-block;
+  width: 80px;
+  color: #666;
+  font-size: 18px;
+}
+
+.right-box .choose .choose-active {
+  border-bottom: 3px solid #1cc7ca;
+}
+
+.right-box .product-category {
+  padding: 30px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.right-box .product-category span {
+  font-size: 16px;
+  color: #666;
+  margin-right: 30px;
+}
+
+.right-box .product-category .category-item {
+  border-radius: 3px;
+  font-size: 14px;
+  margin-right: 36px;
+}
+
+.right-box .product-category .click-active {
+  color: #fff;
+  background: #ffac5c;
+  padding: 3px 15px;
+  font-weight: bold;
+}
+
+.right-box .num {
+  position: absolute;
+  top: 160px;
+  right: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.right-box .num span {
+  color: #ffac5c;
+  font-weight: bold;
+}
+
+.product-box {
+  width: 100%;
+  margin: 70px 30px 0 35px;
+  font-size: 0;
+}
+
+.product-box li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.product-box li img {
+  border-radius: 6px;
+  max-width: 370px;
+  padding-bottom: 40px;
+}
+
+.product-box li p {
+  width: 360px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+  color: #333;
+}
+
+.product-box li .price {
+  color: #999;
+  font-size: 16px;
+  padding-bottom: 60px;
+}
+
+.product-box .price span {
+  font-size: 14px;
+  color: #666;
+}

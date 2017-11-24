@@ -1,0 +1,278 @@
+.all-customer {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+/*条件筛选*/
+.filter {
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.menu {
+    height: 5.5rem;
+    z-index: 150;
+}
+
+#menuinfo {
+    z-index: 102;
+    position: relative;
+}
+
+.menunav {
+    display: -webkit-box;
+    height: 5.5rem;
+    width: 100%;
+    background: #fff;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #d9d9d9;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    color: #666;
+}
+
+.menunav .high, .optionlist .high, .optionlist .high:visited, .optionlist .high a, .optionlist .high a:visited {
+    color: #ff8a00;
+}
+
+.menunav > a {
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    height: 5.5rem;
+    width: 100%;
+    -webkit-box-flex: 1;
+    padding: 0 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.menunav > p {
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    height: 5.5rem;
+    width: 100%;
+    -webkit-box-flex: 1;
+    padding: 0 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.parentup {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 95%;
+    color: #363636;
+    height: 5.5rem;
+    line-height: 5.5rem;
+}
+
+.menunav i {
+    display: block;
+}
+
+.menunav .g-touchicon-l {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 0;
+    border-bottom: 5px solid #ff8a00;
+    margin-left: 4px;
+}
+
+.menunav .revolve {
+    border-top: 5px solid #666;
+    border-bottom: 0;
+    display: block;
+}
+
+/*筛选内容*/
+.optionlist {
+    position: absolute;
+    top: 12rem;
+    left: 0;
+    width: 100%;
+    font-size: 1.4rem;
+    z-index: 130;
+    overflow: hidden;
+    background: #fff;
+}
+
+.menunav-info {
+    height: 27rem;
+    padding: 0 5px;
+}
+
+.menunav-info .auto-scoll {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.menunav-info a {
+    display: block;
+    height: 5.3rem;
+    line-height: 5.3rem;
+    padding: 0 5px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.menunav-info a:last-child {
+    border-bottom: none;
+}
+
+/*所在地筛选*/
+.regionlist li {
+    position: relative;
+    height: 5.5rem;
+    line-height: 5.5rem;
+    padding: 0 5px;
+    color: #666;
+    font-size: 1.4rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.public {
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 27rem;
+    overflow: hidden;
+    background: #f4f4f4;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-left: 1px solid #dfe0e1;
+}
+
+.public-list {
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.public-list a.high {
+    background-color: #f8f8f8 !important;
+}
+
+.public-list a {
+    padding: 0 20px;
+    height: 5.5rem;
+    line-height: 5.5rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+
+.optionlist a {
+    display: block;
+    color: #666;
+}
+
+.optionlist a.active {
+    color: #ff8a00;
+}
+
+/*背景阴影*/
+#dialog {
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 374px) {
+    .optionlist {
+        top: 11rem;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .menu {
+        height: 6rem;
+    }
+
+    .menunav {
+        font-size: 1.6rem;
+        height: 6rem;
+    }
+
+    .menunav-info,
+    .city-info {
+        height: 30rem;
+    }
+
+    .menunav > p {
+        padding: 0 15px;
+        height: 6rem;
+    }
+
+    .optionlist {
+        top: 11.5rem;
+    }
+
+    .menunav-info a {
+        height: 5.8rem;
+        line-height: 5.8rem;
+        font-size: 1.6rem;
+        padding-left: 15px;
+    }
+
+    .regionlist li {
+        height: 6rem;
+        line-height: 6rem;
+    }
+}
+
+@media (min-device-width: 414px) {
+    .menu {
+        height: 6.5rem;
+    }
+
+    .menunav {
+        font-size: 1.6rem;
+        height: 6.5rem;
+    }
+
+    .menunav > p {
+        padding: 0 15px;
+        height: 6.5rem;
+    }
+
+    .menunav-info,
+    .city-info {
+        height: 33rem;
+    }
+
+    .menunav-info a {
+        height: 6.3rem;
+        line-height: 6.3rem;
+        font-size: 1.6rem;
+        padding-left: 15px;
+    }
+
+    .regionlist li {
+        height: 6.5rem;
+        line-height: 6.5rem;
+    }
+}
+
+
+

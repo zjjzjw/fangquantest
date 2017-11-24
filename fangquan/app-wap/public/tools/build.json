@@ -1,0 +1,147 @@
+{
+    "appDir": "../www",
+    "dir": "../www-built",
+    "mainConfigFile": "../www/js/common.js",
+    "logLevel": 2,
+    "paths": {
+        "page.params": "empty:"
+    },
+    "useStrict": true,
+    "removeCombined": true,
+    "findNestedDependencies": true,
+    "optimizeCss": "standard",
+    "waitSeconds": 0,
+    "modules": [
+        {
+            "name": "../js/common",
+            "include": [
+                "lib/almond",
+                "fastclick",
+                "zepto",
+                "utils",
+                "zepto.temp",
+                "zepto.sp",
+                "ajax",
+                "validate",
+                "app/lib/detect",
+                "app/modules/event/track.link",
+                "app/modules/event/track.event"
+            ]
+        },
+        {
+            "name": "../pages/exhibition/developer/index",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/exhibition/developer-project/detail",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/exhibition/developer-project/list",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/exhibition/exhibition-h5/exhibition-h5",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/exhibition/exhibition",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/exhibition/flashback/index",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/exhibition/gather/agenda",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/exhibition/gather/register",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/exhibition/gather/shadowe",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/exhibition/provider/detail",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/exhibition/provider/index",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/exhibition/question/developer-qs",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/exhibition/question/provider-qs",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/exhibition/result",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/exhibition/service",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/home/index",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/review/detail",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/review/list",
+            "exclude": [
+                "../js/common"
+            ]
+        },
+        {
+            "name": "../pages/station/contact",
+            "exclude": [
+                "../js/common"
+            ]
+        }
+    ],
+    "manifest": []
+}

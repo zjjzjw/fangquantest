@@ -1,0 +1,289 @@
+@import "../../../common/personal-left";
+@import "../../../common/loading-pop";
+
+.account {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.account h3 {
+  font-size: 16px;
+  color: #666;
+  line-height: 60px;
+  padding-left: 40px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.info-box {
+  margin: 40px 40px;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.third {
+  margin: 40px 40px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.third h4,
+.info-box h4 {
+  width: 75px;
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+  margin-right: 80px;
+}
+
+.info-box h4 {
+  margin-top: 43px;
+}
+
+.info-box .info {
+  display: inline-block;
+  margin: 40px 0;
+  vertical-align: top;
+}
+
+.third .info {
+  display: inline-block;
+}
+
+.third > div,
+.info > div {
+  font-size: 14px;
+  color: #999;
+}
+
+.third p,
+.info p {
+  width: 160px;
+  margin-right: 90px;
+  display: inline-block;
+}
+
+.info label {
+  margin-bottom: 0;
+}
+
+.info p span {
+  color: #666;
+}
+
+.info .nickname {
+  margin-bottom: 36px;
+}
+
+.info a {
+  padding: 0 10px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.span-nickname input {
+  width: 110px;
+  height: 20px;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
+}
+
+.info .nickname em {
+  display: block;
+  padding-left: 47px;
+  font-size: 12px;
+}
+
+.wechat i {
+  color: #999;
+}
+
+.third .high-light i,
+.third .high-light span {
+  color: #1cc7ca;
+}
+
+.modify {
+  color: #999;
+  background: #E5E5E5;
+}
+
+.binding {
+  color: #FFFFFF;
+  background: #ffbd7d;
+}
+
+.modify-password {
+  margin: 40px 0 0 40px;
+}
+
+.modify-password h4 {
+  width: 75px;
+  float: left;
+  font-size: 14px;
+  color: #666;
+  margin-right: 40px;
+}
+
+.set-password {
+  float: left;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 14px;
+  color: #999;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-group input {
+  width: 295px;
+  height: 30px;
+  line-height: 30px;
+  padding: 5px 3px 5px 5px;
+  border: 1px solid #eeeeee;
+  color: #CCCCCC;
+}
+
+.bottom-group .save-btn {
+  width: 113px;
+  height: 30px;
+  font-size: 14px;
+  background: #F2F2F2;
+  border: 1px solid #eeeeee;
+}
+
+.bottom-group .high-light {
+  color: #FFFFFF;
+  background: #ffac5c;
+}
+
+//弹层
+
+.binding-pop {
+  position: relative;
+  padding: 40px 80px;
+}
+
+.close-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: initial;
+  cursor: pointer;
+}
+
+.close-btn .iconfont {
+  color: #ccc;
+  font-size: 30px;
+}
+
+.binding-pop h3 {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.binding-pop input {
+  width: 360px;
+  height: 45px;
+  color: #CCCCCC;
+  font-size: 16px;
+  background: #f6f6f6;
+  border: 1px solid #eeeeee;
+  position: relative;
+}
+
+.binding-pop .validation-code {
+  width: 110px;
+  height: 43px;
+  border: none;
+  background: #f6f6f6;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  font-size: 16px;
+  color: #ffac5c;
+}
+
+.binding-pop .error-message {
+  position: absolute;
+  bottom: 105px;
+  left: 80px;
+}
+
+.binding-pop .binding-submit {
+  color: #FFFFFF;
+  background: #ffac5c;
+  border: none;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.form-error {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+}
+
+.error-message {
+  color: #a94442;
+}
+
+//弹层样式
+.success-hint {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.success-hint p:first-child {
+  font-size: 24px;
+  color: #666;
+}
+
+.success-hint p:nth-child(2) {
+  font-size: 16px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.success-hint .time {
+  color: #ffac5c;
+}
+
+.success-hint .log-again {
+  background: #ffbd7d;
+  color: #FFFFFF;
+  padding: 0 5px;
+  display: inline-block;
+}
+
+:-moz-placeholder {
+  color: #CCCCCC;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #CCCCCC;
+  opacity: 1;
+}
+
+input:-ms-input-placeholder {
+  color: #CCCCCC;
+  opacity: 1;
+}
+
+input::-webkit-input-placeholder {
+  color: #CCCCCC;
+  opacity: 1;
+}

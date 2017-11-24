@@ -1,0 +1,16 @@
+@import "../nav";
+@import "../../../common/list-edit";
+@import "../../../common/confirm-pop";
+@import "../../../common/prompt-pop";
+@import "../../../common/loading-pop";
+
+.textarea-content {
+  width: 100%;
+  height: 320px;
+  resize: none;
+}
+
+.textarea-content + .form-error {
+  top: auto;
+  bottom: -30px;
+}

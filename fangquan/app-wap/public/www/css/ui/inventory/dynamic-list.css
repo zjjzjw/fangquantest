@@ -1,0 +1,50 @@
+.house-comm {
+    padding: 0 1.5rem;
+    height: 2.5rem;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    color: #8d8c92;
+    background-color: #eee;
+    border-top: .1rem solid #e7e7e7;
+    border-bottom: .1rem solid #e7e7e7;
+}
+.house-cont {
+    padding: 1.5rem;
+    font-size: 1.6rem;
+}
+.house-state {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    padding-right: 0;
+}
+.house-state .state-info {
+    -webkit-box-flex: 1;
+}
+.house-state .state-arrow {
+    display: block;
+    width: 4rem;
+    line-height: 7rem;
+    text-align: center;
+}
+.house-state .state-info .timeline-item {
+    height: 2.8rem;
+    line-height: 2.8rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.house-state .state-info .timeline-more {
+    margin-left: 7.5rem;
+}
+.timeline-item .date {
+    margin-right: -7.5rem;
+    font-size: 1.2rem;
+    color: #8d8c92;
+    vertical-align: top;
+}
+.timeline-item .item-content {
+    margin-left: 8rem;
+}
+.timeline-item .name {
+    color: #007fff;
+}

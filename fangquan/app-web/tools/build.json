@@ -1,0 +1,232 @@
+{
+    "modules": [
+        {
+            "src": "auth/login",
+            "dest": "auth"
+        },
+        {
+            "src": "auth/register",
+            "dest": "auth"
+        },
+        {
+            "src": "auth/reset-password",
+            "dest": "auth"
+        },
+        {
+            "src": "developer/developer-project/detail",
+            "dest": "developer/developer-project"
+        },
+        {
+            "src": "developer/developer-project/list",
+            "dest": "developer/developer-project"
+        },
+        {
+            "src": "developer/list",
+            "dest": "developer"
+        },
+        {
+            "src": "exhibition/activity",
+            "dest": "exhibition"
+        },
+        {
+            "src": "exhibition/broadcast/detail",
+            "dest": "exhibition/broadcast"
+        },
+        {
+            "src": "exhibition/cooperation",
+            "dest": "exhibition"
+        },
+        {
+            "src": "exhibition/developer/developer-project",
+            "dest": "exhibition/developer"
+        },
+        {
+            "src": "exhibition/developer-list",
+            "dest": "exhibition"
+        },
+        {
+            "src": "exhibition/developer-project-list",
+            "dest": "exhibition"
+        },
+        {
+            "src": "exhibition/flashback/audio",
+            "dest": "exhibition/flashback"
+        },
+        {
+            "src": "exhibition/flashback/detail",
+            "dest": "exhibition/flashback"
+        },
+        {
+            "src": "exhibition/flashback/index",
+            "dest": "exhibition/flashback"
+        },
+        {
+            "src": "exhibition/introduce",
+            "dest": "exhibition"
+        },
+        {
+            "src": "exhibition/new-provider-list",
+            "dest": "exhibition"
+        },
+        {
+            "src": "exhibition/provider/engineer-case",
+            "dest": "exhibition/provider"
+        },
+        {
+            "src": "exhibition/provider/enterprise-info",
+            "dest": "exhibition/provider"
+        },
+        {
+            "src": "exhibition/provider/product-display",
+            "dest": "exhibition/provider"
+        },
+        {
+            "src": "exhibition/provider/service-network",
+            "dest": "exhibition/provider"
+        },
+        {
+            "src": "exhibition/provider-list",
+            "dest": "exhibition"
+        },
+        {
+            "src": "exhibition/result-detail",
+            "dest": "exhibition"
+        },
+        {
+            "src": "exhibition/result",
+            "dest": "exhibition"
+        },
+        {
+            "src": "exhibition/second-level-list",
+            "dest": "exhibition"
+        },
+        {
+            "src": "exhibition/service",
+            "dest": "exhibition"
+        },
+        {
+            "src": "home/exhibition",
+            "dest": "home"
+        },
+        {
+            "src": "home/index",
+            "dest": "home"
+        },
+        {
+            "src": "information/detail",
+            "dest": "information"
+        },
+        {
+            "src": "information/list",
+            "dest": "information"
+        },
+        {
+            "src": "personal/account/account-info",
+            "dest": "personal/account"
+        },
+        {
+            "src": "personal/collection/collection-product",
+            "dest": "personal/collection"
+        },
+        {
+            "src": "personal/collection/collection-project",
+            "dest": "personal/collection"
+        },
+        {
+            "src": "personal/collection/collection-provider",
+            "dest": "personal/collection"
+        },
+        {
+            "src": "personal/collection/collection-scheme",
+            "dest": "personal/collection"
+        },
+        {
+            "src": "personal/home",
+            "dest": "personal"
+        },
+        {
+            "src": "personal/message/list",
+            "dest": "personal/message"
+        },
+        {
+            "src": "provider/business-info",
+            "dest": "provider"
+        },
+        {
+            "src": "provider/company-desc-top",
+            "dest": "provider"
+        },
+        {
+            "src": "provider/company-dynamic/detail",
+            "dest": "provider/company-dynamic"
+        },
+        {
+            "src": "provider/company-dynamic/list",
+            "dest": "provider/company-dynamic"
+        },
+        {
+            "src": "provider/company-info-left",
+            "dest": "provider"
+        },
+        {
+            "src": "provider/enterprise-info",
+            "dest": "provider"
+        },
+        {
+            "src": "provider/history-project",
+            "dest": "provider"
+        },
+        {
+            "src": "provider/list",
+            "dest": "provider"
+        },
+        {
+            "src": "provider/product-scheme/product-detail",
+            "dest": "provider/product-scheme"
+        },
+        {
+            "src": "provider/product-scheme/product-list",
+            "dest": "provider/product-scheme"
+        },
+        {
+            "src": "provider/product-scheme/scheme-detail",
+            "dest": "provider/product-scheme"
+        },
+        {
+            "src": "provider/product-scheme/scheme-list",
+            "dest": "provider/product-scheme"
+        },
+        {
+            "src": "provider/service-network",
+            "dest": "provider"
+        },
+        {
+            "src": "review/detail",
+            "dest": "review"
+        },
+        {
+            "src": "review/list",
+            "dest": "review"
+        },
+        {
+            "src": "station/about",
+            "dest": "station"
+        },
+        {
+            "src": "station/agreement",
+            "dest": "station"
+        },
+        {
+            "src": "station/contact",
+            "dest": "station"
+        },
+        {
+            "src": "station/nav",
+            "dest": "station"
+        },
+        {
+            "src": "station/recruitmen",
+            "dest": "station"
+        }
+    ]
+}

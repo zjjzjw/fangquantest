@@ -1,0 +1,35 @@
+@import "../ui/exhibition-h5/developer/developer-header.css";
+@import "../ui/exhibition-h5/developer/developer-footer.css";
+
+.content-box {
+    padding: 3.7vw 4vw;
+    text-align: center;
+}
+
+.content-box .title {
+    font-size: 20px;
+    color: #3f3f3f;
+    font-weight: bold;
+}
+
+.content-box .detail {
+    font-size: 14px;
+    color: #bdbdbd;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.content-box .detail span:first-child {
+    padding-right: 18vw;
+}
+
+.content {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #717171;
+    text-align: left;
+}
+
+.content video {
+    width: 100%;
+}

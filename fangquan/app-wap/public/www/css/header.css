@@ -1,0 +1,64 @@
+.page {
+    overflow: hidden;
+    position: relative;
+}
+
+.page-header {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    height: 4.2rem;
+    line-height: 4.2rem;
+    background-color: #f15f00;
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 1.6rem;
+    position: relative;
+    z-index: 10;
+}
+
+.page-header a {
+    color: #fff;
+}
+
+.page-header a:first-child {
+    width: 7.5rem;
+    display: block;
+}
+
+.page-header .title {
+    display: block;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+}
+
+.page-header .v-line {
+    font-size: 2rem;
+    color: #fff;
+    vertical-align: top;
+}
+
+.page-header span {
+    padding: .1rem 0 .1rem 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+}
+
+.page-header .logo {
+    color: #fff;
+    font-size: 6rem;
+    margin-right: 1rem;
+    line-height: 3.4rem;
+}
+
+.page-header .nav-bar {
+    display: block;
+    width: 3rem;
+    padding-left: 1rem;
+    font-size: 1.8rem;
+    text-align: right;
+    color: #fff;
+}

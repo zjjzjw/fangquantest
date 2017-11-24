@@ -1,0 +1,130 @@
+div.header-box {
+    background: #eeeeee;
+}
+
+.list-box p {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.8rem;
+    width: 80%;
+}
+
+.list-box li {
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.list-box .information {
+    font-size: 2rem;
+    padding-right: 2rem;
+    color: #999;
+}
+
+.list-box:last-child {
+    border-bottom: 1px solid #c8c8c8;
+    margin-bottom: 2rem;
+}
+
+.list-box .message {
+    display: inline-block;
+    color: #363636;
+    position: relative;
+    width: 10%;
+    font-size: 1.6rem;
+}
+
+.list-box .message em {
+    background: #ff8a00;
+    padding: 2px 4px;
+    position: absolute;
+    right: 10px;
+    top: -12px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 12px;
+    min-width: 12px;
+    z-index: 9;
+}
+
+.list-box .message span {
+    position: absolute;
+    right: 0px;
+    color: #999;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #ff8a00;
+    display: block;
+    transform: rotate(-90deg);
+    z-index: 1;
+    position: absolute;
+    right: 13px;
+    top: 0px;
+}
+
+@media (max-device-width: 320px) {
+    .list-box .message em {
+        right: 4px;
+        top: -15px;
+    }
+
+    .arrow-down {
+        right: 11px;
+        top: -3px;
+    }
+}
+
+@media (min-device-width: 321px) and (max-device-width: 375px) {
+    .list-box .message em {
+        right: 6px;
+        top: -14px;
+    }
+
+    .arrow-down {
+        right: 14px;
+        top: -2px;
+    }
+}
+
+@media (min-device-width: 376px) and (max-device-width: 414px) {
+    .list-box .message em {
+        right: 10px;
+        top: -15px;
+    }
+
+    .arrow-down {
+        right: 14px;
+        top: -3px;
+    }
+}
+
+@media (min-device-width: 415px) and (max-device-width: 768px) {
+    .list-box .message em {
+        right: 40px;
+        top: -15px;
+    }
+
+    .arrow-down {
+        right: 44px;
+        top: -3px;
+    }
+}
+
+@media (min-device-width: 1024px) {
+    .list-box .message em {
+        right: 65px;
+        top: -15px;
+    }
+
+    .arrow-down {
+        right: 68px;
+        top: -3px;
+    }
+}

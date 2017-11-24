@@ -1,0 +1,68 @@
+/*进度条*/
+.progress-bar {
+    padding: 15px;
+}
+
+.payment {
+    padding-bottom: 2rem;
+    font-size: 1.8rem;
+    color: #3f3f3f;
+    line-height: 2.5rem;
+}
+
+.payment a {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    color: #ff8a00;
+    padding: 0 .8rem;
+    border: 1px solid #dcdcdc;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+}
+
+.progress-bar .payment-money {
+    text-align: right;
+    color: #999999;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+    padding-top: 1rem;
+}
+
+.bar {
+    width: 100%;
+    background: #d9d9d9;
+    border-radius: 30px;
+    position: relative;
+}
+
+.bar div {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 30px;
+}
+
+.bar .green {
+    background: #44cb5c;
+}
+
+.bar div h3 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.bar em {
+    position: absolute;
+    right: 34%;
+    top: 4px;
+    color: #fff;
+}
+
+
+@media (min-device-width: 768px) {
+    .bar em {
+        right: 44%;
+    }
+}

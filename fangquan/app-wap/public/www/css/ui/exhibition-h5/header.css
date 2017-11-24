@@ -1,0 +1,322 @@
+@import "../../../js/lib/swiper/swiper.min.css";
+
+* {
+    font-family: "HiraginoSansGB W3";
+    box-sizing: border-box;
+}
+
+.exhibition {
+    margin: 0 auto;
+    background: #fff;
+}
+
+.exhibition-header {
+    margin: 3.7vw 4vw 2.7vw;
+}
+
+.exhibition p {
+    font-weight: bold;
+}
+
+.exhibition .logo {
+    width: 100%;
+}
+
+.exhibition .logo img {
+  width: 11.5vw;
+  height: 13vw;
+}
+
+.exhibition .logo a {
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.exhibition .logo .title {
+    width: 83%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.exhibition .logo .title p {
+    font-weight: bold;
+}
+
+.exhibition .title .name {
+    font-size: 3.7vw;
+    color: #3f3f3f;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.exhibition .title .translate-name {
+    font-size: 2.1vw;
+    color: #757575;
+    padding-bottom: 2.7vw;
+    font-family: "Arial Rounded MT Bold";
+}
+
+.exhibition .title .time {
+    font-size: 2.9vw;
+    color: #919191;
+}
+
+.search-box {
+    display: inline-block;
+    margin: 2.7vw 4vw;
+    position: relative;
+    width: 92vw;
+}
+
+.search-box .search-btn {
+    position: absolute;
+    left: 27px;
+    top: 0px;
+    color: #1bc7c9;
+    font-size: 20px;
+}
+
+.search-box .btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 0px 7px 0px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: #1bc7c9;
+    line-height: 20px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.search-box .keyword {
+    border: 1.5px solid #1bc7c9;
+    border-radius: 5px;
+    height: 8vw;
+    padding-left: 75px;
+    font-size: 12px;
+}
+
+.search-box .content-wrap .link-type {
+    position: absolute;
+    left: 0;
+    top: 7px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px;
+    border-left: 1px solid #1bc7c9;
+    border-right: 1px solid #1bc7c9;
+}
+
+.content-wrap .link-type span {
+    color: #1bc7c9;
+    font-size: 16px;
+}
+
+.search-box .content-wrap .link-type i {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #1bc7c9;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+
+.content-wrap .choose-type {
+    position: absolute;
+    left: 5px;
+    border: 1px solid #1bc7c9;
+    z-index: 1000;
+    background: #fff;
+    top: 5px;
+}
+
+.content-wrap .choose-type a {
+    display: block;
+    margin: 3px;
+    color: #1bc7c9;
+    font-size: 16px;
+    text-align: left;
+}
+
+.content-wrap .choose-type a:first-child {
+    border-bottom: 1px solid #1bc7c9;
+}
+
+.content-wrap .choose-type i {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #1bc7c9;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+
+.img-box {
+    margin: 2.7vw 0 1.9vw 0;
+}
+
+.img-box img {
+    width: 100%;
+    height: 106.7vw;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+.carousel .swiper-container {
+    width: 100%;
+    height: 26.7vw;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 1.9vw;
+}
+
+.carousel .swiper-slide {
+    height: 26.7vw;
+    float: left;
+}
+
+.carousel .swiper-slide img {
+    height: 26.7vw;
+}
+
+.nav-box {
+    padding: 0 4vw;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1.1vw solid #EFEFEF;
+    margin-bottom: 2.4vw;
+}
+
+.nav-box ul li {
+    width: 44.8vw;
+    height: 9.3vw;
+    float: left;
+    text-align: center;
+    line-height: 9.3vw;
+    border: 1px solid #1bc7c9;
+    margin-bottom: 1.9vw;
+    font-weight: bold;
+    font-size: 4vw;
+    color: #1bc7c9;
+    position: relative;
+}
+
+.nav-box ul li:nth-child(2n-1) {
+    margin-right: 1.3vw;
+}
+
+.nav-box ul li:nth-child(1) {
+    background: #1bc7c9 url("../../../image/exhibition/exhibition-h5/icon/01-02.png") no-repeat 9vw 2vw;
+    background-size: 5.5vw 5vw;
+}
+
+.nav-box ul li:nth-child(2) {
+    background: #1bc7c9 url("../../../image/exhibition/exhibition-h5/icon/02-02.png") no-repeat 9vw 2vw;
+    background-size: 5.5vw 5vw;
+}
+
+.nav-box ul li:nth-child(3) {
+    background: #1bc7c9 url("../../../image/exhibition/exhibition-h5/icon/03-02.png") no-repeat 9vw 2vw;
+    background-size: 5.5vw 5vw;
+}
+
+.nav-box ul li:nth-child(4) {
+    background: #1bc7c9 url("../../../image/exhibition/exhibition-h5/icon/04-02.png") no-repeat 9vw 2vw;
+    background-size: 5.5vw 5vw;
+}
+
+.nav-box ul li:nth-child(5) {
+    background: #1bc7c9 url("../../../image/exhibition/exhibition-h5/icon/05-02.png") no-repeat 9vw 2vw;
+    background-size: 5.5vw 5vw;
+}
+
+.nav-box ul li:nth-child(6) {
+    background: #1bc7c9 url("../../../image/exhibition/exhibition-h5/icon/06-02.png") no-repeat 9vw 2vw;
+    background-size: 5.5vw 5vw;
+}
+
+.nav-box ul li:nth-child(1).active {
+    background: url("../../../image/exhibition/exhibition-h5/icon/01-01.png") no-repeat 9vw 2vw;
+    background-size: 5.5vw 5vw;
+}
+
+.nav-box ul li:nth-child(2).active {
+    background: url("../../../image/exhibition/exhibition-h5/icon/02-01.png") no-repeat 9vw 2vw;
+    background-size: 5.5vw 5vw;
+}
+
+.nav-box ul li:nth-child(3).active {
+    background: url("../../../image/exhibition/exhibition-h5/icon/03-01.png") no-repeat 9vw 2vw;
+    background-size: 5.5vw 5vw;
+}
+
+.nav-box ul li:nth-child(4).active {
+    background: url("../../../image/exhibition/exhibition-h5/icon/04-01.png") no-repeat 9vw 2vw;
+    background-size: 5.5vw 5vw;
+}
+
+.nav-box ul li:nth-child(5).active {
+    background: url("../../../image/exhibition/exhibition-h5/icon/05-01.png") no-repeat 9vw 2vw;
+    background-size: 5.5vw 5vw;
+}
+
+.nav-box ul li:nth-child(6).active {
+    background: url("../../../image/exhibition/exhibition-h5/icon/06-01.png") no-repeat 9vw 2vw;
+    background-size: 5.5vw 5vw;
+}
+
+.nav-box ul .active a {
+    color: #1bc7c9;
+}
+
+.nav-box li a {
+    color: #FFFFFF;
+    display: block;
+    padding-left: 9vw;
+    font-weight: normal;
+}
+
+.nav-box img {
+    width: 4.7vw;
+    height: 4.7vw;
+    margin: 2vw 0 1.3vw 0;
+    position: relative;
+    left: -10px;
+}
+
+.clear {
+    clear: both;
+}
+
+@media (max-device-width: 321px) {
+    .search-box .content-wrap .link-type {
+        top: 3px;
+    }
+
+    .search-box .btn {
+        top: 3px;
+    }
+}
+
+@media (min-device-width: 360px) and (max-device-width: 410px) {
+    .search-box .btn {
+        top: 5px;
+    }
+}
+
+@media (min-device-width: 411px) and (max-device-width: 414px) {
+    .search-box .btn {
+        top: 7px;
+    }
+}

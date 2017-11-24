@@ -1,0 +1,27 @@
+.hinder {
+    margin: 0 1.5rem;
+}
+
+.hinder a {
+    display: block;
+    position: relative;
+    padding: 0 1rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #c8c8c8;
+    color: #666666;
+}
+
+.hinder a span {
+    position: absolute;
+    right: 1.5rem;
+    color: #6a6a6a;
+}
+
+@media (min-device-width: 414px) {
+    .hinder a {
+        height: 5.5rem;
+        line-height: 5.5rem;
+    }
+}

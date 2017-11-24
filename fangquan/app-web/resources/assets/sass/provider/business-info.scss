@@ -1,0 +1,249 @@
+.main-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+.right-box {
+    display: block;
+    background: #fff;
+    width: 840px;
+    float: left;
+    margin-left: 20px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+
+.right-box h3 {
+    width: 757px;
+    height: 41px;
+    font-size: 16px;
+    color: #453914;
+    box-sizing: border-box;
+    line-height: 41px;
+    position: relative;
+    padding-left: 35px;
+}
+.right-box h3:before {
+    content: '';
+    width: 5px;
+    height: 19px;
+    background: #ffac5c;
+    opacity: 0.5;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+.business-item {
+    border-bottom: 1px solid #d9d9d9;
+}
+.business-info {
+    width: 840px;
+    min-height: 460px;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.business-info .info-box {
+    margin: 20px 40px 0 40px;
+}
+.business-info div>.title {
+    height: 30px;
+    line-height: 30px;
+}
+.business-info div > .title em {
+    color: #ff8c77;
+    font-size: 14px;
+}
+.range-title {
+    padding-bottom: 8px;
+    margin-left: -40px;
+}
+.range-title span{
+    font-size: 18px;
+    color: #f67a34;
+    position: relative;
+}
+.range-title span:after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 3px;
+    bottom: -10px;
+    background-color: #f67a34;
+    left: 0;
+}
+.table {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+tr td,
+tr th {
+    border: 1px solid #e2e7e8!important;
+    padding: 15px;
+}
+tbody td {
+    color: #666;
+    font-size: 14px;
+    min-width: 70px;
+}
+thead td {
+    background-color: #fbfbfb;
+    font-size: 14px;
+    color: #666;
+    min-width: 70px;
+}
+.basic_info {
+    margin-bottom: 20px;
+}
+.basic_info li {
+    display: inline-block;
+    width: 350px;
+    font-size: 12px;
+    line-height: 30px;
+}
+.basic_info span {
+    color: #999;
+}
+
+.basic_info .title {
+    width: 64px;
+    vertical-align: top;
+}
+
+.basic_info .content {
+    width: 270px;
+    color: #333;
+}
+.basic_info .bussiness-range,
+.basic_info .address {
+    display: block;
+    width: 730px;
+}
+.bussiness-range .details,
+.address .content {
+    width: 650px;
+    display: inline-block;
+    color: #333;
+}
+.bussiness-range .open-all {
+    display: none;
+    color: #f77623;
+}
+.bussiness-range .open-all i {
+    color: #f77623;
+}
+.key-personnel li {
+    display: inline-block;
+    width: 99%;
+    border: 1px solid #e2e7e8;
+    font-size: 14px;
+}
+.key-personnel li .title {
+    width: 30%;
+    color: #666;
+    background-color: #fbfbfb;
+    border-right: 1px solid #e2e7e8;
+}
+.key-personnel li .content {
+    color: #1cc7ca;
+}
+.key-personnel li span {
+    display: inline-block;
+    padding: 15px;
+}
+.stockholder-table .name {
+    color: #1cc7ca;
+}
+.stockholder-table .per {
+    color: #ffbc77;
+}
+.team .team-item {
+    border: 1px solid #e2e7e8;
+    background-color: #faf9f7;
+    margin-bottom: 10px;
+}
+.team-item .person-info {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+}
+.person-info img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.person-info .name {
+    font-size: 16px;
+    font-weight: bold;
+}
+.team-item .person-detail {
+    display: inline-block;
+    vertical-align: top;
+    width: 613px;
+    padding: 20px 10px 30px 10px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+.person-detail .position {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.person-detail .des-info {
+    line-height: 25px;
+}
+.des-info span {
+    font-size: 30px;
+    color: #00bed4;
+    display: inline-block;
+}
+.des-info p {
+    display: inline-block;
+    vertical-align: top;
+    width: 630px;
+}
+.business-item img {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+}
+.business-item .des-info {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    padding: 5px 10px 30px 10px;
+}
+.business-item .des-info .name {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.business-item .des-info .detail-info {
+    color: #999;
+    font-size: 14px;
+}
+.no-data {
+    text-align: center;
+    margin-top: 95px;
+    font-size: 18px;
+    color: #666;
+    line-height: 70px;
+}
+.no-data i {
+    display: inline-block;
+    margin-right: 20px;
+    color: #F67A33;
+    font-size: 58px;
+    vertical-align: middle;
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+}
+.open-comm-desc {
+    color: #f67524;
+}

@@ -1,0 +1,14 @@
+.success {
+    text-align: center;
+    color: #fff;
+}
+.success i {
+    display: block;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 5rem;
+}
+.success p {
+    font-size: 2rem;
+}

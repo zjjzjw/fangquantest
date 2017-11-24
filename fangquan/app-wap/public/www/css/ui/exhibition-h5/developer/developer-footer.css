@@ -1,0 +1,21 @@
+.footer {
+    margin: 0 auto;
+    background: #fff;
+}
+.remark-box {
+    padding: 4.8vw 0 9.3vw 4vw;
+    border-top: 1.1vw solid #EFEFEF;
+}
+
+.remark-box p {
+    text-align: center;
+    font-size: 2.4vw;
+    color: #999;
+    font-weight: normal;
+    padding-bottom: 2.7vw;
+}
+
+.content-wrapper {
+    padding-bottom: 0;
+
+}

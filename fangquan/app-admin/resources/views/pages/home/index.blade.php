@@ -1,0 +1,12 @@
+<?php
+ufa()->extCss([
+        'home/index'
+]);
+ufa()->extJs([
+        'home/index',
+]);
+?>
+@extends('layouts.master')
+@section('master.content')
+    <h3>欢迎登录后台管理系统！</h3>
+@endsection

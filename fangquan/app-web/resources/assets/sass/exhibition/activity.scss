@@ -1,0 +1,47 @@
+@import "nav";
+@import "../../common/exhibition-header";
+@import "../../common/friendly-link";
+footer {
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.exhibition-header {
+  border-bottom: 1px solid #F2F2F2;
+  padding-bottom: 20px;
+}
+
+.exhibition-box {
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  height: auto;
+  overflow: hidden;
+}
+
+.exhibition-content {
+  width: 960px;
+  background-color: #fff;
+  float: right;
+  margin: 20px 30px 30px 20px;
+  padding-bottom: 50px;
+}
+
+.exhibition-content h3 {
+  margin: 40px 0 40px 60px;
+  font-size: 18px;
+  color: #666;
+}
+
+.content-box {
+  margin: 0 74px;
+  text-align: left;
+  min-height: 300px;
+  font-size: 18px;
+  color: #717171;
+}
+
+strong {
+  font-weight: bold;
+}

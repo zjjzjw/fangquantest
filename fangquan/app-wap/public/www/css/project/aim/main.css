@@ -1,0 +1,30 @@
+.page {
+    background: #fff;
+}
+.main-content {
+    padding: 0 10px;
+}
+.main-content a {
+    display: block;
+    position: relative;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 0 10px;
+    color: #363636;
+    font-size: 1.6rem;
+}
+.main-content a i {
+    display: block;
+    position: absolute;
+    font-size: 1.4rem;
+    right: 5px;
+    top: 0;
+}
+@media (min-device-width: 414px) {
+    .main-content a {
+        font-size: 1.8rem;
+        height: 5rem;
+        line-height: 5rem;
+    }
+}

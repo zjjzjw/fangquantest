@@ -1,0 +1,113 @@
+.creat-box {
+    margin: 0 auto;
+    width: 100%;
+    text-align: right;
+    background-color: #ffffff;
+}
+
+.creat-box p {
+    font-size: 1.6rem;
+    color: #363636;
+    height: 5rem;
+    line-height: 5rem;
+    padding: 0 10px;
+}
+
+.creat-box .city-items, .creat-box .province {
+    width: 30%;
+}
+
+.creat-box span {
+    max-width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.creat-box input {
+    width: 64%;
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    border-radius: 0;
+    margin-left: 1rem;
+    display: inline-block;
+    height: initial;
+}
+
+.creat-box select {
+    width: 65%;
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 1.6rem;
+}
+
+input::-ms-input-placeholder {
+    color: #999;
+}
+
+input::-webkit-input-placeholder {
+    color: #999;
+}
+
+input::-moz-placeholder {
+    color: #999;
+}
+
+.creat-box .first-top {
+    padding-top: 1.5rem;
+}
+
+.save-box {
+    position: relative;
+}
+
+.error-tip {
+    position: relative;
+}
+
+.zvalid-resultformat {
+    position: absolute;
+    left: 36%;
+    font-size: 1.4rem;
+    color: #f30;
+    top: -10px;
+}
+
+.save-box .save-btn {
+    font-size: 1.8rem;
+    color: #fff;
+    background: #ff8a00;
+    padding: 1rem 0;
+    width: 95%;
+    margin: 3rem 10px;
+    text-align: center;
+    border-radius: .3rem;
+    letter-spacing: 2px;
+    height: auto;
+}
+
+@media(min-device-width:375px){
+    .creat-box p {
+        height: 5rem;
+        line-height: 5rem;
+    }
+}
+@media(min-device-width:414px){
+    .creat-box p {
+        height: 5.5rem;
+        line-height: 5.5rem;
+    }
+    .save-box .save-btn {
+        padding: 1.5rem 0;
+    }
+    .zvalid-resultformat {
+        top: -12px;
+    }
+    .creat-box .city-items,
+    .creat-box .province {
+        width: 30%;
+    }
+}

@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@import "../../../common/confirm-pop";
+@import "../../../common/prompt-pop";
+@import "../../../common/change";
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+.add-div{
+  width: 100%;
+  text-align: right;
+}
+.add-div a{
+  margin:40px 40px 0 0;
+  width: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #2ba6cb;
+  outline: none;
+}
+.add-div a:hover{
+  color: #fff;
+}
+.content-box {
+  width: 100%;
+  height: auto;
+  overflow-x: auto;
+  padding: 30px 0;
+  position: relative;
+  top: -3px;
+  z-index: 998;
+}
+.title-box {
+  width: 100%;
+  height: auto;
+  padding:50px 0 20px;
+  overflow-x: auto;
+  position: relative;
+  border-bottom: 1px solid #d9d9d9;
+}
+.title-box span{
+  display: inline-block;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.title-box span:first-child{
+  text-align: left;
+  padding-left: 18px;
+}
+.action .edit,
+.action .first-edit {
+  color: #2ba6cb;
+}
+.action .add {
+  color: #2ba6cb;
+}
+.action .delete,
+.action .first-delete {
+  color: #c60f13;
+}
+.category-name{
+  display: inline-block;
+  width: 69%;
+  padding-left: 30px;
+}
+.category-name span{
+  color: #fff;
+  background: #2ba6cb;
+  height: 20px;
+  line-height: 16px;
+  width: 20px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: -10px;
+  cursor: pointer;
+}
+.state{
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+}
+.state-model{
+  display: inline-block;
+  width: 9.5%;
+  text-align: center;
+}
+.action {
+  font-size: 16px;
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+.action a {
+  padding: 0 5px;
+}
+.action .edit,
+.action .first-edit {
+  color: #2ba6cb;
+}
+.action .add {
+  color: #ff8a00;
+}
+.action .delete,
+.action .first-delete {
+  color: #c60f13;
+}
+.action-model {
+  font-size: 16px;
+  display: inline-block;
+  width: 20.5%;
+  text-align: center;
+}
+.action-model a {
+  padding: 0 5px;
+}
+.action-model .edit,
+.action-model .first-edit {
+  color: #2ba6cb;
+}
+.action-model .add {
+  color: #ff8a00;
+}
+.action-model .delete,
+.action-model .first-delete {
+  color: #c60f13;
+}

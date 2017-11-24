@@ -1,0 +1,92 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.4",
+        "app/foundation": "dev-master",
+        "app/ufa": "dev-master",
+        "barryvdh/laravel-ide-helper": "^2.4",
+        "doctrine/dbal": "^2.5",
+        "jenssegers/agent": "^2.5",
+        "laravel/framework": "5.4.*",
+        "laravel/tinker": "~1.0",
+        "maatwebsite/excel": "~2.1.0",
+        "predis/predis": "~1.1",
+        "qiniu/php-sdk": "7.0.*",
+        "riverslei/xmpush": "~1.0.0",
+        "socialiteproviders/weixin": "^4.0",
+        "socialiteproviders/weixin-web": "^3.0",
+        "stevenyangecho/laravel-u-editor": "~1.4"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "classmap": [
+            "core/database"
+        ],
+        "psr-4": {
+            "App\\Admin\\": "app-admin/app/",
+            "App\\Web\\": "app-web/app/",
+            "App\\Mobi\\": "app-mobi/app/",
+            "App\\Wap\\": "app-wap/app/",
+            "App\\Hulk\\": "app-hulk/app/",
+            "App\\": "core/app/"
+        },
+        "files": [
+            "core/app/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Admin\\": "app-admin/tests/",
+            "Tests\\Web\\": "app-web/tests/",
+            "Tests\\Mobi\\": "app-mobi/tests/",
+            "Tests\\Wap\\": "app-wap/tests/",
+            "Tests\\Hulk\\": "app-hulk/tests"
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php app-admin/artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php app-admin/artisan optimize"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php app-admin/artisan optimize"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        },
+        "ufa": {
+            "type": "git",
+            "url": "git@192.168.1.232:service/ufa.git"
+        },
+        "foundation": {
+            "type": "git",
+            "url": "git@192.168.1.232:service/foundation.git"
+        }
+    }
+}

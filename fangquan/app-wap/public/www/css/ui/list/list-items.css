@@ -1,0 +1,27 @@
+/*列表展示*/
+.list-items {
+    background: #fff;
+}
+.list-items li {
+    padding: 13px 15px;
+    border-bottom: 1px solid #c8c8c8;
+}
+.list-items li p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.list-items .item-title {
+    font-size: 1.6rem;
+    padding-bottom: 0.2rem;
+    color: #363636;
+}
+.list-items .time {
+    font-size: 1.4rem;
+    color: #999;
+}
+@media(min-device-width:414px){
+    .list-items .item-title {
+        font-size: 1.8rem;
+    }
+}
