@@ -79,14 +79,6 @@
         "packagist": {
             "type": "composer",
             "url": "https://packagist.phpcomposer.com"
-        },
-        "ufa": {
-            "type": "git",
-            "url": "git@192.168.1.232:service/ufa.git"
-        },
-        "foundation": {
-            "type": "git",
-            "url": "git@192.168.1.232:service/foundation.git"
         }
     }
 }
